@@ -1,0 +1,43 @@
+.home-headers-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 1300px;
+	height: auto;
+	margin-left: 100px;
+}
+
+.headers-title {
+	align-self: center;
+	background: linear-gradient(
+		to right,
+		#ff7e5f,
+		#feb47b
+	); /* Define your gradient colors */
+	-webkit-background-clip: text; /* Clip the background to the text */
+	-webkit-text-fill-color: transparent; /* Make the text transparent to reveal the gradient */
+	background-clip: text; /* Standard property for background clip */
+	color: transparent;
+	margin-bottom: 30px;
+}
+
+.product-header {
+	width: 100%;
+	max-width: 1300px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.product-header:hover {
+	transform: scale(1.03); /* Zoom in effect */
+}
+
+.nvidia-header {
+	height: 330px;
+}
+
+.header-links {
+	margin-bottom: 60px;
+}

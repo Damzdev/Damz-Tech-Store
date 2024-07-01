@@ -1,0 +1,46 @@
+.navbar-container {
+	width: auto;
+	background-color: rgb(9, 10, 36);
+	color: white;
+	display: flex;
+}
+
+.sidebar-btn {
+	width: 20px;
+	height: auto;
+	margin-right: 7px;
+	cursor: pointer;
+}
+
+.nav-list {
+	display: flex;
+	list-style-type: none;
+}
+
+li {
+	margin-right: 20px;
+	align-self: center;
+}
+
+li:hover {
+	cursor: pointer;
+	color: #b0ff6a;
+}
+
+.gaming-computers,
+.gaming-laptops,
+.monitors,
+.gaming-chairs {
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+	align-self: center;
+}
+
+.gaming-computers:hover,
+.gaming-laptops:hover,
+.monitors:hover,
+.gaming-chairs:hover {
+	cursor: pointer;
+	color: #b0ff6a;
+}
