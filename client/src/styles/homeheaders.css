@@ -34,10 +34,13 @@
 	transform: scale(1.03); /* Zoom in effect */
 }
 
-.nvidia-header {
-	height: 330px;
+.intel-container,
+.nvidia-container {
+	margin-bottom: 60px;
+	border-radius: 8px;
+	overflow: hidden;
 }
 
-.header-links {
-	margin-bottom: 60px;
+.nvidia-header {
+	height: 330px;
 }

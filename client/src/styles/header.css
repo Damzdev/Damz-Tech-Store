@@ -38,6 +38,27 @@
 	margin-right: 20px;
 }
 
+.cart-icon {
+	width: 16px;
+	margin-right: 8px;
+}
+
+.cart-container {
+	display: flex;
+	align-self: center;
+	cursor: pointer;
+}
+
+.cart-items {
+	color: black;
+	align-self: center;
+	font-weight: bold;
+	background-color: #b0ff6a;
+	border-radius: 50%;
+	width: 10px;
+	padding: 4px 8px;
+}
+
 .user-login,
 .user-signup,
 .cart {

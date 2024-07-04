@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import '../styles/header.css'
 import search from '../assets/header/search.png'
+import cart from '../assets/shopping-cart.png'
 
 export default function Header() {
 	return (
@@ -17,7 +18,7 @@ export default function Header() {
 					name=""
 					id=""
 					className="searchbar"
-					placeholder="Search items here..."
+					placeholder="Search..."
 				/>
 			</div>
 			<div className="user-actions">
@@ -27,9 +28,13 @@ export default function Header() {
 				<NavLink className="user-login" to="/sign-up">
 					Sign Up
 				</NavLink>
-				<NavLink className="cart" to="cart">
-					Cart
-				</NavLink>
+				<div className="cart-container">
+					<div className="cart-items">1</div>
+					<NavLink className="cart" to="cart">
+						<img src={cart} alt="cart-icon" className="cart-icon" />
+						Cart
+					</NavLink>
+				</div>
 			</div>
 		</header>
 	)

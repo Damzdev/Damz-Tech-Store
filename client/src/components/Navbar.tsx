@@ -6,18 +6,18 @@ export default function Navbar() {
 	return (
 		<nav className="navbar-container">
 			<ul className="nav-list">
-				<img className="sidebar-btn" src={sidebarbtn} />
-				<li>Components</li>
-				<Link className="gaming-computers" to="gaming-computers">
-					Gaming Pcs
+				<img className="sidebar-btn" src={sidebarbtn} alt="Sidebar Button" />
+				<button className="components">Components</button>
+				<Link className="gaming-computers" to="/gaming-computers">
+					Gaming PCs
 				</Link>
-				<Link className="gaming-laptops" to="gaming-laptops">
+				<Link className="gaming-laptops" to="/gaming-laptops">
 					Gaming Laptops
 				</Link>
-				<Link className="monitors" to="monitors">
+				<Link className="monitors" to="/monitors">
 					Monitors
 				</Link>
-				<Link className="gaming-chairs" to="gaming-chairs">
+				<Link className="gaming-chairs" to="/gaming-chairs">
 					Gaming Chairs
 				</Link>
 			</ul>

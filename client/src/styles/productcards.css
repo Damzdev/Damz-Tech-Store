@@ -3,6 +3,7 @@
 	flex-wrap: wrap; /* Allow cards to wrap onto new lines */
 	justify-content: space-around; /* Distribute cards evenly with space around them */
 	background-color: white;
+	margin: 0px;
 }
 
 .card {

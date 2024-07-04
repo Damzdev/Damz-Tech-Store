@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import '../../styles/carousel.css'
 import image1 from '../../assets/Carousel/Laptop-Deals-Slider-Banner-2560px-v01.png'
-import image2 from '../../assets/Carousel/nvidia-geforce-gaming-pcs-banner-2560px-v1.png'
-import image3 from '../../assets/Carousel/intel-south-africa-banner-2560px-v1.png'
+import image2 from '../../assets/Carousel/Intel-StarWars-Outlwas-slider-banner-2560px-v1.png'
+import image3 from '../../assets/Carousel/choose-2-games-with-amd-radeon-graphics-2560px-v2.png'
 
 interface CarouselItemProps {
 	imageSrc: string
@@ -26,7 +26,7 @@ const Carousel: React.FC = () => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setActiveIndex((prevIndex) => (prevIndex + 1) % items.length)
-		}, 4000) // Change item every 3 seconds
+		}, 6000) // Change item every 3 seconds
 
 		return () => clearInterval(interval)
 	}, [items.length])
