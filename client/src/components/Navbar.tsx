@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
 import '../styles/navbar.css'
 import sidebarbtn from '../assets/sidebar-btn.png'
+import Components from './Components'
 
 export default function Navbar() {
 	return (
 		<nav className="navbar-container">
+			<img className="sidebar-btn" src={sidebarbtn} alt="Sidebar Button" />
 			<ul className="nav-list">
-				<img className="sidebar-btn" src={sidebarbtn} alt="Sidebar Button" />
-				<button className="components">Components</button>
+				<Components />
 				<Link className="gaming-computers" to="/gaming-computers">
 					Gaming PCs
 				</Link>

@@ -25,11 +25,13 @@ export default function Header() {
 				<NavLink className="user-signup" to="/login">
 					Login
 				</NavLink>
-				<NavLink className="user-login" to="/sign-up">
+				<NavLink className="user-login" to="/signup">
 					Sign Up
 				</NavLink>
 				<div className="cart-container">
-					<div className="cart-items">1</div>
+					<a href="/cart" className="cart-items">
+						1
+					</a>
 					<NavLink className="cart" to="cart">
 						<img src={cart} alt="cart-icon" className="cart-icon" />
 						Cart

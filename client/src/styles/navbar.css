@@ -10,14 +10,15 @@
 .sidebar-btn {
 	width: 20px;
 	height: auto;
-	margin-right: 6px;
 	cursor: pointer;
+	margin-left: 50px;
 }
 
 .nav-list {
 	display: flex;
 	list-style-type: none;
 	cursor: pointer;
+	padding-left: 10px;
 }
 
 .components {
@@ -29,6 +30,20 @@
 	font-size: 16px;
 }
 
+.components-active {
+	margin-right: 20px;
+	align-self: center;
+	border: none;
+	background-color: lightgray;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: lightgray;
+	border-bottom: solid 2px black;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+}
+
 .gaming-computers,
 .gaming-laptops,
 .monitors,
@@ -37,4 +52,10 @@
 	margin-right: 20px;
 	text-decoration: none;
 	align-self: center;
+}
+
+@media screen and (max-width: 720px) {
+	.navbar-container {
+		display: none;
+	}
 }
