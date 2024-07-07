@@ -8,11 +8,12 @@ import Layout from './components/Layout'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Cart from './pages/Cart'
-import Gamingcomputers from './pages/GamingComputers'
-import Gaminglaptops from './pages/GamingLaptops'
+import Gamingcomputers from './pages/product-pages/GamingComputers'
+import Gaminglaptops from './pages/product-pages/GamingLaptops'
 import Monitors from './pages/Monitors'
 import Gamingchairs from './pages/GamingChairs'
 import Home from './pages/home-page/Home'
+import AdminPanel from './pages/AdminPanel'
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
 				<Route path="monitors" element={<Monitors />} />
 				<Route path="gaming-chairs" element={<Gamingchairs />} />
 			</Route>
+			<Route path="admin" element={<AdminPanel />} />
 		</>
 	)
 )

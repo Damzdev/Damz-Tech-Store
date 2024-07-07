@@ -77,22 +77,22 @@ export default function Footer() {
 							</Link>
 						</div>
 						<div className="product-links-2">
-							<Link className="quick-links-text" to="/">
-								Nvidia Computers
+							<Link className="quick-links-text" to="/gaming-computers/AMD">
+								AMD Computers
 							</Link>
-							<Link className="quick-links-text" to="/">
+							<Link className="quick-links-text" to="/gaming-computers/intel">
 								Intel Computers
 							</Link>
-							<Link className="quick-links-text" to="/">
+							<Link className="quick-links-text" to="/graphics-cards/AMD">
 								AMD Graphics Cards
 							</Link>
-							<Link className="quick-links-text" to="/">
+							<Link className="quick-links-text" to="/graphics-cards/nvidia">
 								Nvidia Graphics Cards
 							</Link>
-							<Link className="quick-links-text" to="/">
+							<Link className="quick-links-text" to="/gaming-laptops/dell">
 								Dell Laptops
 							</Link>
-							<Link className="quick-links-text" to="/">
+							<Link className="quick-links-text" to="/gaming-laptops/msi">
 								MSI Laptops
 							</Link>
 						</div>
