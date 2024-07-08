@@ -6,13 +6,11 @@ import NewLaptopCard from './product-cards/NewLaptop-card'
 import NvidiaCard from './product-cards/Nvidia-card'
 import Intelproducts from './Productbannerlinks'
 
-import '../../styles/productcards.css'
-
 export default function Home() {
 	return (
 		<main>
 			<Carousel />
-			<ul className="product-cards">
+			<ul className="flex flex-wrap bg-white ">
 				<AmdCard />
 				<GamingChairCard />
 				<MonitorCard />

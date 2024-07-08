@@ -1,7 +1,5 @@
-// Components.tsx
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/components-block.css'
 
 export default function Components() {
 	const [show, setShow] = useState(false)
@@ -13,72 +11,140 @@ export default function Components() {
 	return (
 		<>
 			<button
-				className={show ? 'components-active' : 'components'}
+				className={`${show ? 'underline underline-offset-4 mr-5' : 'mr-5'}`}
 				onClick={toggleShow}
 			>
 				Components
 			</button>
-			<div className="components-container">
+			<div className="relative inline-block mt-8">
 				{show && (
-					<div className="mega-menu">
-						<div className="mega-menu-column">
-							<ul>
-								<li>
-									<Link to="/cpu-processor/intel">CPU Processors (Intel)</Link>
+					<div className="absolute bg-gray-800 opacity-90 shadow-lg z-10 mt-2 w-[750px] rounded-lg -left-36 hidden sm:flex">
+						<div className="flex-1 p-3">
+							<ul className="list-none p-0">
+								<li className="my-2">
+									<Link
+										to="/cpu-processor/intel"
+										className="text-white hover:text-lime-400"
+									>
+										CPU Processors (Intel)
+									</Link>
 								</li>
-								<li>
-									<Link to="/cpu-processor/amd">CPU Processors (AMD)</Link>
+								<li className="my-2">
+									<Link
+										to="/cpu-processor/amd"
+										className="text-white hover:text-lime-400"
+									>
+										CPU Processors (AMD)
+									</Link>
 								</li>
-								<li>
-									<Link to="/cpu-coolers">CPU Coolers</Link>
+								<li className="my-2">
+									<Link
+										to="/cpu-coolers"
+										className="text-white hover:text-lime-400"
+									>
+										CPU Coolers
+									</Link>
 								</li>
-								<li>
-									<Link to="/graphics-cards/nvidia">
+								<li className="my-2">
+									<Link
+										to="/graphics-cards/nvidia"
+										className="text-white hover:text-lime-400"
+									>
 										Graphics Cards (Nvidia)
 									</Link>
 								</li>
-								<li>
-									<Link to="/graphics-cards/radeon">
+								<li className="my-2">
+									<Link
+										to="/graphics-cards/radeon"
+										className="text-white hover:text-lime-400"
+									>
 										Graphics Cards (Radeon)
 									</Link>
 								</li>
 							</ul>
 						</div>
-						<div className="mega-menu-column">
-							<ul>
-								<li>
-									<Link to="/hard-drives">Hard Drives</Link>
+						<div className="flex-1 p-3">
+							<ul className="list-none p-0">
+								<li className="my-2">
+									<Link
+										to="/hard-drives"
+										className="text-white hover:text-lime-400"
+									>
+										Hard Drives
+									</Link>
 								</li>
-								<li>
-									<Link to="/keyboards">Keyboards</Link>
+								<li className="my-2">
+									<Link
+										to="/keyboards"
+										className="text-white hover:text-lime-400"
+									>
+										Keyboards
+									</Link>
 								</li>
-								<li>
-									<Link to="/ram-memory">Memory (RAM)</Link>
+								<li className="my-2">
+									<Link
+										to="/ram-memory"
+										className="text-white hover:text-lime-400"
+									>
+										Memory (RAM)
+									</Link>
 								</li>
-								<li>
-									<Link to="/motherboards/intel">Motherboards (Intel)</Link>
+								<li className="my-2">
+									<Link
+										to="/motherboards/intel"
+										className="text-white hover:text-lime-400"
+									>
+										Motherboards (Intel)
+									</Link>
 								</li>
-								<li>
-									<Link to="/motherboards/amd">Motherboards (AMD)</Link>
+								<li className="my-2">
+									<Link
+										to="/motherboards/amd"
+										className="text-white hover:text-lime-400"
+									>
+										Motherboards (AMD)
+									</Link>
 								</li>
 							</ul>
 						</div>
-						<div className="mega-menu-column">
-							<ul>
-								<li>
-									<Link to="/monitors">Monitors</Link>
+						<div className="flex-1 p-3">
+							<ul className="list-none p-0">
+								<li className="my-2">
+									<Link
+										to="/monitors"
+										className="text-white hover:text-lime-400"
+									>
+										Monitors
+									</Link>
 								</li>
-								<li>
-									<Link to="/power-supply">Power Supply</Link>
+								<li className="my-2">
+									<Link
+										to="/power-supply"
+										className="text-white hover:text-lime-400"
+									>
+										Power Supply
+									</Link>
 								</li>
-								<li>
-									<Link to="/pc-case">PC Case</Link>
+								<li className="my-2">
+									<Link
+										to="/pc-case"
+										className="text-white hover:text-lime-400"
+									>
+										PC Case
+									</Link>
 								</li>
-								<li>
-									<Link to="/SSDs">SSD</Link>
+								<li className="my-2">
+									<Link to="/SSDs" className="text-white hover:text-lime-400">
+										SSD
+									</Link>
 								</li>
-								<li>
-									<Link to="/operating-system">Operating-System</Link>
+								<li className="my-2">
+									<Link
+										to="/operating-system"
+										className="text-white hover:text-lime-400"
+									>
+										Operating System
+									</Link>
 								</li>
 							</ul>
 						</div>

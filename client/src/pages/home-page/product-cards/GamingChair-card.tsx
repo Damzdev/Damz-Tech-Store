@@ -1,19 +1,28 @@
-import '../../../styles/productcards.css'
 import cardimg from '../../../assets/Product-cards/shop-secretlab-ergonomic-chairs-mobile.png'
 
-export default function GamingChairCard() {
+const GamingChairCard = () => {
 	return (
-		<div className="card">
-			<img src={cardimg} alt="" />
-			<div className="card-content">
-				<h2 className="card-title">Gaming Chairs</h2>
-				<p className="card-description">
+		<div className="w-[300px] m-4 ml-14 sm:m-4 rounded-lg overflow-hidden shadow-md border-gray-300 hover:shadow-lg transform transition duration-300 hover:-translate-y-1">
+			<img
+				className="w-full h-56 object-cover border-b border-gray-300 bg-gradient-radial-circle-gray"
+				src={cardimg}
+				alt="AMD Product"
+			/>
+			<div className="h-[240px] flex flex-col flex-1 justify-between p-2">
+				<h2 className="text-xl text-center font-bold text-gray-800 mb-8">
+					Gaming Chairs
+				</h2>
+				<p className="text-sm text-gray-600 mb-2">
 					Secretlab chairs offer ergonomic design and premium comfort, tailored
 					for long hours of gaming or work with adjustable features for optimal
 					support.
 				</p>
-				<button className="learn-more-btn">Learn More!</button>
+				<button className="bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300">
+					Learn More!
+				</button>
 			</div>
 		</div>
 	)
 }
+
+export default GamingChairCard

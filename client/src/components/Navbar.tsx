@@ -1,24 +1,39 @@
 import { Link } from 'react-router-dom'
-import '../styles/navbar.css'
 import sidebarbtn from '../assets/sidebar-btn.png'
 import Components from './Components'
 
 export default function Navbar() {
 	return (
-		<nav className="navbar-container">
-			<img className="sidebar-btn" src={sidebarbtn} alt="Sidebar Button" />
-			<ul className="nav-list">
+		<nav className="w-auto bg-lightgray text-black h-9 items-center hidden sm:flex">
+			<img
+				className="w-5 h-auto cursor-pointer ml-12"
+				src={sidebarbtn}
+				alt="Sidebar Button"
+			/>
+			<ul className="flex list-none cursor-pointer pl-2">
 				<Components />
-				<Link className="gaming-computers" to="/gaming-computers">
+				<Link
+					className="mr-5 text-black no-underline self-center"
+					to="/gaming-computers"
+				>
 					Gaming PCs
 				</Link>
-				<Link className="gaming-laptops" to="/gaming-laptops">
+				<Link
+					className="mr-5 text-black no-underline self-center"
+					to="/gaming-laptops"
+				>
 					Gaming Laptops
 				</Link>
-				<Link className="monitors" to="/monitors">
+				<Link
+					className="mr-5 text-black no-underline self-center"
+					to="/monitors"
+				>
 					Monitors
 				</Link>
-				<Link className="gaming-chairs" to="/gaming-chairs">
+				<Link
+					className="mr-5 text-black no-underline self-center"
+					to="/gaming-chairs"
+				>
 					Gaming Chairs
 				</Link>
 			</ul>
