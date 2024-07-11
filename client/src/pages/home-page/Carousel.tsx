@@ -3,7 +3,7 @@ import image1 from '../../assets/Carousel/Laptop-Deals-Slider-Banner-2560px-v01.
 import image2 from '../../assets/Carousel/Intel-StarWars-Outlwas-slider-banner-2560px-v1.png'
 import image3 from '../../assets/Carousel/choose-2-games-with-amd-radeon-graphics-2560px-v2.png'
 
-interface CarouselItemProps {
+type CarouselItemProps = {
 	imageSrc: string
 	link: string
 }
@@ -22,8 +22,8 @@ const Carousel: React.FC = () => {
 	const [activeIndex, setActiveIndex] = useState(0)
 	const items = [
 		{ imageSrc: image1, link: '/gaming-laptops' },
-		{ imageSrc: image2, link: '/gaming-computers/geforce' },
-		{ imageSrc: image3, link: '/intel-cpu' },
+		{ imageSrc: image2, link: '/components/intel-processors' },
+		{ imageSrc: image3, link: '/components/radeon-cards' },
 	]
 
 	useEffect(() => {

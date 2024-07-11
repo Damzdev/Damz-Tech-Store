@@ -23,7 +23,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 	const sortedProducts = sortProductsByPrice()
 
 	return (
-		<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 md:px-8 lg:px-12 mb-8">
+		<div className="grid grid-cols-1 mobile:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 md:px-8 lg:px-12 mb-8">
 			{sortedProducts.map((product) => (
 				<div
 					key={product.id}
@@ -32,7 +32,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 					<img
 						src={product.ImageURL}
 						alt={product.name}
-						className="w-full h-48 object-cover"
+						className="w-auto h-48"
 					/>
 					<div className="p-4 flex flex-col flex-grow">
 						<h2 className="text-sm h-24 font-bold mb-2">{product.name}</h2>
@@ -44,7 +44,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 								Add to Cart
 							</button>
 							<button className="bg-white text-sm hover:bg-lime-400 text-gray-800 font-bold py-2 px-4 rounded">
-								Buy Now
+								More Info
 							</button>
 						</div>
 					</div>

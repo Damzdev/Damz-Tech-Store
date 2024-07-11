@@ -1,4 +1,6 @@
-import ProductLayout from '../../components/ProductLayout'
+import { useState } from 'react'
+import ProductLayout from '../../../components/ProductLayout'
+import { type ProductType } from './GamingComputers'
 
 const gamingLaptops = [
 	{ id: 1, name: 'Gaming Laptop 1', price: 1200, imageUrl: 'image1.jpg' },
@@ -7,5 +9,6 @@ const gamingLaptops = [
 ]
 
 export default function GamingLaptops() {
+	const [products, setProducts] = useState<ProductType[]>([])
 	return <ProductLayout products={gamingLaptops} />
 }

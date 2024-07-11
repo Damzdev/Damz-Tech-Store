@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import search from '../assets/header/search.png'
-import cart from '../assets/shopping-cart.png'
+import cart from '../assets/header/shopping-cart.png'
 
 export default function Header() {
 	return (

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import sidebarbtn from '../assets/sidebar-btn.png'
+import sidebarbtn from '../assets/navbar/burger-bar.png'
 import Components from './Components'
 
 export default function Navbar() {

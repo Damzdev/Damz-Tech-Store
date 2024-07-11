@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import scrollToTop from '../utils/scrollToTop'
 import twitter from '../assets/footer-icons/twitter.png'
 import instagram from '../assets/footer-icons/instagram.png'
 import tiktok from '../assets/footer-icons/tik-tok.png'
@@ -46,7 +47,7 @@ export default function Footer() {
 						</a>
 					</div>
 				</div>
-				<div className="flex flex-col items-center sm:mb-0 sm:w-full sm:max-w-1000 sm:ml-10">
+				<div className="flex flex-col items-center sm:mb-0 sm:w-full sm:max-w-1000 ">
 					<h1 className="text-lime-400 text-4xl mt-4 sm:text-left mb-2 sm:mt-0">
 						Quick Links
 					</h1>
@@ -54,37 +55,43 @@ export default function Footer() {
 						<div className="flex flex-col items-center mb-5 sm:items-center sm:mb-0">
 							<Link
 								className="text-white font-bold hover:text-lime-400 sm: mb-1"
-								to="/computer-cases"
+								to="/components/cases"
+								onClick={scrollToTop}
 							>
 								Computer Cases
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
-								to="/headsets"
+								to="/components/headsets"
+								onClick={scrollToTop}
 							>
 								Headsets
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/monitors"
+								onClick={scrollToTop}
 							>
 								Monitors
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
-								to="/keyboards"
+								to="/components/keyboards"
+								onClick={scrollToTop}
 							>
 								Keyboards
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
-								to="/gaming-mouses"
+								to="/components/gaming-mouses"
+								onClick={scrollToTop}
 							>
 								Gaming Mouses
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/gaming-chairs"
+								onClick={scrollToTop}
 							>
 								Gaming Chairs
 							</Link>
@@ -93,36 +100,42 @@ export default function Footer() {
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/FAQS"
+								onClick={scrollToTop}
 							>
 								FAQS
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/Terms-and-Conditions"
+								onClick={scrollToTop}
 							>
 								Terms & Conditions
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/Payment-Options"
+								onClick={scrollToTop}
 							>
 								Payment Options
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/shipping"
+								onClick={scrollToTop}
 							>
 								Shipping & Returns
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/Ordering-Info"
+								onClick={scrollToTop}
 							>
 								Order Info
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/contact"
+								onClick={scrollToTop}
 							>
 								Contact Us
 							</Link>
@@ -131,36 +144,42 @@ export default function Footer() {
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/gaming-computers/AMD"
+								onClick={scrollToTop}
 							>
 								AMD Computers
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/gaming-computers/intel"
+								onClick={scrollToTop}
 							>
 								Intel Computers
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
-								to="/graphics-cards/AMD"
+								to="components/radeon-cards"
+								onClick={scrollToTop}
 							>
-								AMD Graphics Cards
+								Radeon Graphics Cards
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
-								to="/graphics-cards/nvidia"
+								to="/components/nvidia-cards"
+								onClick={scrollToTop}
 							>
 								Nvidia Graphics Cards
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/gaming-laptops/dell"
+								onClick={scrollToTop}
 							>
 								Dell Laptops
 							</Link>
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/gaming-laptops/msi"
+								onClick={scrollToTop}
 							>
 								MSI Laptops
 							</Link>

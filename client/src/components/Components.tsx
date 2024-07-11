@@ -23,7 +23,7 @@ export default function Components() {
 							<ul className="list-none p-0">
 								<li className="my-2">
 									<Link
-										to="/cpu-processor/intel"
+										to="/components/intel-processors"
 										className="text-white hover:text-lime-400"
 									>
 										CPU Processors (Intel)
@@ -31,7 +31,7 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/cpu-processor/amd"
+										to="/components/AMD-processors"
 										className="text-white hover:text-lime-400"
 									>
 										CPU Processors (AMD)
@@ -39,7 +39,7 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/cpu-coolers"
+										to="/components/processor-coolers"
 										className="text-white hover:text-lime-400"
 									>
 										CPU Coolers
@@ -47,7 +47,7 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/graphics-cards/nvidia"
+										to="/components/nvidia-cards"
 										className="text-white hover:text-lime-400"
 									>
 										Graphics Cards (Nvidia)
@@ -55,7 +55,7 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/graphics-cards/radeon"
+										to="/components/radeon-cards"
 										className="text-white hover:text-lime-400"
 									>
 										Graphics Cards (Radeon)
@@ -67,7 +67,7 @@ export default function Components() {
 							<ul className="list-none p-0">
 								<li className="my-2">
 									<Link
-										to="/hard-drives"
+										to="/components/hard-drives"
 										className="text-white hover:text-lime-400"
 									>
 										Hard Drives
@@ -75,7 +75,7 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/keyboards"
+										to="/components/keyboards"
 										className="text-white hover:text-lime-400"
 									>
 										Keyboards
@@ -83,7 +83,7 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/ram-memory"
+										to="/components/ram-memory"
 										className="text-white hover:text-lime-400"
 									>
 										Memory (RAM)
@@ -91,7 +91,7 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/motherboards/intel"
+										to="/components/intel-motherboards"
 										className="text-white hover:text-lime-400"
 									>
 										Motherboards (Intel)
@@ -99,7 +99,7 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/motherboards/amd"
+										to="/components/AMD-motherboards"
 										className="text-white hover:text-lime-400"
 									>
 										Motherboards (AMD)
@@ -111,15 +111,15 @@ export default function Components() {
 							<ul className="list-none p-0">
 								<li className="my-2">
 									<Link
-										to="/monitors"
+										to="/components/gaming-mouses"
 										className="text-white hover:text-lime-400"
 									>
-										Monitors
+										Mouses
 									</Link>
 								</li>
 								<li className="my-2">
 									<Link
-										to="/power-supply"
+										to="/components/power-supply-units"
 										className="text-white hover:text-lime-400"
 									>
 										Power Supply
@@ -127,20 +127,23 @@ export default function Components() {
 								</li>
 								<li className="my-2">
 									<Link
-										to="/pc-case"
+										to="/components/cases"
 										className="text-white hover:text-lime-400"
 									>
 										PC Case
 									</Link>
 								</li>
 								<li className="my-2">
-									<Link to="/SSDs" className="text-white hover:text-lime-400">
+									<Link
+										to="/components/SSD"
+										className="text-white hover:text-lime-400"
+									>
 										SSD
 									</Link>
 								</li>
 								<li className="my-2">
 									<Link
-										to="/operating-system"
+										to="/components/operating-system"
 										className="text-white hover:text-lime-400"
 									>
 										Operating System

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import cardimg from '../../assets/intel-banner/Intel-Core-Banner.png'
 import cardimg2 from '../../assets/intel-banner/nvidia40series.png'
+import scrollToTop from '../../utils/scrollToTop'
 import '../../styles/homeheaders.css'
 
 export default function Productbannerlinks() {
@@ -10,7 +11,11 @@ export default function Productbannerlinks() {
 				Custom Built High-End Gaming Computers, GPU'S, CPU'S & Much More!
 			</h1>
 			<div className="intel-container">
-				<Link to="/processors/intel" className="header-links">
+				<Link
+					to="/components/intel-processors"
+					onClick={scrollToTop}
+					className="header-links"
+				>
 					<img
 						className="product-header"
 						src={cardimg}
@@ -19,7 +24,11 @@ export default function Productbannerlinks() {
 				</Link>
 			</div>
 			<div className="nvidia-container">
-				<Link to="/graphics-cards/nvidia" className="header-links">
+				<Link
+					to="/components/nvidia-cards"
+					onClick={scrollToTop}
+					className="header-links"
+				>
 					<img
 						className="product-header nvidia-header"
 						src={cardimg2}
