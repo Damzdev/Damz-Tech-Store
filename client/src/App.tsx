@@ -5,8 +5,6 @@ import {
 	Route,
 } from 'react-router-dom'
 import Layout from './components/Layout'
-import Login from './pages/Login'
-import Signup from './pages/Signup'
 import Cart from './pages/Cart'
 import Gamingcomputers from './pages/product-pages/navbar-products/GamingComputers'
 import GamingLaptops from './pages/product-pages/navbar-products/GamingLaptops'
@@ -28,15 +26,15 @@ import PowerSupplys from './pages/product-pages/navbar-products/PowerSupplys'
 import Cases from './pages/product-pages/navbar-products/Cases'
 import SSD from './pages/product-pages/navbar-products/SSD'
 import OperatingSystem from './pages/product-pages/navbar-products/OS'
-import AdminPanel from './pages/AdminPanel'
+import DellLaptops from './pages/product-pages/navbar-products/DellLaptops'
+import MSILaptops from './pages/product-pages/navbar-products/MSILaptops'
+import { ShoppingCartProvider } from './context/ShoppingCartContext'
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
 		<>
 			<Route path="/" element={<Layout />}>
 				<Route index element={<Home />} />
-				<Route path="login" element={<Login />} />
-				<Route path="signup" element={<Signup />} />
 				<Route path="cart" element={<Cart />} />
 				<Route path="gaming-computers" element={<Gamingcomputers />} />
 				<Route path="gaming-laptops" element={<GamingLaptops />} />
@@ -81,16 +79,19 @@ const router = createBrowserRouter(
 				<Route path="contact" element={<Gamingcomputers />} />
 				<Route path="gaming-computers/AMD" element={<Gamingcomputers />} />
 				<Route path="gaming-computers/intel" element={<Gamingcomputers />} />
-				<Route path="gaming-laptops/dell" element={<Gamingcomputers />} />
-				<Route path="gaming-laptops/msi" element={<Gamingcomputers />} />
+				<Route path="gaming-laptops/dell" element={<DellLaptops />} />
+				<Route path="gaming-laptops/msi" element={<MSILaptops />} />
 			</Route>
-			<Route path="admin" element={<AdminPanel />} />
 		</>
 	)
 )
 
 function App() {
-	return <RouterProvider router={router} />
+	return (
+		<ShoppingCartProvider>
+			<RouterProvider router={router} />
+		</ShoppingCartProvider>
+	)
 }
 
 export default App

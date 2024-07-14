@@ -1,4 +1,6 @@
 import React from 'react'
+import { useShoppingCart } from '../context/ShoppingCartContext'
+import { formatPrice } from '../utils/formatCurrency'
 
 type Product = {
 	id: string
@@ -9,12 +11,11 @@ type Product = {
 
 type ProductLayoutProps = {
 	products: Product[]
+	id: string
 }
 
 const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
-	const formatPrice = (price: number): string => {
-		return `R${price.toLocaleString()}`
-	}
+	const { increaseCartQuantity } = useShoppingCart()
 
 	const sortProductsByPrice = () => {
 		return products.sort((a, b) => a.price - b.price)
@@ -23,7 +24,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 	const sortedProducts = sortProductsByPrice()
 
 	return (
-		<div className="grid grid-cols-1 mobile:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 md:px-8 lg:px-12 mb-8">
+		<div className="grid grid-cols-1 mobile:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 md:px-8 lg:px-12 mb-8">
 			{sortedProducts.map((product) => (
 				<div
 					key={product.id}
@@ -40,7 +41,10 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 							{formatPrice(product.price)}
 						</p>
 						<div className="mt-auto flex justify-between">
-							<button className="bg-white text-sm hover:bg-lime-400 text-gray-800 font-bold mr-2 py-2 px-2 rounded">
+							<button
+								onClick={() => increaseCartQuantity(product.id)}
+								className="bg-white text-sm hover:bg-lime-400 text-gray-800 font-bold mr-2 py-2 px-2 rounded"
+							>
 								Add to Cart
 							</button>
 							<button className="bg-white text-sm hover:bg-lime-400 text-gray-800 font-bold py-2 px-4 rounded">

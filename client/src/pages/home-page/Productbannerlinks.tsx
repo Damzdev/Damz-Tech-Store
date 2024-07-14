@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import cardimg from '../../assets/intel-banner/Intel-Core-Banner.png'
 import cardimg2 from '../../assets/intel-banner/nvidia40series.png'
 import scrollToTop from '../../utils/scrollToTop'
-import '../../styles/homeheaders.css'
 
 export default function Productbannerlinks() {
 	return (

@@ -1,51 +1,28 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import ProductLayout from '../../../components/ProductLayout'
-import img1 from '../../../assets/gaming-pcs/CustomGamingPCs-v2.png'
+import img1 from '../../../assets/product-banners/hard-drives-banner-2560px-v1.png'
 import img2 from '../../../assets/gaming-pcs/amd-ryzen-7-pcs-banner-400px-v11.png'
-import img3 from '../../../assets/gaming-pcs/intel-14th-gen-banner.png'
+import img3 from '../../../assets/amd-banner/amd-logo.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 
 export type ProductType = {
+	price: number
+	name: string
 	ImageURL: string
 	id: string
-	name: string
-	price: number
 }
 
-export default function GamingLaptops() {
+export default function MSILaptops() {
 	const [products, setProducts] = useState<ProductType[]>([])
 
 	useEffect(() => {
 		async function fetchProducts() {
 			try {
-				const responseDell = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/dell-gaming-laptops'
-				)
-				const responseAcer = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/acer-gaming-laptops'
-				)
-				const responseAsus = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/asus-gaming-laptops'
-				)
-				const responseHP = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/hp-gaming-laptops'
-				)
-				const responseLenovo = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/lenovo-gaming-laptops'
-				)
-				const responseMSI = await axios.get<ProductType[]>(
+				const responseIntel = await axios.get<ProductType[]>(
 					'http://localhost:3005/api/msi-gaming-laptops'
 				)
-				const combinedProducts = [
-					...responseDell.data,
-					...responseAcer.data,
-					...responseAsus.data,
-					...responseHP.data,
-					...responseLenovo.data,
-					...responseMSI.data,
-				]
-				setProducts(combinedProducts)
+				setProducts(responseIntel.data)
 			} catch (error) {
 				console.error('Error fetching products:', error)
 			}
@@ -60,11 +37,11 @@ export default function GamingLaptops() {
 				<img
 					src={img1}
 					alt="custom-gamingpc-banner"
-					className="block mx-auto w-full max-w-1150 overflow-hidden rounded-lg"
+					className="block mx-auto w-full max-w-1150 max-h-96 overflow-hidden rounded-lg"
 				/>
 			</div>
-			<h1 className="text-3xl font-bold text-center my-8 text-transparent bg-gradient-to-r from-purple-600 via-indigo-600 to-cyan-400 bg-clip-text ">
-				Powerful Gaming Laptops Available Now!
+			<h1 className="text-3xl font-bold text-center my-8 text-transparent bg-gradient-to-r from-gray-300 via-gray-500 to-gray-900 bg-clip-text ">
+				Fastest Hard-Drives
 			</h1>
 			<div className="flex flex-wrap justify-center mb-8">
 				<img
@@ -88,7 +65,7 @@ export default function GamingLaptops() {
 				<img
 					src={img1}
 					alt="intel-banner"
-					className="block mx-auto w-full max-w-1150 overflow-hidden rounded-lg"
+					className="block mx-auto w-full max-w-1150 max-h-96 overflow-hidden rounded-lg"
 				/>
 			</div>
 		</div>

@@ -4,7 +4,7 @@ import Components from './Components'
 
 export default function Navbar() {
 	return (
-		<nav className="w-auto bg-lightgray text-black h-9 items-center hidden sm:flex">
+		<nav className="w-auto bg-gray-300 text-black h-8 items-center hidden sm:flex">
 			<img
 				className="w-5 h-auto cursor-pointer ml-12"
 				src={sidebarbtn}

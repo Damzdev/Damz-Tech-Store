@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+	important: true,
 	theme: {
 		extend: {
 			screens: {
-				mobile: '500px',
+				mobile: '391px',
 
 				sm: '640px',
 

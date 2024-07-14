@@ -16,30 +16,30 @@ export default function Footer() {
 					<h1 className="text-lime-400 text-4xl sm:text-left mb-8 sm:pl-16">
 						Socials
 					</h1>
-					<div className="flex flex-col items-center sm:items-start sm:pl-14 ">
+					<div className="flex flex-col items-center sm:items-start sm:pl-14">
 						<a
-							className="flex items-center text-lime-400 mb-2 border-2 border-green-800 rounded-2xl p-2 w-full hover:bg-gray-700 sm: justify-start"
+							className="flex items-center text-lime-400 mb-2 no-underline border-2 border-green-800 rounded-2xl p-2 w-full hover:bg-gray-700 sm: justify-start"
 							href="https://x.com/home"
 						>
 							<img className="w-5 mr-2" src={twitter} alt="Twitter" />
 							<div>Twitter</div>
 						</a>
 						<a
-							className="flex items-center text-lime-400 mb-2 border-2 border-green-800 rounded-2xl p-2 w-full hover:bg-gray-700 sm: justify-start"
+							className="flex items-center text-lime-400 mb-2 no-underline border-2 border-green-800 rounded-2xl p-2 w-full hover:bg-gray-700 sm: justify-start"
 							href="https://www.instagram.com/"
 						>
 							<img className="w-5 mr-2" src={instagram} alt="Instagram" />
 							<div>Instagram</div>
 						</a>
 						<a
-							className="flex items-center text-lime-400 mb-2 border-2 border-green-800 rounded-2xl p-2 w-full hover:bg-gray-700 sm: justify-start"
+							className="flex items-center text-lime-400 mb-2 no-underline border-2 border-green-800 rounded-2xl p-2 w-full hover:bg-gray-700 sm: justify-start"
 							href="https://www.facebook.com/"
 						>
 							<img className="w-5 mr-2" src={facebook} alt="Facebook" />
 							<div>Facebook</div>
 						</a>
 						<a
-							className="flex items-center text-lime-400 mb-2 border-2 border-green-800 rounded-2xl p-2 w-full hover:bg-gray-700 sm: justify-start"
+							className="flex items-center text-lime-400 mb-2 no-underline border-2 border-green-800 rounded-2xl p-2 w-full hover:bg-gray-700 sm: justify-start"
 							href="https://www.tiktok.com/"
 						>
 							<img className="w-5 mr-2 " src={tiktok} alt="TikTok" />
@@ -54,7 +54,7 @@ export default function Footer() {
 					<div className="flex flex-col items-center w-full mt-5 sm:flex-row sm:justify-between sm:max-w-800 sm:mt-8">
 						<div className="flex flex-col items-center mb-5 sm:items-center sm:mb-0">
 							<Link
-								className="text-white font-bold hover:text-lime-400 sm: mb-1"
+								className="text-white font-bold hover:text-lime-400 "
 								to="/components/cases"
 								onClick={scrollToTop}
 							>
@@ -140,7 +140,7 @@ export default function Footer() {
 								Contact Us
 							</Link>
 						</div>
-						<div className="flex flex-col items-center sm:items-center mb-4">
+						<div className="flex flex-col items-center sm:items-center">
 							<Link
 								className="text-white font-bold hover:text-lime-400"
 								to="/gaming-computers/AMD"
@@ -213,9 +213,9 @@ export default function Footer() {
 					</div>
 				</div>
 			</footer>
-			<p className="bg-footerbg text-white text-center p-12">
+			<div className="bg-footerbg text-white text-center p-12 ">
 				Copyright © 2024 - All rights reserved by DAMZTECH (Pty) Ltd
-			</p>
+			</div>
 		</>
 	)
 }
