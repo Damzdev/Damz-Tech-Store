@@ -187,7 +187,7 @@ export default function Footer() {
 					</div>
 				</div>
 				<div className="flex flex-col items-center sm:mr-12 ">
-					<h1 className="text-lime-400 text-4xl mb-4 sm:text-left">
+					<h1 className="text-lime-400 text-4xl mb-8 sm:text-left">
 						Contact Us:
 					</h1>
 					<div className="flex flex-col items-center sm:items-start pl-14 pr-12">

@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react'
 import axios from 'axios'
 import ProductLayout from '../../../components/ProductLayout'
 import img1 from '../../../assets/gaming-pcs/CustomGamingPCs-v2.png'
 import img2 from '../../../assets/gaming-pcs/amd-ryzen-7-pcs-banner-400px-v11.png'
 import img3 from '../../../assets/gaming-pcs/intel-14th-gen-banner.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
+import { useQuery } from 'react-query'
 
 export type ProductType = {
 	ImageURL: string
@@ -13,46 +13,115 @@ export type ProductType = {
 	price: number
 }
 
+const fetchDellProducts = async (): Promise<ProductType[]> => {
+	const response = await axios.get(
+		'http://localhost:3005/api/dell-gaming-laptops'
+	)
+	return response.data
+}
+
+const fetchAcerProducts = async (): Promise<ProductType[]> => {
+	const response = await axios.get(
+		'http://localhost:3005/api/acer-gaming-laptops'
+	)
+	return response.data
+}
+
+const fetchAsusProducts = async (): Promise<ProductType[]> => {
+	const response = await axios.get(
+		'http://localhost:3005/api/asus-gaming-laptops'
+	)
+	return response.data
+}
+
+const fetchHPProducts = async (): Promise<ProductType[]> => {
+	const response = await axios.get(
+		'http://localhost:3005/api/hp-gaming-laptops'
+	)
+	return response.data
+}
+
+const fetchLenovoProducts = async (): Promise<ProductType[]> => {
+	const response = await axios.get(
+		'http://localhost:3005/api/lenovo-gaming-laptops'
+	)
+	return response.data
+}
+
+const fetchMSIProducts = async (): Promise<ProductType[]> => {
+	const response = await axios.get(
+		'http://localhost:3005/api/msi-gaming-laptops'
+	)
+	return response.data
+}
+
 export default function GamingLaptops() {
-	const [products, setProducts] = useState<ProductType[]>([])
+	const {
+		data: dellProducts,
+		isLoading: isLoadingDell,
+		isError: isErrorDell,
+	} = useQuery<ProductType[]>(['gaming-laptops', 'dell'], fetchDellProducts)
 
-	useEffect(() => {
-		async function fetchProducts() {
-			try {
-				const responseDell = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/dell-gaming-laptops'
-				)
-				const responseAcer = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/acer-gaming-laptops'
-				)
-				const responseAsus = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/asus-gaming-laptops'
-				)
-				const responseHP = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/hp-gaming-laptops'
-				)
-				const responseLenovo = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/lenovo-gaming-laptops'
-				)
-				const responseMSI = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/msi-gaming-laptops'
-				)
-				const combinedProducts = [
-					...responseDell.data,
-					...responseAcer.data,
-					...responseAsus.data,
-					...responseHP.data,
-					...responseLenovo.data,
-					...responseMSI.data,
-				]
-				setProducts(combinedProducts)
-			} catch (error) {
-				console.error('Error fetching products:', error)
-			}
-		}
+	const {
+		data: acerProducts,
+		isLoading: isLoadingAcer,
+		isError: isErrorAcer,
+	} = useQuery<ProductType[]>(['gaming-laptops', 'acer'], fetchAcerProducts)
 
-		fetchProducts()
-	}, [])
+	const {
+		data: asusProducts,
+		isLoading: isLoadingAsus,
+		isError: isErrorAsus,
+	} = useQuery<ProductType[]>(['gaming-laptops', 'asus'], fetchAsusProducts)
+
+	const {
+		data: hpProducts,
+		isLoading: isLoadingHP,
+		isError: isErrorHP,
+	} = useQuery<ProductType[]>(['gaming-laptops', 'hp'], fetchHPProducts)
+
+	const {
+		data: lenovoProducts,
+		isLoading: isLoadingLenovo,
+		isError: isErrorLenovo,
+	} = useQuery<ProductType[]>(['gaming-laptops', 'lenovo'], fetchLenovoProducts)
+
+	const {
+		data: msiProducts,
+		isLoading: isLoadingMSI,
+		isError: isErrorMSI,
+	} = useQuery<ProductType[]>(['gaming-laptops', 'msi'], fetchMSIProducts)
+
+	if (
+		isLoadingDell ||
+		isLoadingAcer ||
+		isLoadingAsus ||
+		isLoadingHP ||
+		isLoadingLenovo ||
+		isLoadingMSI
+	) {
+		return <div>Loading...</div>
+	}
+
+	if (
+		isErrorDell ||
+		isErrorAcer ||
+		isErrorAsus ||
+		isErrorHP ||
+		isErrorLenovo ||
+		isErrorMSI
+	) {
+		return <div>Error fetching products.</div>
+	}
+
+	const products = [
+		...(dellProducts || []),
+		...(acerProducts || []),
+		...(asusProducts || []),
+		...(hpProducts || []),
+		...(lenovoProducts || []),
+		...(msiProducts || []),
+	]
 
 	return (
 		<div className="bg-white py-8 px-4 md:px-8 lg:px-12">

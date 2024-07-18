@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react'
 import axios from 'axios'
-import ProductLayout from '../../../components/ProductLayout'
+import ProductLayout, { Product } from '../../../components/ProductLayout'
 import img1 from '../../../assets/amd-banner/AMD-Product-Banner.png'
 import img2 from '../../../assets/gaming-pcs/amd-ryzen-7-pcs-banner-400px-v11.png'
 import img3 from '../../../assets/amd-banner/amd-logo.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
+import { useQuery } from 'react-query'
 
 export type ProductType = {
 	name: string
@@ -17,22 +17,28 @@ export type ProductType = {
 }
 
 export default function RadeonGPU() {
-	const [products, setProducts] = useState<ProductType[]>([])
+	const {
+		data: products,
+		isLoading,
+		isError,
+	} = useQuery<ProductType[]>(['radeon', 'radeon-graphics-card'], async () => {
+		const response = await axios.get<ProductType[]>(
+			'http://localhost:3005/api/components/radeon-gpu/'
+		)
+		return response.data
+	})
 
-	useEffect(() => {
-		async function fetchProducts() {
-			try {
-				const responseIntel = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/components/radeon-gpu/'
-				)
-				setProducts(responseIntel.data)
-			} catch (error) {
-				console.error('Error fetching products:', error)
-			}
-		}
+	if (isLoading) return <div>Loading...</div>
+	if (isError) return <div>Error fetching products.</div>
 
-		fetchProducts()
-	}, [])
+	const productsToDisplay: Product[] = products
+		? products.map((product) => ({
+				id: product.id,
+				name: product.name,
+				price: product.price,
+				ImageURL: product.ImageURL,
+		  }))
+		: []
 
 	return (
 		<div className="bg-white py-8 px-4 md:px-8 lg:px-12">
@@ -63,7 +69,7 @@ export default function RadeonGPU() {
 					className="w-48 h-auto rounded-lg m-2 transition-transform duration-150 hover:scale-105"
 				/>
 			</div>
-			<ProductLayout products={products} />
+			<ProductLayout products={productsToDisplay} />
 			<div className="padding-bottom-30">
 				<img
 					src={img1}

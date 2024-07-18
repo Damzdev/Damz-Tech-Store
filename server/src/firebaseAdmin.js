@@ -1,5 +1,4 @@
-import * as admin from 'firebase-admin'
-
+const admin = require('firebase-admin')
 const serviceAccount = require('../serviceAccountKey.json')
 
 admin.initializeApp({
@@ -10,4 +9,4 @@ admin.initializeApp({
 const db = admin.firestore()
 const auth = admin.auth()
 
-export { db, auth }
+module.exports = { db, auth }

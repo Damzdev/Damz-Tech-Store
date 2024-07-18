@@ -29,6 +29,12 @@ import OperatingSystem from './pages/product-pages/navbar-products/OS'
 import DellLaptops from './pages/product-pages/navbar-products/DellLaptops'
 import MSILaptops from './pages/product-pages/navbar-products/MSILaptops'
 import { ShoppingCartProvider } from './context/ShoppingCartContext'
+import { QueryClient, QueryClientProvider } from 'react-query'
+import Checkout from './pages/Checkout'
+import Login from './pages/Login'
+import Signup from './pages/Signup'
+
+const queryClient = new QueryClient()
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -36,6 +42,8 @@ const router = createBrowserRouter(
 			<Route path="/" element={<Layout />}>
 				<Route index element={<Home />} />
 				<Route path="cart" element={<Cart />} />
+				<Route path="login" element={<Login />} />
+				<Route path="signup" element={<Signup />} />
 				<Route path="gaming-computers" element={<Gamingcomputers />} />
 				<Route path="gaming-laptops" element={<GamingLaptops />} />
 				<Route path="monitors" element={<Monitors />} />
@@ -81,6 +89,7 @@ const router = createBrowserRouter(
 				<Route path="gaming-computers/intel" element={<Gamingcomputers />} />
 				<Route path="gaming-laptops/dell" element={<DellLaptops />} />
 				<Route path="gaming-laptops/msi" element={<MSILaptops />} />
+				<Route path="checkout" element={<Checkout />} />
 			</Route>
 		</>
 	)
@@ -88,9 +97,11 @@ const router = createBrowserRouter(
 
 function App() {
 	return (
-		<ShoppingCartProvider>
-			<RouterProvider router={router} />
-		</ShoppingCartProvider>
+		<QueryClientProvider client={queryClient}>
+			<ShoppingCartProvider>
+				<RouterProvider router={router} />
+			</ShoppingCartProvider>
+		</QueryClientProvider>
 	)
 }
 

@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react'
 import axios from 'axios'
 import ProductLayout from '../../../components/ProductLayout'
 import img1 from '../../../assets/gaming-pcs/CustomGamingPCs-v2.png'
 import img2 from '../../../assets/gaming-pcs/amd-ryzen-7-pcs-banner-400px-v11.png'
 import img3 from '../../../assets/gaming-pcs/intel-14th-gen-banner.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
+import { useQuery } from 'react-query'
 
 export type ProductType = {
 	CPU: string
@@ -20,27 +20,33 @@ export type ProductType = {
 	price: number
 }
 
+const fetchIntelProducts = async (): Promise<ProductType[]> => {
+	const response = await axios.get('http://localhost:3005/api/gaming-pcs/intel')
+	return response.data
+}
+
+const fetchAMDProducts = async (): Promise<ProductType[]> => {
+	const response = await axios.get('http://localhost:3005/api/gaming-pcs/amd')
+	return response.data
+}
+
 export default function GamingComputers() {
-	const [products, setProducts] = useState<ProductType[]>([])
+	const {
+		data: intelProducts,
+		isLoading: isLoadingIntel,
+		isError: isErrorIntel,
+	} = useQuery<ProductType[]>(['gaming-pcs', 'intel'], fetchIntelProducts)
 
-	useEffect(() => {
-		async function fetchProducts() {
-			try {
-				const responseIntel = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/gaming-pcs/intel'
-				)
-				const responseAMD = await axios.get<ProductType[]>(
-					'http://localhost:3005/api/gaming-pcs/amd'
-				)
-				const combinedProducts = [...responseIntel.data, ...responseAMD.data]
-				setProducts(combinedProducts)
-			} catch (error) {
-				console.error('Error fetching products:', error)
-			}
-		}
+	const {
+		data: amdProducts,
+		isLoading: isLoadingAMD,
+		isError: isErrorAMD,
+	} = useQuery<ProductType[]>(['gaming-pcs', 'amd'], fetchAMDProducts)
 
-		fetchProducts()
-	}, [])
+	if (isLoadingIntel || isLoadingAMD) return <div>Loading...</div>
+	if (isErrorIntel || isErrorAMD) return <div>Error fetching products.</div>
+
+	const products = [...(intelProducts || []), ...(amdProducts || [])]
 
 	return (
 		<div className="bg-white py-8 px-4 md:px-8 lg:px-12">

@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 import { formatPrice } from '../utils/formatCurrency'
+import AddedItem from './ItemAddedNotification'
 
-type Product = {
+export type Product = {
 	id: string
 	name: string
 	price: number
@@ -11,17 +12,25 @@ type Product = {
 
 type ProductLayoutProps = {
 	products: Product[]
-	id: string
 }
 
 const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 	const { increaseCartQuantity } = useShoppingCart()
 
+	const [showToast, setShowToast] = useState(false)
+	const [toastMessage, setToastMessage] = useState('')
+
 	const sortProductsByPrice = () => {
 		return products.sort((a, b) => a.price - b.price)
 	}
 
-	const sortedProducts = sortProductsByPrice()
+	const sortedProducts = products ? sortProductsByPrice() : []
+
+	const handleAddToCart = (product: Product) => {
+		increaseCartQuantity(product.id)
+		setToastMessage('item added to cart!')
+		setShowToast(true)
+	}
 
 	return (
 		<div className="grid grid-cols-1 mobile:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 md:px-8 lg:px-12 mb-8">
@@ -42,7 +51,7 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 						</p>
 						<div className="mt-auto flex justify-between">
 							<button
-								onClick={() => increaseCartQuantity(product.id)}
+								onClick={() => handleAddToCart(product)}
 								className="bg-white text-sm hover:bg-lime-400 text-gray-800 font-bold mr-2 py-2 px-2 rounded"
 							>
 								Add to Cart
@@ -54,6 +63,11 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 					</div>
 				</div>
 			))}
+			<AddedItem
+				show={showToast}
+				onClose={() => setShowToast(false)}
+				message={toastMessage}
+			/>
 		</div>
 	)
 }

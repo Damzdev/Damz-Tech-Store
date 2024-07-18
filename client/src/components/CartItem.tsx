@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 import { Stack, Button } from 'react-bootstrap'
 import { formatPrice } from '../utils/formatCurrency'
+import { useQuery } from 'react-query'
+import axios from 'axios'
 
 type CartItemProps = {
 	id: string
@@ -16,53 +17,59 @@ type Product = {
 }
 
 export function CartItem({ id, quantity }: CartItemProps) {
-	const { removeFromCart } = useShoppingCart()
-	const [products, setProducts] = useState<Product[]>([])
+	const { removeFromCart, cartItems } = useShoppingCart()
+	const {
+		data: products,
+		isLoading,
+		isError,
+	} = useQuery<Product[]>('all-products', async () => {
+		const response = await axios.get<Product[]>(
+			'http://localhost:3005/api/all-products'
+		)
+		return response.data
+	})
 
-	useEffect(() => {
-		async function fetchProducts() {
-			try {
-				const response = await fetch('http://localhost:3005/api/all-products')
-				if (!response.ok) {
-					throw new Error(`HTTP error! status: ${response.status}`)
-				}
-				const products = await response.json()
-				setProducts(products)
-			} catch (error) {
-				console.error('Error fetching products:', error)
-			}
-		}
+	if (isLoading) return <div>Loading...</div>
+	if (isError) return <div>Error fetching products.</div>
 
-		fetchProducts()
-	}, [])
-
-	const item = products.find((i) => i.id === id)
+	const item = products?.find((i) => i.id === id)
 	if (item == null) return null
 
+	// Calculate the total price
+	const totalPrice = cartItems.reduce((total, cartItem) => {
+		const product = products?.find((p) => p.id === cartItem.id)
+		return total + (product ? product.price * cartItem.quantity : 0)
+	}, 0)
+
 	return (
-		<Stack direction="horizontal" gap={2}>
-			<img
-				src={item.ImageURL}
-				alt={item.name}
-				style={{ width: '125px', height: '75px', objectFit: 'cover' }}
-			/>
-			<div className="me-auto">
-				<div>
-					{item.name}{' '}
-					{quantity > 1 && <div className="text-muted">x{quantity}</div>}
+		<>
+			<Stack direction="horizontal" gap={2}>
+				<img
+					src={item.ImageURL}
+					alt={item.name}
+					style={{ width: '125px', height: '75px', objectFit: 'cover' }}
+				/>
+				<div className="me-auto">
+					<div className="text-xs">
+						{item.name}{' '}
+						{quantity > 1 && <div className="text-muted">x{quantity}</div>}
+					</div>
 				</div>
-				<div className="text-muted" style={{ fontSize: '.75rem' }}>
-					{formatPrice(item.price)}
+				<div className="font-bold">{formatPrice(item.price * quantity)}</div>
+				<Button
+					variant="outline-danger"
+					size="sm"
+					onClick={() => removeFromCart(item.id)}
+				>
+					&times;
+				</Button>
+			</Stack>
+			{/* Render total price at the bottom */}
+			{cartItems[cartItems.length - 1].id === id && (
+				<div className="mt-4 text-right font-bold">
+					Total: {formatPrice(totalPrice)}
 				</div>
-			</div>
-			<div>{formatPrice(item.price * quantity)}</div>
-			<Button
-				variant="outline-danger"
-				size="sm"
-				onClick={() => removeFromCart(id)}
-			>
-				&times;
-			</Button>
-		</Stack>
+			)}
+		</>
 	)
 }

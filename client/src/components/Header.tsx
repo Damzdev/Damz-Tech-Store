@@ -85,7 +85,7 @@ export default function Header() {
 					</a>
 					<NavLink
 						className="text-white flex no-underline items-center hover:text-[#b0ff6a]"
-						to="/cart"
+						to="/checkout"
 					>
 						<img src={cart} alt="cart-icon" className="w-4 mr-2" />
 						Cart
