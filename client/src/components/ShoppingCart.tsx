@@ -44,7 +44,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
 				</Stack>
 				{cartItems.length > 0 ? (
 					<a href="/checkout">
-						<button className="mt-10 bg-yellow-500 rounded-full p-2 px-6 font-bold">
+						<button className="mt-10 bg-yellow-500 hover:bg-yellow-400 rounded-full p-2 px-6 font-bold">
 							Checkout
 						</button>
 					</a>

@@ -5,6 +5,7 @@ import img2 from '../../../assets/gaming-pcs/amd-ryzen-7-pcs-banner-400px-v11.pn
 import img3 from '../../../assets/gaming-pcs/intel-14th-gen-banner.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import { useQuery } from 'react-query'
+import ProductsSkeleton from '../../../components/ProductsSkeleton'
 
 export type ProductType = {
 	CPU: string
@@ -43,7 +44,6 @@ export default function GamingComputers() {
 		isError: isErrorAMD,
 	} = useQuery<ProductType[]>(['gaming-pcs', 'amd'], fetchAMDProducts)
 
-	if (isLoadingIntel || isLoadingAMD) return <div>Loading...</div>
 	if (isErrorIntel || isErrorAMD) return <div>Error fetching products.</div>
 
 	const products = [...(intelProducts || []), ...(amdProducts || [])]
@@ -77,7 +77,11 @@ export default function GamingComputers() {
 					className="w-48 h-auto rounded-lg m-2 transition-transform duration-150 hover:scale-105"
 				/>
 			</div>
-			<ProductLayout products={products} />
+			{isLoadingIntel || isLoadingAMD ? (
+				<ProductsSkeleton />
+			) : (
+				<ProductLayout products={products} />
+			)}
 			<div className="padding-bottom-30">
 				<img
 					src={img1}

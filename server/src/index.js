@@ -5,6 +5,7 @@ const jwt = require('jsonwebtoken')
 const { db } = require('./firebaseAdmin')
 const fs = require('fs').promises
 const path = require('path')
+const { v4: uuidv4 } = require('uuid')
 require('dotenv').config()
 
 const app = express()
@@ -38,6 +39,8 @@ const collections = [
 	'gaming-chairs',
 ]
 
+const orders = []
+
 app.use(
 	cors({
 		origin: 'http://localhost:5174',
@@ -49,8 +52,8 @@ app.use(express.json())
 
 const SECRET_KEY = process.env.SECRET_KEY
 const REFRESH_SECRET_KEY = process.env.REFRESH_SECRET_KEY
-const accessTokenExpiry = '15m'
-const refreshTokenExpiry = '7d'
+const accessTokenExpiry = '1d'
+const refreshTokenExpiry = '30d'
 
 // Generate JWT token
 const generateAccessToken = (user) => {
@@ -136,19 +139,88 @@ const authenticateToken = (req, res, next) => {
 	const authHeader = req.headers['authorization']
 	const token = authHeader && authHeader.split(' ')[1]
 
-	if (!token) {
-		return res.sendStatus(401)
-	}
+	if (!token) return res.sendStatus(401)
 
 	jwt.verify(token, SECRET_KEY, (err, user) => {
-		if (err) {
-			return res.sendStatus(403)
-		}
-
+		if (err) return res.sendStatus(403)
 		req.user = user
 		next()
 	})
 }
+
+app.get('/api/users', authenticateToken, async (req, res) => {
+	try {
+		const userRef = db.collection('users').doc(req.user.id)
+		const doc = await userRef.get()
+
+		if (!doc.exists) {
+			return res.status(404).json({ message: 'User not found' })
+		}
+
+		const user = {
+			...doc.data(),
+			id: doc.id,
+		}
+
+		res.json(user)
+	} catch (error) {
+		console.error('Error fetching user data: ', error)
+		res.status(500).send('Error fetching user data')
+	}
+})
+
+app.post('/api/orders', authenticateToken, async (req, res) => {
+	try {
+		const { name, address, productIds, totalPrice } = req.body
+		const userId = req.user.id
+
+		const now = new Date()
+		const formattedDate = now.toDateString()
+		const formattedTime = now.toTimeString().split(' ')[0]
+
+		const result = `${formattedDate} ${formattedTime}`
+
+		const newOrder = {
+			id: uuidv4(),
+			userId,
+			name,
+			productIds,
+			address: address,
+			createdAt: result,
+			total: totalPrice,
+		}
+		await db.collection('orders').doc(newOrder.id).set(newOrder)
+
+		res
+			.status(201)
+			.json({ message: 'Order placed successfully', order: newOrder })
+	} catch (error) {
+		console.error('Error saving order: ', error)
+		res.status(500).send('Error saving order')
+	}
+})
+
+app.get('/api/users-orders', authenticateToken, async (req, res) => {
+	try {
+		const userId = req.user.id
+		const ordersRef = db.collection('orders').where('userId', '==', userId)
+		const snapshot = await ordersRef.get()
+
+		if (snapshot.empty) {
+			return res.status(404).json({ message: 'No orders found for this user' })
+		}
+
+		const orders = snapshot.docs.map((doc) => ({
+			...doc.data(),
+			id: doc.id,
+		}))
+
+		res.json(orders)
+	} catch (error) {
+		console.error('Error fetching user orders: ', error)
+		res.status(500).send('Error fetching user orders')
+	}
+})
 
 // Your existing routes
 app.get('/api/gaming-pcs/amd', async (req, res) => {
@@ -376,7 +448,7 @@ app.get('/api/components/pc-cases', async (req, res) => {
 
 app.get(
 	'/api/components/operating-system',
-	authenticateToken,
+
 	async (req, res) => {
 		try {
 			const querySnapshot = await db.collection('operating-system').get()
@@ -528,23 +600,19 @@ app.get('/api/monitors', async (req, res) => {
 	}
 })
 
-app.get(
-	'/api/gaming-chairs',
-
-	async (req, res) => {
-		try {
-			const querySnapshot = await db.collection('gaming-chairs').get()
-			const docs = querySnapshot.docs.map((doc) => ({
-				...doc.data(),
-				id: doc.id,
-			}))
-			res.json(docs)
-		} catch (error) {
-			console.error('Error fetching data: ', error)
-			res.status(500).send('Error fetching data')
-		}
+app.get('/api/gaming-chairs', async (req, res) => {
+	try {
+		const querySnapshot = await db.collection('gaming-chairs').get()
+		const docs = querySnapshot.docs.map((doc) => ({
+			...doc.data(),
+			id: doc.id,
+		}))
+		res.json(docs)
+	} catch (error) {
+		console.error('Error fetching data: ', error)
+		res.status(500).send('Error fetching data')
 	}
-)
+})
 
 app.get('/api/all-products', async (req, res) => {
 	try {

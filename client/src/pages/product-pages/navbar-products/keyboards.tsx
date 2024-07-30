@@ -5,6 +5,7 @@ import img2 from '../../../assets/gaming-pcs/amd-ryzen-7-pcs-banner-400px-v11.pn
 import img3 from '../../../assets/amd-banner/amd-logo.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import { useQuery } from 'react-query'
+import ProductsSkeleton from '../../../components/ProductsSkeleton'
 
 export type ProductType = {
 	price: number
@@ -25,7 +26,6 @@ export default function Keyboards() {
 		return response.data
 	})
 
-	if (isLoading) return <div>Loading...</div>
 	if (isError) return <div>Error fetching products.</div>
 
 	const productsToDisplay: Product[] = products
@@ -66,7 +66,11 @@ export default function Keyboards() {
 					className="w-48 h-auto rounded-lg m-2 transition-transform duration-150 hover:scale-105"
 				/>
 			</div>
-			<ProductLayout products={productsToDisplay} />
+			{isLoading ? (
+				<ProductsSkeleton />
+			) : (
+				<ProductLayout products={productsToDisplay} />
+			)}
 			<div className="padding-bottom-30">
 				<img
 					src={img1}

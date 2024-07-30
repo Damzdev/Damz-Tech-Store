@@ -1,9 +1,14 @@
+import { useState } from 'react'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 import { Stack, Button } from 'react-bootstrap'
 import { formatPrice } from '../utils/formatCurrency'
 import axios from 'axios'
 import { useQuery } from 'react-query'
+import { useNavigate } from 'react-router-dom'
 import sadFace from '../assets/cart/sad-face.png'
+import { logout } from '../features/user/userSlice'
+import { useDispatch } from 'react-redux'
+import AddedItem from '../components/ItemAddedNotification'
 
 type Product = {
 	id: string
@@ -13,7 +18,13 @@ type Product = {
 }
 
 export default function Checkout() {
-	const { cartItems, removeFromCart } = useShoppingCart()
+	const { cartItems, removeFromCart, clearCart } = useShoppingCart()
+	const [name, setName] = useState('')
+	const [address, setAddress] = useState('')
+	const [showToast, setShowToast] = useState(false)
+	const [toastMessage, setToastMessage] = useState('')
+	const dispatch = useDispatch()
+	const navigate = useNavigate()
 
 	const {
 		data: products,
@@ -36,8 +47,49 @@ export default function Checkout() {
 		return total + (product ? product.price * cartItem.quantity : 0)
 	}, 0)
 
+	const handlePlaceOrder = async () => {
+		try {
+			const accessToken = localStorage.getItem('accessToken') // Retrieve the access token from localStorage
+			if (!accessToken) {
+				setToastMessage('Login required session expired!')
+				setShowToast(true)
+				return
+			}
+
+			const productIds = cartItems.map((item) => item.id)
+
+			const response = await axios.post(
+				'http://localhost:3005/api/orders',
+				{ name, address, productIds, totalPrice },
+				{
+					headers: {
+						Authorization: `Bearer ${accessToken}`,
+					},
+				}
+			)
+
+			if (response.status === 201) {
+				clearCart()
+				navigate('/orders', {
+					state: { showToast: true, message: 'Order Placed Successfully!' },
+				})
+			}
+		} catch (error) {
+			console.error('Error placing order: ', error)
+			dispatch(logout())
+			setTimeout(() => {
+				navigate('/login')
+			}, 3000)
+		}
+	}
+
 	return (
 		<div className="p-20">
+			<AddedItem
+				show={showToast}
+				onClose={() => setShowToast(false)}
+				message={toastMessage}
+			/>
 			{cartItems.length > 0 ? (
 				<div className="flex flex-col md:flex-row w-[380px] sm:w-auto">
 					<div className="max-w-1000 bg-gray-300 p-4 rounded-md mb-4 md:mr-4">
@@ -105,13 +157,20 @@ export default function Checkout() {
 							<input
 								type="text"
 								className="bg-transparent border-2 border-black rounded-md p-1 mb-6 pl-4"
+								value={name}
+								onChange={(e) => setName(e.target.value)}
 							/>
 							<p className="font-bold">Address</p>
 							<input
 								type="text"
 								className="bg-transparent border-2 border-black pl-4 rounded-md p-1 mb-6"
+								value={address}
+								onChange={(e) => setAddress(e.target.value)}
 							/>
-							<button className="bg-lime-300 font-bold hover:bg-lime-400 rounded-md p-2 bottom-2">
+							<button
+								className="bg-lime-300 font-bold hover:bg-lime-400 rounded-md p-2 bottom-2"
+								onClick={handlePlaceOrder}
+							>
 								Place your order!
 							</button>
 						</div>

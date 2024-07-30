@@ -10,8 +10,7 @@
     "RAM": "16GB DDR5 5600MHz High Performance RAM",
     "Case": "EVETECH RIX RGB Tempered Glass GAMING CASE",
     "name": "Ryzen 9 7950X 5.7GHz RTX 4090 24GB DDR5 Budget Gaming PC",
-    "id": "GA7CbnsBGFE6YWTMllV8",
-    "collection": "AMD-Gaming-Pcs"
+    "id": "GA7CbnsBGFE6YWTMllV8"
   },
   {
     "PowerSupply": "500W 80+ High Performance Power Supply",
@@ -24,8 +23,7 @@
     "RAM": "16GB DDR4 3200MHz High Performance RAM",
     "Case": "MSI Mag Forge M100A Tempered Glass GAMING CASE",
     "ImageURL": "https://storage-asset.msi.com/global/picture/image/feature/PC-Components/MAG-FORGE-M100A/story-pd.png",
-    "id": "dWHqB54VeMP5CnlNvpM8",
-    "collection": "AMD-Gaming-Pcs"
+    "id": "dWHqB54VeMP5CnlNvpM8"
   },
   {
     "PowerSupply": "1000W 80+ High Performance Power Supply",
@@ -38,8 +36,7 @@
     "GPU": "Radeon RX 7900 XTX 24GB GDDR6 DX12 Graphics Card",
     "RAM": "16GB DDR5 5600MHz High Performance RAM",
     "Case": "EVETECH RIX RGB Tempered Glass GAMING CASE",
-    "id": "zIaxtipNibeom6iaz4LY",
-    "collection": "AMD-Gaming-Pcs"
+    "id": "zIaxtipNibeom6iaz4LY"
   },
   {
     "PowerSupply": "750W 80+ High Performance Power Supply",
@@ -52,8 +49,7 @@
     "RAM": "16GB DDR5 5600MHz High Performance RAM",
     "Case": "EVETECH RIX RGB Tempered Glass GAMING CASE",
     "name": "RYZEN 7 8700G 5.1GHz RTX 4070 Ti SUPER 16GB DDR5  Budget Gaming PC",
-    "id": "zZAtzzR3kqxENyrOEo4j",
-    "collection": "AMD-Gaming-Pcs"
+    "id": "zZAtzzR3kqxENyrOEo4j"
   },
   {
     "PowerSupply": "500W 80+ High Performance Power Supply",
@@ -66,8 +62,7 @@
     "ImageURL": "https://storage-asset.msi.com/global/picture/image/feature/PC-Components/MAG-FORGE-M100A/story-pd.png",
     "price": 19799,
     "name": "Intel 14th Gen Core i5 14400F 4.7GHz RTX 4060 8GB DDR5 Professional Gaming PC",
-    "id": "63w2AWdETA45qoCAarRX",
-    "collection": "Intel-Gaming-Pcs"
+    "id": "63w2AWdETA45qoCAarRX"
   },
   {
     "PowerSupply": "750W 80+ High Performance Power Supply",
@@ -80,8 +75,7 @@
     "Case": "Evetech ONYX Tempered Glass GAMING CASE",
     "ImageURL": "https://storage-asset.msi.com/global/picture/image/feature/PC-Components/MAG-FORGE-M100A/story-pd.png",
     "name": "Intel 14th Gen Core i5 14600KF 5.3GHz RX 7700 XT 12GB DDR5 Budget Gaming PC",
-    "id": "hFKNmOlNqcgTAGdEEcBz",
-    "collection": "Intel-Gaming-Pcs"
+    "id": "hFKNmOlNqcgTAGdEEcBz"
   },
   {
     "PowerSupply": "500W 80+ High Performance Power Supply",
@@ -94,8 +88,7 @@
     "RAM": "16GB DDR4 3200MHz High Performance RAM",
     "Case": "MSI Mag Forge M100A Tempered Glass GAMING CASE",
     "ImageURL": "https://storage-asset.msi.com/global/picture/image/feature/PC-Components/MAG-FORGE-M100A/story-pd.png",
-    "id": "qbo4onMuQwCbdItDKCBv",
-    "collection": "Intel-Gaming-Pcs"
+    "id": "qbo4onMuQwCbdItDKCBv"
   },
   {
     "PowerSupply": "500W 80+ Modular Gaming Power Supply",
@@ -108,8 +101,7 @@
     "RAM": "16GB DDR5 5600MHz High Performance RAM",
     "Case": "EVETECH RIX RGB Tempered Glass GAMING CASE",
     "ImageURL": "https://storage-asset.msi.com/global/picture/image/feature/PC-Components/MAG-FORGE-M100A/story-pd.png",
-    "id": "wn68tGJV7sKbMheUEO59",
-    "collection": "Intel-Gaming-Pcs"
+    "id": "wn68tGJV7sKbMheUEO59"
   },
   {
     "TDP": "125W",
@@ -119,8 +111,7 @@
     "power-compatibility": "PCI-E 5.0 compatible",
     "name": "Intel 14th Gen Core i9-14900K Desktop Processor 24 (8P+16E) Cores up to 6.0 GHz Unlocked LGA1700 Series Chipset 125W",
     "ImageURL": "https://static.bhphotovideo.com/explora/sites/default/files/styles/960/public/intel-expands-14th-gen-coretm-i9-i7-i5-and-i3-desktop-cpu-series-ts-updated.png?itok=J4Ax93Xj",
-    "id": "2w427uXf41gmvhEDwbMu",
-    "collection": "intel-processors"
+    "id": "2w427uXf41gmvhEDwbMu"
   },
   {
     "TDP": "125W",
@@ -130,8 +121,7 @@
     "power-compatibility": "PCI-E 5.0 compatible",
     "name": "Intel 14th Gen Core i7-14700KF Desktop Processor 20 (8P+12E) Cores up to 5.6 GHz Unlocked LGA1700 Series Chipset 125W",
     "ImageURL": "https://static.bhphotovideo.com/explora/sites/default/files/styles/960/public/intel-expands-14th-gen-coretm-i9-i7-i5-and-i3-desktop-cpu-series-ts-updated.png?itok=J4Ax93Xj",
-    "id": "4wYrg7OpGITE6LRGYYT5",
-    "collection": "intel-processors"
+    "id": "4wYrg7OpGITE6LRGYYT5"
   },
   {
     "TDP": "125W",
@@ -141,8 +131,7 @@
     "power-compatibility": "PCI-E 5.0 compatible",
     "name": "Intel 14th Gen Core i5-14600KF Desktop Processor 14 (6P+8E) Cores up to 5.3 GHz Unlocked LGA1700 Series Chipset 125W",
     "ImageURL": "https://static.bhphotovideo.com/explora/sites/default/files/styles/960/public/intel-expands-14th-gen-coretm-i9-i7-i5-and-i3-desktop-cpu-series-ts-updated.png?itok=J4Ax93Xj",
-    "id": "TZSP5fXehKxC0wzy9szQ",
-    "collection": "intel-processors"
+    "id": "TZSP5fXehKxC0wzy9szQ"
   },
   {
     "TDP": "125W",
@@ -152,8 +141,7 @@
     "power-compatibility": "PCI-E 5.0 compatible",
     "name": "Intel 14th Gen Core i9-14900KF Desktop Processor 24 (8P+16E) Cores up to 6.0 GHz Unlocked LGA1700 Series Chipset 125W",
     "ImageURL": "https://static.bhphotovideo.com/explora/sites/default/files/styles/960/public/intel-expands-14th-gen-coretm-i9-i7-i5-and-i3-desktop-cpu-series-ts-updated.png?itok=J4Ax93Xj",
-    "id": "q6O091uukHMcFarW3m2a",
-    "collection": "intel-processors"
+    "id": "q6O091uukHMcFarW3m2a"
   },
   {
     "TDP": "58W",
@@ -163,8 +151,7 @@
     "name": "Intel 14th Gen Core i3-14100F Desktop Processor 4(4P+0E) Cores up to 4.70GHz Unlocked LGA1700 Series Chipset 58W",
     "cache ": "12 MB Intel® Smart Cache / Total L2 Cache - 5 MB",
     "ImageURL": "https://static.bhphotovideo.com/explora/sites/default/files/styles/960/public/intel-expands-14th-gen-coretm-i9-i7-i5-and-i3-desktop-cpu-series-ts-updated.png?itok=J4Ax93Xj",
-    "id": "r5cVqU94YGOfgiR0gfLO",
-    "collection": "intel-processors"
+    "id": "r5cVqU94YGOfgiR0gfLO"
   },
   {
     "cache": "5.7 GHz Max Boost, combined with a massive 144MB of cache",
@@ -172,10 +159,9 @@
     "price": 14199,
     "memory-type": "DDR5 support",
     "power-compatibility": "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards",
-    "ImageURL": "https://www.vektrapc.com/cdn/shop/files/amd-ryzen-9-7900-zen-4-processor-100-100000590box-539695.webp?v=1720154724&width=1000",
     "name": "AMD Ryzen 9 7950X3D 16-Core 32-Threads 4.2GHz (5.7GHz Max Boost) Socket AM5 120W Desktop Processor",
-    "id": "1Ki3vtsU6PzoQD3c7H71",
-    "collection": "amd-processors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/amd-ryzen-9-7950x3d-processor-ryzen-processor-600px-v003.png",
+    "id": "1Ki3vtsU6PzoQD3c7H71"
   },
   {
     "cache": "Boost clocks of up to 5.6GHz2 and up to 128MB of cache, AMD Ryzen 7000 Series processors deliver game changing performance.",
@@ -183,21 +169,19 @@
     "price": 10799,
     "memory-type": "DDR4/DDR5 Supported",
     "power-compatibility": "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards",
-    "ImageURL": "https://www.vektrapc.com/cdn/shop/files/amd-ryzen-9-7900-zen-4-processor-100-100000590box-539695.webp?v=1720154724&width=1000",
     "name": "AMD Ryzen 9 7900X3D 12-Core 24-Threads 4.4GHz (5.6GHz Max Boost) Socket AM5 120W Desktop Processor",
-    "id": "3nG8PkgTmU8lkPmSATaA",
-    "collection": "amd-processors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/amd-ryzen-9-7900x3d-processor-600px-v1-min.png",
+    "id": "3nG8PkgTmU8lkPmSATaA"
   },
   {
-    "cache": "4.6 GHz Max Boost, unlocked for overclocking, 35 MB of cache, DDR-3200 support",
     "cores": "AMD's fastest 6 core processor for mainstream desktop, with 12 processing threads",
     "price": 3599,
     "memory-type": "Bundled with the quiet, capable AMD Wraith Stealth cooler. System Memory Type: DDR4",
     "power-compatibility": "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards",
-    "ImageURL": "https://www.vektrapc.com/cdn/shop/files/amd-ryzen-5-7600-zen-4-processor-100-100001015box-795601.webp?v=1720154723&width=1000",
-    "name": "AMD Ryzen 5 5600X 6-Core 12-Threads 3.7GHz (4.6GHz Max Boost) Socket AM4 65W Desktop Processor",
-    "id": "Euy3imm2uICXKm0NidG3",
-    "collection": "amd-processors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/amd-ryzen-5-5600-processor-600px-v1-min.png",
+    "name": "AMD Ryzen 5 5600 6-Core 12-Threads 3.5GHz (4.4GHz Max Boost) Socket AM4 65W Desktop Processor",
+    "cache": "4.4 GHz Max Boost, unlocked for overclocking, 35 MB cache, DDR4-3200 support",
+    "id": "Euy3imm2uICXKm0NidG3"
   },
   {
     "cache": "4.1 GHz Max Boost, unlocked for overclocking, 100 MB cache",
@@ -205,21 +189,19 @@
     "price": 5599,
     "memory-type": "DDR4-3200 support",
     "power-compatibility": "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards",
-    "ImageURL": "https://www.vektrapc.com/cdn/shop/files/amd-ryzen-7-7700-zen-4-processor-100-100000592box-877804.png?v=1720154723&width=1000",
     "name": "AMD Ryzen 7 5700X3D 8-Core 16-Threads 3.0GHz (4.1GHz Max Boost) Socket AM4 105W Desktop Processor",
-    "id": "OjXkcanZVNjGevrMMHyx",
-    "collection": "amd-processors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/amd-ryzen-7-7700-processor-600px-v01.png",
+    "id": "OjXkcanZVNjGevrMMHyx"
   },
   {
-    "cache": "5.2 GHz Max Boost, unlocked for overclocking, 38 MB cache,",
-    "cores": "6 Cores and 12 processing threads, based on AMD \"Zen 4\" architecture",
     "price": 5299,
     "memory-type": "DDR5 support",
     "power-compatibility": "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards",
-    "ImageURL": "https://www.vektrapc.com/cdn/shop/files/amd-ryzen-5-7600-zen-4-processor-100-100001015box-795601.webp?v=1720154723&width=1000",
-    "name": "AMD Ryzen 5 7600 6-Core 12-Threads 3.8GHz (5.1GHz Max Boost) Socket AM5 65W Desktop Processor",
-    "id": "skZfufDD2zx1BNG5Ukeo",
-    "collection": "amd-processors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/amd-ryzen-5-7600x-processor-600px-v1-min.png",
+    "name": "AMD Ryzen 5 7600X 6-Core 12-Threads 4.7GHz (5.3GHz Max Boost) Socket AM5 105W Desktop Processor",
+    "cache": "boost clocks of up to 5.7GHz2 and up to 80MB of cache",
+    "cores": "With up to 16 cores, 32 threads, AMD Ryzen 7000 Series processors deliver game changing performance.",
+    "id": "skZfufDD2zx1BNG5Ukeo"
   },
   {
     "fan": "Optimized Fan Blades: Our optimized PWM curve blade design improves airflow and air pressure, while the enhanced frame reduces turbulent flow for a quieter and more efficient cooling performance.",
@@ -227,8 +209,7 @@
     "name": "Cooler Master Hyper 620S Dual Tower CPU Air Cooler",
     "cooling": "Nickel Plated Heat Pipes: Enjoy exceptional cooling performance and aesthetics with our 6 heat pipes featuring a silver nickel-plated finish for a stylish look.",
     "ImageURL": "https://cdn.coolermaster.com/media/7284/hyper-620s-380x380-1-hover.png",
-    "id": "68avxnrxlMPjRh6GRZKt",
-    "collection": "cpu-coolers"
+    "id": "68avxnrxlMPjRh6GRZKt"
   },
   {
     "fan": "3x 120mm ARGB PWM fans provide excellent pressure and air flow while generating very little noise.",
@@ -236,8 +217,7 @@
     "name": "MSI MAG CoreLiquid C360 - AIO ARGB CPU Liquid Cooler",
     "cooling": "The aluminium radiator features a unique split-flow water cooling system with an integrated three-phase pump for superior durability and motor resonance reduction.",
     "ImageURL": "https://asset.msi.com/resize/image/global/product/product_16588004888689361f4da596b30e8e7c09f83a3c33.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
-    "id": "9JMy0FMeytKFJl3luNQd",
-    "collection": "cpu-coolers"
+    "id": "9JMy0FMeytKFJl3luNQd"
   },
   {
     "name": "Antec A30 NEO ARGB CPU Cooler",
@@ -245,8 +225,7 @@
     "fan": "PWM ARGB FAN",
     "cooling": "2 Direct-Touch Copper Heat Pipes",
     "ImageURL": "https://cdnx.jumpseller.com/tienda-gamer-medellin/image/45981357/resize/610/610?1709176999",
-    "id": "CdqTKmrOxia26cVjk74Q",
-    "collection": "cpu-coolers"
+    "id": "CdqTKmrOxia26cVjk74Q"
   },
   {
     "fan": "Two 120mm Aer P Radiator Fans",
@@ -254,8 +233,7 @@
     "name": "NZXT Kraken Z53 240mm All In One CPU Liquid Cooler with LCD Display - Black",
     "cooling": "Fine Nylon Mesh Sleeves Strengthens Rubber",
     "ImageURL": "https://chaoscomputers.co.za/wp-content/uploads/2021/10/yowdibsqpqbnvk6lqr6y.png",
-    "id": "cKhuK7L8UFiJeoqkiRrf",
-    "collection": "cpu-coolers"
+    "id": "cKhuK7L8UFiJeoqkiRrf"
   },
   {
     "fan": "High Airflow PWM Fan",
@@ -263,8 +241,7 @@
     "name": "Gamdias BOREAS E1 410 CPU Air Cooler - White",
     "cooling": "4 Copper Heat Pipes with Direct Contact Technology",
     "ImageURL": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/boreas-m2-51d-wh/boreas-m2-51d-wh-01-228x228.webp",
-    "id": "gjjI4mHcNyBhE4WtXWBH",
-    "collection": "cpu-coolers"
+    "id": "gjjI4mHcNyBhE4WtXWBH"
   },
   {
     "fan": "2 x 120mm ARGB fans (500-2000 RPM, PWM) provide excellent pressure (max 2.39 mmH2O) and air flow (max 78.7 CFM), while generating very little noise (14.3-34.3 dBA)",
@@ -272,8 +249,7 @@
     "name": "MSI MAG CORELIQUID C240 Liquid CPU Cooler",
     "cooling": "The aluminium radiator (276 x 120 x 27mm) features a unique split-flow water cooling system with an integrated 3-phase pump for superior durability and motor resoce reduction",
     "ImageURL": "https://storage-asset.msi.com/global/picture/image/feature/CoreLiquid/mag-coreliquid-c240/mystic-light-coreLiquidc240.png",
-    "id": "nMECrj98bKTqIKNl8rcN",
-    "collection": "cpu-coolers"
+    "id": "nMECrj98bKTqIKNl8rcN"
   },
   {
     "fan": "CORSAIR AF120 RGB ELITE PWM fans deliver massive low-noise airflow with AirGuide technology for extreme CPU cooling performance.",
@@ -281,8 +257,7 @@
     "name": "Corsair iCUE H150i Elite CAPELLIX XT Liquid CPU Cooler",
     "cooling": "Cool the latest CPUs from Intel or AMD, complete with a 360mm radiator, 3x 120mm fans, copper cold plate, and an efficient pump head lined with stunning CAPELLIX LEDs.",
     "ImageURL": "https://i.ebayimg.com/images/g/aKMAAOSwklBj63IG/s-l1600.png",
-    "id": "qm68fJ3xDZVM5KxDQEVQ",
-    "collection": "cpu-coolers"
+    "id": "qm68fJ3xDZVM5KxDQEVQ"
   },
   {
     "fan": "High airflow Hydraulic bearing PWM fans",
@@ -290,8 +265,7 @@
     "name": "Gamdias AURA GL360 All-in-One RGB Liquid Cooler",
     "cooling": "Durable Teflon tube with aesthetic Nylon-braided tube sleeve",
     "ImageURL": "https://sstech.lk/wp-content/uploads/2024/07/GAMDIAS-AURA-GL360-RGB-LIQUID-COOLER.png",
-    "id": "rk1Qhev3TMHZavVydRdr",
-    "collection": "cpu-coolers"
+    "id": "rk1Qhev3TMHZavVydRdr"
   },
   {
     "fan": "TORX FAN 5.0",
@@ -301,8 +275,7 @@
     "GB": "24GB GDDR6X",
     "speed": "Extreme Performance: 2610 MHz (MSI Center) Boost: 2595 MHz (GAMING & SILENT Mode)",
     "ImageURL": "https://asset.msi.com/resize/image/global/product/product_16655531780ae76e91e577ad9719f1f135824e1a15.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
-    "id": "0vGtSExWjTUwqhMXhbQP",
-    "collection": "nvidia-GPU"
+    "id": "0vGtSExWjTUwqhMXhbQP"
   },
   {
     "name": "MSI Gaming GeForce RTX 3060 12GB GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC Graphics Card",
@@ -312,8 +285,7 @@
     "fan": "TORX Fan 3.0: The award-winning MSI TORX Fan 3.0 design creates high static pressure and pushes the limits of thermal performance.",
     "price": 5999,
     "ImageURL": "https://asset.msi.com/resize/image/global/product/product_1610444725b6aa81c4e74a8ea9fee28fdd225b58cc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
-    "id": "gBPR68Q63jSE1jjqIhef",
-    "collection": "nvidia-GPU"
+    "id": "gBPR68Q63jSE1jjqIhef"
   },
   {
     "fan": "TORX FAN 5.0",
@@ -323,8 +295,7 @@
     "GB": "16GB GDDR6X",
     "speed": "Extreme Performance: 2625 MHz (MSI Center) Boost: 2610 MHz (GAMING & SILENT Mode)",
     "ImageURL": "https://asset.msi.com/resize/image/global/product/product_170470221265fc7588fef6654f92803df701ed362b.png62405b38c58fe0f07fcef2367d8a9ba1/400.png",
-    "id": "qeerE3L0deszbFX0Qwpn",
-    "collection": "nvidia-GPU"
+    "id": "qeerE3L0deszbFX0Qwpn"
   },
   {
     "fan": "TORX FAN 5.0",
@@ -334,8 +305,7 @@
     "GB": "12GB GDDR6X 21 Gbps ",
     "speed": "Boost Clock: 2640 MHz",
     "ImageURL": "https://asset.msi.com/resize/image/global/product/product_1704705124dd93a1f278f71d37125d74e88c3a1ffa.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
-    "id": "tRX2gnNLvPxmlaRdPajG",
-    "collection": "nvidia-GPU"
+    "id": "tRX2gnNLvPxmlaRdPajG"
   },
   {
     "fan": "TORX Fan 4.0",
@@ -345,8 +315,7 @@
     "GB": "8GB GDDR6",
     "speed": "2505 MHz / 17 Gbps",
     "ImageURL": "https://pcinternational.co.za/wp-content/uploads/2023/07/RTX4060GAMINGX8G_c7lcwe.png",
-    "id": "w4ZHslVsQNXoCOJ0HvZe",
-    "collection": "nvidia-GPU"
+    "id": "w4ZHslVsQNXoCOJ0HvZe"
   },
   {
     "name": "XFX Speedster QICK309 Radeon RX 7600 XT Black Gaming Graphics Card",
@@ -355,8 +324,7 @@
     "cooling": "XFX QICK Triple Fan Cooling Solution",
     "boost": "Boost Clock: Up to 2810 MHz",
     "ImageURL": "https://static.gigabyte.com/StaticFile/Image/Global/c1680e5713b56a01ce6b18302519043d/Product/39016/png/300",
-    "id": "88xKfMbQwCsPJUyhT8Gb",
-    "collection": "radeon-GPU"
+    "id": "88xKfMbQwCsPJUyhT8Gb"
   },
   {
     "memory": "20GB GDDR6",
@@ -365,8 +333,7 @@
     "cooling": "XFX MERC Triple Fan Cooling Solution",
     "boost": "Boost Clock: Up to 2535 MHz",
     "ImageURL": "https://pg.asrock.com/Graphics-Card/photo/Radeon%20RX%207900%20XT%20Phantom%20Gaming%2020GB%20OC(L1).png",
-    "id": "99m6W66SWz5MSX4lBXhL",
-    "collection": "radeon-GPU"
+    "id": "99m6W66SWz5MSX4lBXhL"
   },
   {
     "memory": "12GB GDDR6",
@@ -375,8 +342,7 @@
     "cooling": "3 Fans Vapor-X Cooling",
     "boost": "Ray Accelerator: 54",
     "ImageURL": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%207700%20XT%20Phantom%20Gaming%2012GB%20OC(M1).png",
-    "id": "WOnsFOzR82itKcWlXC47",
-    "collection": "radeon-GPU"
+    "id": "WOnsFOzR82itKcWlXC47"
   },
   {
     "memory": "24GB GDDR6",
@@ -385,8 +351,7 @@
     "cooling": "XFX MERC Triple Fan Cooling Solution",
     "boost": "Boost Clock: Up to 2615 MHz",
     "ImageURL": "https://pg.asrock.com/Graphics-Card/photo/Radeon%20RX%207900%20XTX%20Phantom%20Gaming%2024GB%20OC(L1).png",
-    "id": "cacOak8rEVjhB6NL694V",
-    "collection": "radeon-GPU"
+    "id": "cacOak8rEVjhB6NL694V"
   },
   {
     "price": 9999,
@@ -395,1135 +360,973 @@
     "cooling": "XFX MERC Triple Fan Cooling Solution",
     "memory": "12GB GDDR6",
     "ImageURL": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%207700%20XT%20Phantom%20Gaming%2012GB%20OC(M1).png",
-    "id": "ik4fQz0yL6f1LCcwW6OR",
-    "collection": "radeon-GPU"
+    "id": "ik4fQz0yL6f1LCcwW6OR"
   },
   {
     "price": 1999,
     "name": "WD Blue 4TB Desktop WD40EZAZ4TB HDD / 256MB Cache / SATA 6.0Gb/s / 3.5\" Internal Hard Drive Bare Drive",
     "description": "Reliable everyday computing",
     "ImageURL": "https://static.wixstatic.com/media/71b2d3_a7f36fc9c0a04d568eb99eee073aa4e3~mv2.png/v1/fill/w_750,h_601,al_c,q_90,enc_auto/71b2d3_a7f36fc9c0a04d568eb99eee073aa4e3~mv2.png",
-    "id": "Cim7nOYAB5z7KKUirp1T",
-    "collection": "hard-drives"
+    "id": "Cim7nOYAB5z7KKUirp1T"
   },
   {
     "price": 5799,
     "ImageURL": "https://www.evetech.co.za/repository/components/razer-deathstalker-v2-pro-wireless-gaming-keyboard-600px-v1.png",
     "name": "Razer DeathStalker V2 Pro Wireless Gaming Keyboard: Low-Profile Optical Switches - Linear Red",
-    "id": "6esyV2Q5qQ1zSMWiZpqy",
-    "collection": "keyboards"
+    "id": "6esyV2Q5qQ1zSMWiZpqy"
   },
   {
     "price": 6399,
-    "ImageURL": "https://images.evetech.co.za/repository/components/steelseries-apex-pro-tkl-rgb-wireless-keyboard-600px-v001.png",
     "name": "Gamdias Hermes P2A RGB Optical Mechanical Gaming Keyboard - Blue Switch",
-    "id": "K3A5qfZDz8yb2TxGhfJf",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/steelseries-apex-pro-tkl-rgb-wireless-keyboard-600px-v001.png",
+    "id": "K3A5qfZDz8yb2TxGhfJf"
   },
   {
     "price": 1199,
     "name": "HyperX Alloy Core RGB – Membrane Gaming Keyboard, Comfortable Quiet Silent Keys with RGB LED Lighting Effects",
-    "ImageURL": "https://images.evetech.co.za/repository/components/hyperx-alloy-core-rgb-membrane-gaming-keyboard-600px-v1.png",
-    "id": "VtXmxbVWjGn5gQlqgP5Q",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/hyperx-alloy-core-rgb-membrane-gaming-keyboard-600px-v1.png",
+    "id": "VtXmxbVWjGn5gQlqgP5Q"
   },
   {
     "price": 4099,
     "name": "SteelSeries Apex 9 TKL – HotSwap Optical Mini Keyboard – TKL Esports Design – Optical Switches – RGB Customization",
-    "ImageURL": "https://images.evetech.co.za/repository/components/steelseries-apex-9-tkl-rgb-gaming-keyboard-600px-v001.png",
-    "id": "aevKVetVNdrZPJgcH8ot",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/steelseries-apex-9-tkl-rgb-gaming-keyboard-600px-v001.png",
+    "id": "aevKVetVNdrZPJgcH8ot"
   },
   {
     "price": 1899,
-    "ImageURL": "https://images.evetech.co.za/repository/components/glorious-gmmk-modular-mechanical-keyboard-compact-white-ice-600px-v1.png",
     "name": "Glorious GMMK Modular Mechanical Keyboard - Compact White Ice",
-    "id": "b7IttysfdyWXIRLTAAko",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/glorious-gmmk-modular-mechanical-keyboard-compact-white-ice-600px-v1.png",
+    "id": "b7IttysfdyWXIRLTAAko"
   },
   {
     "price": 6199,
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-k100-air-wireless-mechanical-gaming-keyboard-black-600px-v1.png",
     "name": "Corsair K100 AIR Wireless RGB Mechanical Gaming Keyboard - Ultra-Thin, Sub-1ms Slipstream, Low-Latency Bluetooth",
-    "id": "chcQZAuuBq7rZ9NQD3aU",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-k100-air-wireless-mechanical-gaming-keyboard-black-600px-v1.png",
+    "id": "chcQZAuuBq7rZ9NQD3aU"
   },
   {
     "price": 699,
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-hermes-p2a-rgb-optical-mechanical-gaming-keyboard-600px-v1.png",
     "name": "Gamdias Hermes P2A RGB Optical Mechanical Gaming Keyboard - Blue Switch",
-    "id": "lEXp7drsI3rYfIu96MX5",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-hermes-p2a-rgb-optical-mechanical-gaming-keyboard-600px-v1.png",
+    "id": "lEXp7drsI3rYfIu96MX5"
   },
   {
     "price": 3099,
     "name": "Corsair K70 RGB PRO Mechanical Gaming Keyboard - Cherry MX Blue / Polycarbonate Keycaps / RGB 16.8 Million Colors",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-k70-rgb-pro-mechanical-gaming-keyboard-mx-blue-600px-v1.png",
-    "id": "lqgITdvNDopPlPx9w1bp",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-k70-rgb-pro-mechanical-gaming-keyboard-mx-blue-600px-v1.png",
+    "id": "lqgITdvNDopPlPx9w1bp"
   },
   {
     "price": 1899,
     "name": "Razer Ornata V3 Gaming Keyboard: Low-Profile Keys - Mecha-Membrane Switches - 10-Zone RGB Lighting",
-    "ImageURL": "https://images.evetech.co.za/repository/components/razer-ornata-v3-rgb-gaming-keyboard-600px-v1.png",
-    "id": "nZlEeTpzmkQOZhNwNK1v",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/razer-ornata-v3-rgb-gaming-keyboard-600px-v1.png",
+    "id": "nZlEeTpzmkQOZhNwNK1v"
   },
   {
     "price": 2899,
     "ImageURL": "https://www.evetech.co.za/repository/components/razer-huntsman-mini-gaming-keyboard-purple-switches-mercury-600px-v1.png",
     "name": "Razer Huntsman Mini Gaming Keyboard - Clicky Optical Purple Switches - Mercury White",
-    "id": "pdtsNuCnfgYC86rISXzx",
-    "collection": "keyboards"
+    "id": "pdtsNuCnfgYC86rISXzx"
   },
   {
     "price": 499,
-    "name": "Gamdias Hermes E3 RGB Mechanical Gaming Keyboard - White / Blue Switches / 16.8 million RGB Backlighting",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-hermes-e3-rgb-mechanical-gaming-keyboard-white-600px-v1.png",
-    "id": "wN3GcLEyggK147Qwcjj1",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/marvo-kg962-wh-keyboards-600px-v1%20.webp",
+    "name": "MARVO KG962-WH 60% Mechanical Gaming Keyboard - White - Blue Switches",
+    "id": "wN3GcLEyggK147Qwcjj1"
   },
   {
     "price": 1499,
-    "ImageURL": "https://images.evetech.co.za/repository/components/steelseries-apex-3-tkl-rgb-gaming-keyboard-600px-v001.png",
     "name": "SteelSeries Apex 3 TKL RGB Gaming Keyboard – Tenkeyless Compact Form Factor",
-    "id": "ypi1vJk67Q9CiD0qI6pY",
-    "collection": "keyboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/steelseries-apex-3-tkl-rgb-gaming-keyboard-600px-v001.png",
+    "id": "ypi1vJk67Q9CiD0qI6pY"
   },
   {
     "price": 3199,
     "name": "KLEVV CRAS XR5 RGB 32GB Kit (16GB x2) 6200MHz Gaming Memory DDR5 RAM XMP 3.0",
-    "ImageURL": "https://images.evetech.co.za/repository/components/klevv-cras-xr5-rgb-32gb-6200mhz-ddr5-gaming-oc-memory-600px-v01.png",
-    "id": "5jKecw20eyRofqAMR9l6",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/klevv-cras-xr5-rgb-32gb-6200mhz-ddr5-gaming-oc-memory-600px-v01.png",
+    "id": "5jKecw20eyRofqAMR9l6"
   },
   {
     "price": 4899,
     "name": "KLEVV CRAS XR RGB 64GB (16GB x 4) 3600MHz DDR4 Gaming OC Desktop Memory / Aluminum Metal Heat Spreader",
-    "ImageURL": "https://images.evetech.co.za/repository/components/klevv-cras-xr-rgb-64gb-3600mhz-ddr4-gaming-memory-600px-v1-min.png",
-    "id": "7H4jogFpJyeFuxbbkkVu",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/klevv-cras-xr-rgb-64gb-3600mhz-ddr4-gaming-memory-600px-v1-min.png",
+    "id": "7H4jogFpJyeFuxbbkkVu"
   },
   {
     "price": 999,
     "name": "KLEVV 16GB (16GB x 1) 3200MHz DDR4 Desktop Memory / Reliable SK Hynix Chips / Performance Enhancing",
-    "ImageURL": "https://images.evetech.co.za/repository/components/klevv-16gb-3200mhz-ddr4-desktop-memory-600px-v1-min.png",
-    "id": "7Qn5uAvjpncsTnJaOXFQ",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/klevv-16gb-3200mhz-ddr4-desktop-memory-600px-v1-min.png",
+    "id": "7Qn5uAvjpncsTnJaOXFQ"
   },
   {
     "price": 1299,
     "name": "KLEVV BOLT XR 16GB (8GB x 2) 4000MHz DDR4 Gaming OC Desktop Memory / Highest Quality and Reliability",
-    "ImageURL": "https://images.evetech.co.za/repository/components/klevv-bolt-xr-16gb-4000mhz-ddr4-gaming-oc-memory-600px-v1-min.png",
-    "id": "9BY7lDaNqtLe8DKchcVH",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/klevv-bolt-xr-16gb-4000mhz-ddr4-gaming-oc-memory-600px-v1-min.png",
+    "id": "9BY7lDaNqtLe8DKchcVH"
   },
   {
     "price": 2499,
     "name": "KLEVV CRAS XR RGB 32GB (16GB x 2) 3600MHz DDR4 Gaming OC Desktop Memory Kit / Aluminum Metal Heat Spreader",
-    "ImageURL": "https://images.evetech.co.za/repository/components/klevv-cras-xr-rgb-32gb-3600mhz-ddr4-memory-kit-600px-v1-min.png",
-    "id": "9OmhaVslTQudM6PAQjOq",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/klevv-cras-xr-rgb-32gb-3600mhz-ddr4-memory-kit-600px-v1-min.png",
+    "id": "9OmhaVslTQudM6PAQjOq"
   },
   {
     "price": 1299,
     "name": "Corsair Vengeance RGB RS 16GB (2 x 8GB) 3600MHz DDR4 Memory Kit - Black / Dynamic RGB Lighting",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-vengeance-rgb-rs-16gb-3600mhz-ddr4-memory-600px-v1-min.png",
-    "id": "C6NmTqjFjyybLk33aacD",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-vengeance-rgb-rs-16gb-3600mhz-ddr4-memory-600px-v1-min.png",
+    "id": "C6NmTqjFjyybLk33aacD"
   },
   {
     "price": 7799,
     "name": "Kingston Fury Renegade RGB 48GB (24GB x2.) 8000Mhz DDR5 Limited Edition Desktop Memory Kit of 2",
-    "ImageURL": "https://images.evetech.co.za/repository/components/Kingston%20FURY-48GB_memory-600px-v1.webp",
-    "id": "ScW95lwkrKiJ8gG78YbL",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/Kingston%20FURY-48GB_memory-600px-v1.webp",
+    "id": "ScW95lwkrKiJ8gG78YbL"
   },
   {
     "price": 1799,
     "name": "Kingston Technology Kingston Fury Desktop PC Memory DDR4 4266MHz 2 x 8GB Kingston Fury Renegade RGB",
-    "ImageURL": "https://images.evetech.co.za/repository/components/kingston-fury-renegade-rgb-16gb-4266mhz-ddr4-cl19-memory-600px-v1-min.png",
-    "id": "jzt4QwAacaYCZhnLd91a",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/kingston-fury-renegade-rgb-16gb-4266mhz-ddr4-cl19-memory-600px-v1-min.png",
+    "id": "jzt4QwAacaYCZhnLd91a"
   },
   {
     "price": "2899",
     "name": "Corsair Vengeance RGB DDR5 32GB (2x16GB) 6000MHz C36 Intel Optimized Desktop Memory",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-vengeance-rgb-32gb-6000mhz-ddr5-c36-black-memory-600px-v1-min.png",
-    "id": "lnkSBpw9zXMJn4A7Zps7",
-    "collection": "ram-memory"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-vengeance-rgb-32gb-6000mhz-ddr5-c36-black-memory-600px-v1-min.png",
+    "id": "lnkSBpw9zXMJn4A7Zps7"
   },
   {
     "price": 9999,
     "name": "MSI MPG Z790 EDGE TI MAX WIFI DDR5 Intel ATX Motherboard (Supports 13th/12th Gen Intel Processors, LGA 1700, DDR5",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-mpg-z790-edge-ti-max-wifi-atx-motherboard-600px-v1-min.png",
-    "id": "5LYWgixyiHmxTNUAh7Oo",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-mpg-z790-edge-ti-max-wifi-atx-motherboard-600px-v1-min.png",
+    "id": "5LYWgixyiHmxTNUAh7Oo"
   },
   {
-    "price": "11699",
     "name": "MSI MPG Z790 Carbon WIFI II Intel Motherboard (Intel 12th/13th/14th Gen) ATX DDR5 Motherboard",
-    "ImageURL": "https://images.evetech.co.za/repository/components/Msi%20z790%20Carbon%20motherboard_600px_v1%20copy.png",
-    "id": "A4DjnB27fA4UM6ob5hB2",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/Msi%20z790%20Carbon%20motherboard_600px_v1%20copy.png",
+    "price": 11699,
+    "id": "A4DjnB27fA4UM6ob5hB2"
   },
   {
     "price": 1899,
-    "ImageURL": "https://images.evetech.co.za/repository/components/ASUS%20PRIME%20H610M-K%20D4-motherboard-600px-v1.webp",
     "name": "ASUS PRIME H610M-K D4 Motherboard / Intel H610 Chipset / Supports 12th, 13th and 14th Gen Intel Processors / LGA 1700",
-    "id": "EkCoOW9mswS4CFYZkqLA",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/ASUS%20PRIME%20H610M-K%20D4-motherboard-600px-v1.webp",
+    "id": "EkCoOW9mswS4CFYZkqLA"
   },
   {
     "price": 2199,
     "name": "MSI PRO B760M-E DDR4 mATX Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-pro-b760m-e-ddr4-matx-motherboard-600px-v1-min.png",
-    "id": "MenRNT7CCabAtMwCFZYU",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-pro-b760m-e-ddr4-matx-motherboard-600px-v1-min.png",
+    "id": "MenRNT7CCabAtMwCFZYU"
   },
   {
     "price": 5099,
     "name": "MSI PRO Z790-S WiFi ProSeries Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700, DDR5",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-pro-z790-s-wifi-ddr5-atx-motherboard-600px-v1-min.png",
-    "id": "Mp8kvwzxc7FqcTxU6VLa",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-pro-z790-s-wifi-ddr5-atx-motherboard-600px-v1-min.png",
+    "id": "Mp8kvwzxc7FqcTxU6VLa"
   },
   {
     "price": 16999,
     "name": "MSI MEG Z790 ACE MAX Gaming Motherboard (Supports 12th/13th/14th Gen Intel Processors, LGA 1700, DDR5",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-meg-z790-ace-max-ddr5-gaming-motherboard-600px-v1.png",
-    "id": "NEWQuVBKVjzWX3yGGtXW",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-meg-z790-ace-max-ddr5-gaming-motherboard-600px-v1.png",
+    "id": "NEWQuVBKVjzWX3yGGtXW"
   },
   {
     "price": 2399,
     "name": "ASUS PRIME B760M-K D4 Motherboard / Intel B760 Chipset / Supports 12th, 13th and 14th Gen Intel Processors / LGA 1700",
-    "ImageURL": "https://images.evetech.co.za/repository/components/asus-prime-b760m-k-d4-motherboard-600px-v001.webp",
-    "id": "Vux7lKydikvzWG3LNsvq",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/asus-prime-b760m-k-d4-motherboard-600px-v001.webp",
+    "id": "Vux7lKydikvzWG3LNsvq"
   },
   {
     "price": 29999,
     "name": "SI MEG Z790 GODLIKE MAX Gaming Motherboard (Supports 12th/13th/14th Gen Intel Processors, LGA 1700, DDR5",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-meg-z790-godlike-max-ddr5-gaming-motherboard-600px-v1.png",
-    "id": "ddqt27DSAdCJdkbqEatg",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-meg-z790-godlike-max-ddr5-gaming-motherboard-600px-v1.png",
+    "id": "ddqt27DSAdCJdkbqEatg"
   },
   {
     "price": 5399,
     "name": "MSI MAG B760M Mortar WiFi Gaming Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700, DDR5",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-mag-b760m-mortar-wi-fi-matx-motherboard-600px-v1-min.png",
-    "id": "j7WZTsTxgIa37iM1zfk3",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-mag-b760m-mortar-wi-fi-matx-motherboard-600px-v1-min.png",
+    "id": "j7WZTsTxgIa37iM1zfk3"
   },
   {
     "price": 8499,
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-mag-z790-tomahawk-max-wifi-atx-motherboard-600px-v1-min.png",
     "name": "MSI MAG Z790 Tomahawk MAX WiFi DDR5 Gaming Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700, DDR5",
-    "id": "na4OtCWDKh0IJCWQmnT2",
-    "collection": "intel-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-mag-z790-tomahawk-max-wifi-atx-motherboard-600px-v1-min.png",
+    "id": "na4OtCWDKh0IJCWQmnT2"
   },
   {
     "price": 30999,
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-meg-x670e-godlike-amd-am5-motherboard-600px-v1-min.png",
     "name": "MSI MEG X670E GODLIKE AMD Socket AM5 E-ATX Motherboard / AMD X670 Chipset / AMD Wi-Fi 6E / 4 DIMMs",
-    "id": "2l7eAf3leTZzHCek5f4x",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-meg-x670e-godlike-amd-am5-motherboard-600px-v1-min.png",
+    "id": "2l7eAf3leTZzHCek5f4x"
   },
   {
     "price": 3199,
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-b550-gaming-gen3-gaming-motherboard-600px-v1-min.png",
     "name": "MSI B550 Gaming GEN3 Gaming Motherboard",
-    "id": "AKjsVg5aeMsxXIWD78HP",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-b550-gaming-gen3-gaming-motherboard-600px-v1-min.png",
+    "id": "AKjsVg5aeMsxXIWD78HP"
   },
   {
     "price": 6999,
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-mpg-b650-edge-wifi-ryzen-motherboard-600px-v1.png",
     "name": "MSI MPG B650 Edge WiFi Gaming Motherboard",
-    "id": "DD4JupwcLutxLuWWKCf7",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-mpg-b650-edge-wifi-ryzen-motherboard-600px-v1.png",
+    "id": "DD4JupwcLutxLuWWKCf7"
   },
   {
     "price": 2499,
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-pro-b550m-p-gen3-amd-motherboard-600px-v1-min.png",
     "name": "MSI PRO B550M-P GEN3 Motherboard, Micro-ATX",
-    "id": "JphYda2Z9GQ3erVDuO4T",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-pro-b550m-p-gen3-amd-motherboard-600px-v1-min.png",
+    "id": "JphYda2Z9GQ3erVDuO4T"
   },
   {
     "price": 3999,
     "name": "ASUS Prime TRX40-Pro S AMD Ryzen Threadripper ATX Motherboard / 3rd Gen Ryzen / AMD Socket sTRX4 / DDR4 4666+ MHz",
-    "ImageURL": "https://images.evetech.co.za/repository/components/asus-prime-trx40-pro-s-threadripper-motherboard-600px-v1.png",
-    "id": "Knqy8xPXyhJzgoMBtcpo",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/asus-prime-trx40-pro-s-threadripper-motherboard-600px-v1.png",
+    "id": "Knqy8xPXyhJzgoMBtcpo"
   },
   {
     "price": 1399,
     "name": "MSI B450M-A PRO MAX ProSeries Motherboard (ATX, 2ND and 3rd Gen, AM4, M.2, USB 3, DDR4, DVI HDMI, Crossfire)",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-b450m-a-pro-max-ryzen-motherboard-600px-v1-min.png",
-    "id": "PPH4TZ1lTtCHY0oMp3Ug",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-b450m-a-pro-max-ryzen-motherboard-600px-v1-min.png",
+    "id": "PPH4TZ1lTtCHY0oMp3Ug"
   },
   {
     "price": 8299,
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-mag-x670e-tomahawk-wifi-amd-am5-motherboard-600px-v1-min.png",
     "name": "MSI MAG X670E Tomahawk WiFi Gaming Motherboard",
-    "id": "RIldky5JWE9jvzECU5GH",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-mag-x670e-tomahawk-wifi-amd-am5-motherboard-600px-v1-min.png",
+    "id": "RIldky5JWE9jvzECU5GH"
   },
   {
     "price": 2499,
-    "ImageURL": "https://images.evetech.co.za/repository/components/ASUS%20PRIME%20B650M-K-motherboard-600px-v1.webp",
     "name": "ASUS Prime B650M-K AMD Motherboard",
-    "id": "p2F3oiSpnvotqAOx4fig",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/ASUS%20PRIME%20B650M-K-motherboard-600px-v1.webp",
+    "id": "p2F3oiSpnvotqAOx4fig"
   },
   {
     "price": 11499,
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-mpg-x670e-carbon-wifi-amd-am5-motherboard-600px-v1-min.png",
     "name": "MSI MPG X670E Carbon WiFi Gaming Motherboard",
-    "id": "qNNtyesJHGSF5I5ZFQNS",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-mpg-x670e-carbon-wifi-amd-am5-motherboard-600px-v1-min.png",
+    "id": "qNNtyesJHGSF5I5ZFQNS"
   },
   {
     "price": 6599,
-    "ImageURL": "https://images.evetech.co.za/repository/components/Msi-motherboard-600px-v1%20copy.png",
     "name": "MSI X670E Gaming Plus WiFi AMD Motherboard",
-    "id": "qi1k8skES55gC0qbcgcg",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/Msi-motherboard-600px-v1%20copy.png",
+    "id": "qi1k8skES55gC0qbcgcg"
   },
   {
     "price": 1499,
     "name": "MSI A520M-A PRO AMD Ryzen M-ATX Motherboard / 3rd Gen AMD Ryzen Desktop Processors",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-a520m-a-pro-amd-ryzen-motherboard-motherboard-600px-v1%20.webp",
-    "id": "yrSlj9bnHeMKKPvvD7oI",
-    "collection": "amd-motherboards"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-a520m-a-pro-amd-ryzen-motherboard-motherboard-600px-v1%20.webp",
+    "id": "yrSlj9bnHeMKKPvvD7oI"
   },
   {
     "price": 1699,
     "name": "ENDGAME GEAR OP1we Wireless Gaming Mouse, CompX CX52850 Microcontroller, Pixart PAW3370 Optical Sensor",
-    "ImageURL": "https://images.evetech.co.za/repository/components/endgame-gear-op1we-wireless-gaming-mouse-white-600px-v01.png",
-    "id": "447LkxFBZeN1mTWYfv8u",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/endgame-gear-op1we-wireless-gaming-mouse-white-600px-v01.png",
+    "id": "447LkxFBZeN1mTWYfv8u"
   },
   {
     "price": 1649,
     "name": "ENDGAME GEAR OP1we Wireless Gaming Mouse, CompX CX52850 Microcontroller, Pixart PAW3370 Optical Sensor",
-    "ImageURL": "https://images.evetech.co.za/repository/components/endgame-gear-op1we-wireless-gaming-mouse-black-600px-v01.png",
-    "id": "4Dv8IGZ0cpifacCocAMy",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/endgame-gear-op1we-wireless-gaming-mouse-black-600px-v01.png",
+    "id": "4Dv8IGZ0cpifacCocAMy"
   },
   {
     "price": 2399,
     "name": "Corsair M75 AIR Wireless Ultra-Light FPS Gaming Mouse – 26,000 DPI – Ultra-Fast Input – Symmetric Shape",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-m75-air-wireless-lightweight-gaming-mouse-white-600px-v01.png",
-    "id": "BHtGfzjGoKQdUnsWFUwn",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-m75-air-wireless-lightweight-gaming-mouse-white-600px-v01.png",
+    "id": "BHtGfzjGoKQdUnsWFUwn"
   },
   {
     "price": 3549,
     "name": "Logitech G PRO X SUPERLIGHT 2 LIGHTSPEED Wireless Gaming Mouse, Lightweight, LIGHTFORCE Hybrid Switches - White",
-    "ImageURL": "https://images.evetech.co.za/repository/components/logitech-g-pro-x-superlight-2-wireless-gaming-mouse-white-600px-v01.png",
-    "id": "Def3c60dYY5b1i9d3emw",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/logitech-g-pro-x-superlight-2-wireless-gaming-mouse-white-600px-v01.png",
+    "id": "Def3c60dYY5b1i9d3emw"
   },
   {
     "price": 2899,
     "name": "SteelSeries Aerox 3 Wireless Faze Clan Edition Gaming Mouse / 18000 CPI / 1ms Polling Rate / Battery Life Up To 200 Hours Bluetooth",
-    "ImageURL": "https://images.evetech.co.za/repository/components/steelseries-aerox-3-wireless-faze-clan-edition-gaming-mouse-600px-v001.png",
-    "id": "Drfk9nBBuUwzDn5z6b5P",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/steelseries-aerox-3-wireless-faze-clan-edition-gaming-mouse-600px-v001.png",
+    "id": "Drfk9nBBuUwzDn5z6b5P"
   },
   {
     "price": 2799,
     "name": "Mad Catz The Authentic R.A.T. PRO X3 Gaming Mouse - Black / Up To 16000 DPI / Chameleon RGB Lighting",
-    "ImageURL": "https://images.evetech.co.za/repository/components/mad-catz-r-a-t-pro-x3-gaming-mouse-black-600px-v01.png",
-    "id": "MSTdd40BlJ5O1d9mTkjT",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/mad-catz-r-a-t-pro-x3-gaming-mouse-black-600px-v01.png",
+    "id": "MSTdd40BlJ5O1d9mTkjT"
   },
   {
     "price": 2999,
     "name": "SteelSeries Aerox 5 Wireless – Diablo IV Edition – Lightweight 76g Gaming Mouse – 18000 CPI – TrueMove Air Optical Sensor",
-    "ImageURL": "https://images.evetech.co.za/repository/components/steelseries-aerox-5-wireless-diablo-iv-edition-gaming-mouse-600px-v001.png",
-    "id": "c37Y4vVZ50jzGnm9cyXZ",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/steelseries-aerox-5-wireless-diablo-iv-edition-gaming-mouse-600px-v001.png",
+    "id": "c37Y4vVZ50jzGnm9cyXZ"
   },
   {
     "price": 1999,
     "name": "Glorious Model O Pro Wireless Gaming Mouse - Blue Lynx / Over 80h Of Battery On a Single Charge",
-    "ImageURL": "https://images.evetech.co.za/repository/components/glorious-model-o-pro-wireless-gaming-mouse-blue-lynx-600px-v1.png",
-    "id": "h4qvUwf9vx6Lb5z9EuCl",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/glorious-model-o-pro-wireless-gaming-mouse-blue-lynx-600px-v1.png",
+    "id": "h4qvUwf9vx6Lb5z9EuCl"
   },
   {
     "price": 3249,
     "name": "Razer Viper V2 Pro HyperSpeed Wireless Gaming Mouse: 59g Ultra-Lightweight - Optical Switches Gen-3 - White",
-    "ImageURL": "https://images.evetech.co.za/repository/components/razer-viper-v2-pro-hyperspeed-wireless-gaming-mouse-white-600px-v01.png",
-    "id": "iaqeQdhaCz1tCfMYABpC",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/razer-viper-v2-pro-hyperspeed-wireless-gaming-mouse-white-600px-v01.png",
+    "id": "iaqeQdhaCz1tCfMYABpC"
   },
   {
     "price": 1949,
     "name": "HyperX Pulsefire Haste Wireless Gaming Mouse Black / Pure virgin-grade PTFE Skate / TTC Golden Micro Dustproof Switches",
-    "ImageURL": "https://images.evetech.co.za/repository/components/hyperx-pulsefire-haste-wireless-gaming-mouse-black-600px-v1.png",
-    "id": "pTCGEgsmt4WuQ7gnHaHE",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/hyperx-pulsefire-haste-wireless-gaming-mouse-black-600px-v1.png",
+    "id": "pTCGEgsmt4WuQ7gnHaHE"
   },
   {
     "price": 3499,
     "name": "Logitech G PRO X SUPERLIGHT 2 LIGHTSPEED Wireless Gaming Mouse, Lightweight, LIGHTFORCE Hybrid Switches - Black",
     "ImageURL": "https://www.evetech.co.za/repository/components/logitech-g-pro-x-superlight-2-wireless-gaming-mouse-black-600px-v01.png",
-    "id": "qXH09UHmYlYAoFCQVgbO",
-    "collection": "mouses"
+    "id": "qXH09UHmYlYAoFCQVgbO"
   },
   {
     "price": 1899,
     "name": "Glorious Gaming Model D 2 PRO Wireless Gaming Mouse - 2.4GHz Wireless 1ms delay, 60g Ultralight, Long Battery Life",
-    "ImageURL": "https://images.evetech.co.za/repository/components/glorious-d-2-pro-wireless-gaming-mouse-black-600px-v1.png",
-    "id": "sIipfGyyoDwbTNcKDZdN",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/glorious-d-2-pro-wireless-gaming-mouse-black-600px-v1.png",
+    "id": "sIipfGyyoDwbTNcKDZdN"
   },
   {
     "price": 1839,
     "name": "Asus ROG Gladius III Wireless Gaming Mouse / 19,000 DPI Optical Sensor (ROG Tuned up to 26,000 DPI)",
-    "ImageURL": "https://images.evetech.co.za/repository/components/asus-rog-gladius-iii-wireless-gaming-mouse-600px-v01.png",
-    "id": "sZb7f2Rb5mw2yleDiDbk",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/asus-rog-gladius-iii-wireless-gaming-mouse-600px-v01.png",
+    "id": "sZb7f2Rb5mw2yleDiDbk"
   },
   {
     "price": 4199,
     "name": "Razer Viper V2 Pro - PUBG- 58g Ultra-Lightweight, Ultra-Fast Wireless Esports Mouse I Optical Switch Gen.3",
-    "ImageURL": "https://images.evetech.co.za/repository/components/razer-viper-v2-pro-pubg-wireless-gaming-mouse-600px-v01.png",
-    "id": "uRBKfwCGK2qrSCRlxQOJ",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/razer-viper-v2-pro-pubg-wireless-gaming-mouse-600px-v01.png",
+    "id": "uRBKfwCGK2qrSCRlxQOJ"
   },
   {
     "price": 3249,
     "name": "Razer Viper V2 Pro HyperSpeed Wireless Gaming Mouse: 58g Ultra-Lightweight - Optical Switches Gen-3 - 30K Optical Sensor",
-    "ImageURL": "https://images.evetech.co.za/repository/components/razer-viper-v2-pro-hyperspeed-wireless-gaming-mouse-600px-v01.png",
-    "id": "z3umTsyhkwCymBmIoi8p",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/razer-viper-v2-pro-hyperspeed-wireless-gaming-mouse-600px-v01.png",
+    "id": "z3umTsyhkwCymBmIoi8p"
   },
   {
     "price": 1699,
     "name": "Razer Viper V3 HyperSpeed Wireless Esports Gaming Mouse: 82g Lightweight Design - 30K DPI Optical Sensor",
-    "ImageURL": "https://images.evetech.co.za/repository/components/razer-viper-v3-hyperspeed-wireless-esports-gaming-mouse-600px-v01.png",
-    "id": "zxifzOnunwEiMslwlkh7",
-    "collection": "mouses"
+    "ImageURL": "https://img.evetech.co.za/repository/components/razer-viper-v3-hyperspeed-wireless-esports-gaming-mouse-600px-v01.png",
+    "id": "zxifzOnunwEiMslwlkh7"
   },
   {
     "price": 999,
     "name": "Gamdias HELIOS M1-550B 550W / Meet 80 Plus Bronze Power Supply / Support C6/C7, ATX12V",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-helios-m1-550b-550w-power-supply-600px-v1.png",
-    "id": "0WBJR2BpUQoFOOpvfeCk",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-helios-m1-550b-550w-power-supply-600px-v1.png",
+    "id": "0WBJR2BpUQoFOOpvfeCk"
   },
   {
     "price": 3699,
     "name": "MSI MPG A850G PCIE5 Power Supply Unit, UK Plug - 850W, 80 Plus Gold Certified, Fully Modular ATX 3.0",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-mpg-a850g-850w-full-modular-power-supply-600px-v1.png",
-    "id": "9Fh09FZdooX2KJfvCYBN",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-mpg-a850g-850w-full-modular-power-supply-600px-v1.png",
+    "id": "9Fh09FZdooX2KJfvCYBN"
   },
   {
     "price": 1999,
     "name": "GAMDIAS 750W Gold Gaming PC PSU, 80 Plus ATX Gold 12V Power Supply for PC Computers with Active PFC, Helios P2-750G",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-helios-p2-750g-750w-80-plus-gold-power-supply-600px-v1.png",
-    "id": "IIjmMyktJqBS9JEB4uMC",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-helios-p2-750g-750w-80-plus-gold-power-supply-600px-v1.png",
+    "id": "IIjmMyktJqBS9JEB4uMC"
   },
   {
     "price": 899,
     "name": "Cougar STC550 Power Supply / Compatible with the Newest Components / 105°C Japanese Standby Capacitors",
-    "ImageURL": "https://images.evetech.co.za/repository/components/cougar-stc550-power-supply-600px-v1.png",
-    "id": "NgK44cLVtGZTVgF66BtS",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/cougar-stc550-power-supply-600px-v1.png",
+    "id": "NgK44cLVtGZTVgF66BtS"
   },
   {
     "price": 2499,
     "name": "GAMDIAS 850W Gold Gaming PC PSU, 80 Plus ATX Gold 12V Power Supply for PC Computers with Active PFC",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-helios-p2-850g-850w-power-supply-600px-v1.png",
-    "id": "P8VUxI9XkDwsctuijaPH",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-helios-p2-850g-850w-power-supply-600px-v1.png",
+    "id": "P8VUxI9XkDwsctuijaPH"
   },
   {
     "price": 4999,
     "name": "Antec Signature Series ST1000, 80 PLUS Titanium Certified, 1000W Full Modular with OC Link Feature, PhaseWave Design",
-    "ImageURL": "https://images.evetech.co.za/repository/components/antec-signature-1000w-titanium-power-supply-600px-v1.png",
-    "id": "WXJYFD2tUMyBEDRveVHY",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/antec-signature-1000w-titanium-power-supply-600px-v1.png",
+    "id": "WXJYFD2tUMyBEDRveVHY"
   },
   {
     "price": 4199,
     "name": "Antec Signature 1000W 80 PLUS Platinum Power Supply / FDB 135MM Silent Fan / Zero RPM Mode",
-    "ImageURL": "https://images.evetech.co.za/repository/components/antec-signature-1000w-platinum-power-supply-600px-v1.png",
-    "id": "Z3Puw9FfagBLIYaBgDDM",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/antec-signature-1000w-platinum-power-supply-600px-v1.png",
+    "id": "Z3Puw9FfagBLIYaBgDDM"
   },
   {
     "price": 4499,
     "name": "DeepCool PX1200G WHITE ATX3.0 80 Plus Gold Fully Modular 1200 W Power Supply 135 mm FDB Fan",
-    "ImageURL": "https://images.evetech.co.za/repository/components/deepcool-px1200g-white-atx3-0-80-plus-gold-power-supply-600px-v1.png",
-    "id": "jjvJ3vLWQiwTaZ0VaLE7",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/deepcool-px1200g-white-atx3-0-80-plus-gold-power-supply-600px-v1.png",
+    "id": "jjvJ3vLWQiwTaZ0VaLE7"
   },
   {
     "price": 8299,
     "name": "MSI MEG Ai1300P PCIE 5 & ATX 3.0 Gaming Power Supply - Full Modular - 80 Plus Platinum Certified 1300W",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-meg-ai1300p-1300w-full-modular-power-supply-600px-v1.png",
-    "id": "lvqiYEaQM6KPjklfvOvw",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-meg-ai1300p-1300w-full-modular-power-supply-600px-v1.png",
+    "id": "lvqiYEaQM6KPjklfvOvw"
   },
   {
     "price": 1399,
     "name": "Gamdias KRATOS M1-750B RGB 750W Power Supply / Meet 80 PLUS Bronze Efficiency / RGB Motherboard Sync / Addressable LEDs",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-kratos-m1-750b-rgb-750w-power-supply-600px-v1.png",
-    "id": "r6LvfDNXqeSjUhF2oBAs",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-kratos-m1-750b-rgb-750w-power-supply-600px-v1.png",
+    "id": "r6LvfDNXqeSjUhF2oBAs"
   },
   {
     "price": 2099,
     "name": "Corsair RM Series RM750 750W 80 PLUS Gold Fully Modular ATX Power Supply - Black / Zero RPM Fan Mode",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-rm750-750w-fully-modular-power-supply-black-600px-v1.png",
-    "id": "ryB5DvgAxZtYwQjsF8bN",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-rm750-750w-fully-modular-power-supply-black-600px-v1.png",
+    "id": "ryB5DvgAxZtYwQjsF8bN"
   },
   {
     "price": 3499,
     "name": "Corsair RM850x Shift Fully Modular ATX Power Supply - Modular Side Interface - ATX 3.0 & PCIe 5.0 Compliant",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-rm850x-shift-fully-modular-atx-psu-600px-v1.png",
-    "id": "vDutWJpl05sm9z6qxekB",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-rm850x-shift-fully-modular-atx-psu-600px-v1.png",
+    "id": "vDutWJpl05sm9z6qxekB"
   },
   {
     "price": 10149,
     "name": "Corsair AX1600i 1600W 80 PLUS Titanium efficiency Digital ATX Power Supply / World Class Electrical Performance",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-ax1600i-1600w-digital-titanium-power-supply-600px-v1.png",
-    "id": "wmdE8VnBKMmI8VzMiZNk",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-ax1600i-1600w-digital-titanium-power-supply-600px-v1.png",
+    "id": "wmdE8VnBKMmI8VzMiZNk"
   },
   {
     "price": 3299,
     "name": "Cooler Master V850 SFX Gold Full Modular, 850W, 80+ Gold Efficiency, ATX Bracket Included, Quiet FDB Fan",
-    "ImageURL": "https://images.evetech.co.za/repository/components/cooler-master-v850-sfx-gold-full-modular-atx-power-supply-600px-v1.png",
-    "id": "zbmZkRSZfcFUplnZjEyx",
-    "collection": "power-supplys"
+    "ImageURL": "https://img.evetech.co.za/repository/components/cooler-master-v850-sfx-gold-full-modular-atx-power-supply-600px-v1.png",
+    "id": "zbmZkRSZfcFUplnZjEyx"
   },
   {
     "price": 7199,
     "name": "CORSAIR iCUE 5000T RGB Tempered Glass Mid-Tower PC Case - Black / 3x L120 RGB Fans Included",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-icue-5000t-rgb-pc-case-black-600px-v1.png",
-    "id": "0O7H6D8xYk3Q97FAGDrt",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-icue-5000t-rgb-pc-case-black-600px-v1.png",
+    "id": "0O7H6D8xYk3Q97FAGDrt"
   },
   {
     "price": 4099,
     "name": "Corsair iCUE LINK 2500X RGB Micro ATX Dual Chamber PC Case - White / Compatible with reverse connector motherboards",
-    "ImageURL": "https://images.evetech.co.za/repository/components/Corsair%20iCUE%20LINK%202500X%20RGB%20Micro%20ATX%20Dual%20Chamber%20PC%20Case%20-%20White-gaming-case-600px-v1%20.png",
-    "id": "1PXjKuTewyPnYebROONZ",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/Corsair%20iCUE%20LINK%202500X%20RGB%20Micro%20ATX%20Dual%20Chamber%20PC%20Case%20-%20White-gaming-case-600px-v1%20.png",
+    "id": "1PXjKuTewyPnYebROONZ"
   },
   {
     "price": 899,
     "name": "DEEPCOOL CC560 Limited Mid-Tower Computer Case - Black That Supports - Mini-ITX / Micro-ATX / ATX",
-    "ImageURL": "https://images.evetech.co.za/repository/components/deepcool-cc560-limited-gaming-case-black-600px-v1.png",
-    "id": "7wT4lmhzgAQBg2qTATtM",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/deepcool-cc560-limited-gaming-case-black-600px-v1.png",
+    "id": "7wT4lmhzgAQBg2qTATtM"
   },
   {
     "price": 8999,
     "name": "Cooler Master Cosmos C700M E-ATX Full-Tower, Curved Tempered Glass Panel, Riser Cable, Flexible Interior Layout",
-    "ImageURL": "https://images.evetech.co.za/repository/components/cooler-master-cosmos-c700m-gaming-case-600px-v1.png",
-    "id": "9vGvHoTUY9ep5RWuMA8L",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/cooler-master-cosmos-c700m-gaming-case-600px-v1.png",
+    "id": "9vGvHoTUY9ep5RWuMA8L"
   },
   {
     "price": 1199,
     "name": "NZXT H210 Tempered Glass Mini-ITX Gaming Case - Black/Red / Front I/O USB Type-C Port / Radiator Bracket",
-    "ImageURL": "https://images.evetech.co.za/repository/components/nzxt-h210-tempered-glass-gaming-case-black-red-600px-v1.png",
-    "id": "C3bKeaur4497sK8yjd2a",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/nzxt-h210-tempered-glass-gaming-case-black-red-600px-v1.png",
+    "id": "C3bKeaur4497sK8yjd2a"
   },
   {
     "price": 2499,
     "name": "Evetech TRIO Apocalypse Limited Edition Tempered Glass Gaming Case / 6x Dual Ring RGB High-Speed PWM Fans Included",
-    "ImageURL": "https://images.evetech.co.za/repository/components/evetech-trio-apocalypse-edition-rgb-gaming-case-600px-v1.png",
-    "id": "HuUpfbAAcH5gRluDj7dj",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/evetech-trio-apocalypse-edition-rgb-gaming-case-600px-v1.png",
+    "id": "HuUpfbAAcH5gRluDj7dj"
   },
   {
     "price": 899,
     "name": "DEEPCOOL CC560 Mid-Tower Computer Case - Black That Supports - Mini-ITX / Micro-ATX",
-    "ImageURL": "https://images.evetech.co.za/repository/components/deepcool-cc560-gaming-case-black-600px-v001.webp",
-    "id": "OjAEjB18J6NdTxGqpZmM",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/deepcool-cc560-gaming-case-black-600px-v001.webp",
+    "id": "OjAEjB18J6NdTxGqpZmM"
   },
   {
     "price": 1299,
     "name": "GAMDIAS ATHENA M6 GAMING CASE - White / Mesh Front Panel / 4 Built-in 120mm ARGB PWM fans",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-athena-m6-gaming-case-white-600px-v1.png",
-    "id": "TIYvcB0OBmtL8R4NK8M7",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-athena-m6-gaming-case-white-600px-v1.png",
+    "id": "TIYvcB0OBmtL8R4NK8M7"
   },
   {
     "price": 1099,
     "name": "Gamdias Athena M6 Lite Gaming Case - White / Sync with Motherboard / Triple-sided Underglow",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-athena-m6-lite-gaming-case-white-600px-v1.png",
-    "id": "VEw7qdX9K8EYefTMKsyD",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-athena-m6-lite-gaming-case-white-600px-v1.png",
+    "id": "VEw7qdX9K8EYefTMKsyD"
   },
   {
     "price": 6999,
     "name": "Cougar Conquer 2 ATX Full Tower Gaming Case / Distinctive Metal Frames / Eye-catching Design",
-    "ImageURL": "https://images.evetech.co.za/repository/components/cougar-conquer-2-gaming-case-600px-v1.png",
-    "id": "VRrb7WRR0XEA2iERjJTQ",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/cougar-conquer-2-gaming-case-600px-v1.png",
+    "id": "VRrb7WRR0XEA2iERjJTQ"
   },
   {
     "price": 5299,
     "name": "Corsair iCUE LINK 6500X RGB Mid-Tower ATX Dual Chamber PC Case - White / Compatible with reverse connector motherboards",
-    "ImageURL": "https://images.evetech.co.za/repository/components/Corsair%20iCUE%20LINK%206500X%20RGB%20Mid-Tower%20ATX%20Dual%20Chamber%20PC%20Case%20-%20White-gaming-case-600px-v1%20.png",
-    "id": "WpOXQjMisZzuxYW5eXcO",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/Corsair%20iCUE%20LINK%206500X%20RGB%20Mid-Tower%20ATX%20Dual%20Chamber%20PC%20Case%20-%20White-gaming-case-600px-v1%20.png",
+    "id": "WpOXQjMisZzuxYW5eXcO"
   },
   {
     "price": 999,
     "name": "DeepCool CC560 WH Mid-Tower ATX Tempered Glass Gaming Case - White with Support up to six 120mm Fans",
-    "ImageURL": "https://images.evetech.co.za/repository/components/deepcool-cc560-wh-gaming-case-white-600px-v1.png",
-    "id": "X4xERQrkENxVvAISyKzA",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/deepcool-cc560-wh-gaming-case-white-600px-v1.png",
+    "id": "X4xERQrkENxVvAISyKzA"
   },
   {
     "price": 5249,
     "name": "Corsair 5000X RGB QL Edition Tempered Glass Mid-Tower Gaming Case - Absolute White / Four Tempered Glass Panels",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-5000x-rgb-ql-edition-gaming-case-white-600px-v1.png",
-    "id": "XlaVxJHWFTk35oRoKxQR",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-5000x-rgb-ql-edition-gaming-case-white-600px-v1.png",
+    "id": "XlaVxJHWFTk35oRoKxQR"
   },
   {
     "price": 899,
     "name": "Gamdias Talos E3 Mesh Tempered Glass Gaming Case - White / Sync with 5V ARGB Motherboard / Tempered Glass SIde Panel",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-talos-e3-mesh-gaming-case-white-600px-v1.png",
-    "id": "ZLoOYDLriMUEGO26RZGo",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-talos-e3-mesh-gaming-case-white-600px-v1.png",
+    "id": "ZLoOYDLriMUEGO26RZGo"
   },
   {
     "price": 999,
     "name": "Gamdias Aura GC3 Elite Tempered Glass Gaming Case - Black / Mesh Front Panel / Magnetic Dust Filter",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-aura-gc3-elite-gaming-case-black-600px-v1.png",
-    "id": "bLi5QVqRql78JevGd1IX",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-aura-gc3-elite-gaming-case-black-600px-v1.png",
+    "id": "bLi5QVqRql78JevGd1IX"
   },
   {
     "price": 899,
     "name": "Gamdias Aura GC2 Elite Tempered Glass Gaming Case - Black / Mesh Front Panel / Magnetic Dust Filter",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-aura-gc2-elite-gaming-case-black-600px-v1.png",
-    "id": "d3vbWwPYQuzvjpERFtCT",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-aura-gc2-elite-gaming-case-black-600px-v1.png",
+    "id": "d3vbWwPYQuzvjpERFtCT"
   },
   {
     "price": 1199,
     "name": "Gamdias ATHENA M2 Tempered Glass Gaming Case / Asymmetry Mesh Design / 3 Built-in 120mm Trio Rings ARGB Fans",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-athena-m2-gaming-case-600px-v1.png",
-    "id": "fyawU2u8sg3tKFFlB6PO",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-athena-m2-gaming-case-600px-v1.png",
+    "id": "fyawU2u8sg3tKFFlB6PO"
   },
   {
     "price": 8999,
     "name": "Corsair Obsidian Series 1000D ATX Super Tower Gaming Case / Stream And Game Simultaniously",
-    "ImageURL": "https://images.evetech.co.za/repository/components/corsair-obsidian-series-1000d-atx-super-tower-gaming-case-600px-v1.png",
-    "id": "gJ3msg9Yp2SkwPAGjcKa",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/corsair-obsidian-series-1000d-atx-super-tower-gaming-case-600px-v1.png",
+    "id": "gJ3msg9Yp2SkwPAGjcKa"
   },
   {
     "price": 3999,
     "name": "Corsair iCUE LINK 2500X RGB Micro ATX Dual Chamber PC Case - Black / Compatible with reverse connector motherboards",
-    "ImageURL": "https://images.evetech.co.za/repository/components/Corsair%20iCUE%20LINK%202500X%20RGB%20PC%20Case%20-%20Black-gaming-case-600px-v1%20%20(1).png",
-    "id": "j78Ndq0DjE8Kv4LvA7ps",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/Corsair%20iCUE%20LINK%202500X%20RGB%20PC%20Case%20-%20Black-gaming-case-600px-v1%20%20(1).png",
+    "id": "j78Ndq0DjE8Kv4LvA7ps"
   },
   {
     "price": 1399,
     "name": "NZXT H210i Tempered Glass Mini-ITX Gaming Case - Matte White/Black / Integrated RGB Lighting",
-    "ImageURL": "https://images.evetech.co.za/repository/components/nzxt-h210i-matte-white-black-gaming-case-600px-v1.png",
-    "id": "jFbJaS8K6vaIGolvPjfa",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/nzxt-h210i-matte-white-black-gaming-case-600px-v1.png",
+    "id": "jFbJaS8K6vaIGolvPjfa"
   },
   {
     "price": 999,
     "name": "Gamdias TALOS E3 Tempered Glass Gaming Case - White / 3 Built-in 120mm ARGB Fans / Magnetic Dust Filter",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-talos-e3-gaming-case-white-600px-v1.png",
-    "id": "kKGLjYOldQKN4eSNFao2",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-talos-e3-gaming-case-white-600px-v1.png",
+    "id": "kKGLjYOldQKN4eSNFao2"
   },
   {
     "price": 699,
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-argus-e5-gaming-case-600px-v1.png",
     "name": "amdias ARGUS E5 Gaming Case / Panoramic Tempered Glass / Sync with 5V ARGB Motherboard",
-    "id": "lDlDwxEYrCiD5UYhdn0E",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-argus-e5-gaming-case-600px-v1.png",
+    "id": "lDlDwxEYrCiD5UYhdn0E"
   },
   {
     "price": 1799,
     "name": "Fractal Design Define 7 Nano Black TG Light Tint",
-    "ImageURL": "https://images.evetech.co.za/repository/components/fractal-design-define-7-nano-case-black-600px-v1.png",
-    "id": "sW0fJAtJX46BJ3i7854w",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/fractal-design-define-7-nano-case-black-600px-v1.png",
+    "id": "sW0fJAtJX46BJ3i7854w"
   },
   {
     "price": 3299,
     "name": "Corsair 2500X Mid-Tower Dual Chamber PC Case - White / Compatible with reverse connector motherboards",
-    "ImageURL": "https://images.evetech.co.za/repository/components/Corsair%202500X%20Mid-Tower%20Dual%20Chamber%20PC%20Case%20-%20White-gaming-case-600px-v1%20.png",
-    "id": "sfcJBju5m4EbfG6Un4se",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/Corsair%202500X%20Mid-Tower%20Dual%20Chamber%20PC%20Case%20-%20White-gaming-case-600px-v1%20.png",
+    "id": "sfcJBju5m4EbfG6Un4se"
   },
   {
     "price": 999,
     "name": "DeepCool MACUBE 110 Micro ATX Case with Full-Size Magnetic Tempered Glass Removable HDD Cage",
-    "ImageURL": "https://images.evetech.co.za/repository/components/deepcool-macube-110-gaming-case-black-600px-v1.png",
-    "id": "vUjHnA07DXhxP6wbcbgo",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/deepcool-macube-110-gaming-case-black-600px-v1.png",
+    "id": "vUjHnA07DXhxP6wbcbgo"
   },
   {
     "price": 3299,
     "name": "Corsair 2500D AIRFLOW Mid-Tower Dual Chamber PC Case - Black / Compatible with reverse connector motherboards",
-    "ImageURL": "https://images.evetech.co.za/repository/components/Corsair%202500D%20AIRFLOW%20Mid-Tower%20Dual%20Chamber%20PC%20Case%20-%20Black-gaming-case-600px-v1%20.png",
-    "id": "yFPjnt3h2bPobJuEZiwK",
-    "collection": "pc-cases"
+    "ImageURL": "https://img.evetech.co.za/repository/components/Corsair%202500D%20AIRFLOW%20Mid-Tower%20Dual%20Chamber%20PC%20Case%20-%20Black-gaming-case-600px-v1%20.png",
+    "id": "yFPjnt3h2bPobJuEZiwK"
   },
   {
     "price": 2099,
     "name": "Microsoft Office Home & Student 2021",
-    "ImageURL": "https://images.evetech.co.za/repository/components/microsoft-office-home-and-student-2021-600px-v1.png",
-    "id": "Ao3rIZPgDPn46R3nTxgZ",
-    "collection": "operating-system"
+    "ImageURL": "https://img.evetech.co.za/repository/components/microsoft-office-home-and-student-2021-600px-v1.png",
+    "id": "Ao3rIZPgDPn46R3nTxgZ"
   },
   {
     "price": 4399,
     "name": "Microsoft Office Home & Business 2021",
-    "ImageURL": "https://images.evetech.co.za/repository/components/microsoft-office-home-business-2021-600px-v1.png",
-    "id": "ROwzsrlcHqopQ2WcPnSZ",
-    "collection": "operating-system"
+    "ImageURL": "https://img.evetech.co.za/repository/components/microsoft-office-home-business-2021-600px-v1.png",
+    "id": "ROwzsrlcHqopQ2WcPnSZ"
   },
   {
     "price": 1049,
     "name": "Microsoft Office 365 Personal",
-    "ImageURL": "https://images.evetech.co.za/repository/components/microsoft-office-365-personal-600px-v1.png",
-    "id": "UGjcna38kia9NHpWQNeU",
-    "collection": "operating-system"
+    "ImageURL": "https://img.evetech.co.za/repository/components/microsoft-office-365-personal-600px-v1.png",
+    "id": "UGjcna38kia9NHpWQNeU"
   },
   {
     "price": 3399,
     "name": "Microsoft Windows 11 Pro (Professional) 64-bit OEM",
-    "ImageURL": "https://images.evetech.co.za/repository/components/windows-11-pro-64-bit-oem-600px-v1.png",
-    "id": "XqOEXuLBNCCs5qxdt8NC",
-    "collection": "operating-system"
+    "ImageURL": "https://img.evetech.co.za/repository/components/windows-11-pro-64-bit-oem-600px-v1.png",
+    "id": "XqOEXuLBNCCs5qxdt8NC"
   },
   {
     "price": 2599,
     "name": "Microsoft Windows 11 Home 64-bit OEM",
-    "ImageURL": "https://images.evetech.co.za/repository/components/windows-11-home-64-bit-oem-600px-v1.png",
-    "id": "dBlY9S7Osf36nrVDe8VK",
-    "collection": "operating-system"
+    "ImageURL": "https://img.evetech.co.za/repository/components/windows-11-home-64-bit-oem-600px-v1.png",
+    "id": "dBlY9S7Osf36nrVDe8VK"
   },
   {
     "price": 1399,
     "name": "Microsoft Office 365 Family",
-    "ImageURL": "https://images.evetech.co.za/repository/components/microsoft-office-365-family-600px-v1.png",
-    "id": "iwzjvXwF63NeBFRXJTdA",
-    "collection": "operating-system"
+    "ImageURL": "https://img.evetech.co.za/repository/components/microsoft-office-365-family-600px-v1.png",
+    "id": "iwzjvXwF63NeBFRXJTdA"
   },
   {
     "price": 1899,
     "name": "ADATA XPG 1TB GAMMIX S70 Blade - Works with Playstation 5, PCIe Gen4 M.2 2280 Internal Gaming SSD Up to 7,400 MB/s",
-    "ImageURL": "https://images.evetech.co.za/repository/components/adata-xpg-gammix-s70-blade-1tb-m-2-ssd-600px-v1-min.png",
-    "id": "IamFKqbAUeJTZWoYLgZ8",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/adata-xpg-gammix-s70-blade-1tb-m-2-ssd-600px-v1-min.png",
+    "id": "IamFKqbAUeJTZWoYLgZ8"
   },
   {
     "price": 899,
     "name": "ADATA SU650 512GB 3D-NAND SATA 2.5 inch Internal SSD",
-    "ImageURL": "https://images.evetech.co.za/repository/components/adata-su650-512gb-ssd-600px-v1-min.png",
-    "id": "IxHrBvwuPlI6XLRU1MJE",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/adata-su650-512gb-ssd-600px-v1-min.png",
+    "id": "IxHrBvwuPlI6XLRU1MJE"
   },
   {
     "price": 4299,
     "name": "Samsung 990 EVO NVMe M.2 SSD 2TB, PCIe 4.0 x4 / PCIe 5.0 x2, NVMe 2.0 (2280), 5000MB/s Read, 3200MB/s Write",
-    "ImageURL": "https://images.evetech.co.za/repository/components/samsung-990-evo-2tb-nvme-ssd-600px-v1.webp",
-    "id": "JdPNg469RQQiywfg5Z4y",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/samsung-990-evo-2tb-nvme-ssd-600px-v1.webp",
+    "id": "JdPNg469RQQiywfg5Z4y"
   },
   {
     "price": 1299,
     "name": "MSI SPATIUM M371 NVMe M.2 1TB - PCIe 3x4 NVMe M.2 Internal Solid State Drive, 2350MB/s Read & 1700MB/s Write",
-    "ImageURL": "https://images.evetech.co.za/repository/components/msi-spatium-m371-1tb-nvme-ssd-600px-v1-min.png",
-    "id": "Koa8I6NZ5jLwYLPwi7Zv",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/msi-spatium-m371-1tb-nvme-ssd-600px-v1-min.png",
+    "id": "Koa8I6NZ5jLwYLPwi7Zv"
   },
   {
     "price": 8999,
     "name": "Kingston KC3000 PCIe 4.0 NVMe M.2 4TB SSD - High-Performance Storage for Desktop and Laptop PCs",
-    "ImageURL": "https://images.evetech.co.za/repository/components/kingston-kc3000-pcie-4096gb-nvme-ssd-600px-v1.png",
-    "id": "NQqzuHBlOUx3bcnB0Wns",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/kingston-kc3000-pcie-4096gb-nvme-ssd-600px-v1.png",
+    "id": "NQqzuHBlOUx3bcnB0Wns"
   },
   {
     "price": 8299,
     "name": "Samsung 990 Pro 4TB NVMe SSD / PCIe Gen 4.0 x4, NVMe 2.0 / Up to 7,450 MB/s Read / Up to 6,900 MB/s Write",
-    "ImageURL": "https://images.evetech.co.za/repository/components/samsung-990-pro-4tb-nvme-ssd-600px-v1.webp",
-    "id": "Oc5ZYIZuKxoRC0yHaRBU",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/samsung-990-pro-4tb-nvme-ssd-600px-v1.webp",
+    "id": "Oc5ZYIZuKxoRC0yHaRBU"
   },
   {
     "price": 649,
     "name": "Kingston 240GB A400 SATA 3 2.5\" Internal SSD SA400S37/240G - HDD Replacement for Increase Performance",
-    "ImageURL": "https://images.evetech.co.za/repository/components/kingston-a400-240gb-ssd-600px-v1.png",
-    "id": "Sfw7s0m0ubPCEBzGgKDQ",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/kingston-a400-240gb-ssd-600px-v1.png",
+    "id": "Sfw7s0m0ubPCEBzGgKDQ"
   },
   {
     "price": 699,
     "name": "Kingston KC600 SSD SKC600/256G Internal SSD 2.5\", SATA Rev 3.0, 3D TLC, XTS-AES 256-bit encryption",
-    "ImageURL": "https://images.evetech.co.za/repository/components/kingston-skc600-256gb-ssd-600px-v2.png",
-    "id": "T1Y9RBKpD6fBYXLZQ2HP",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/kingston-skc600-256gb-ssd-600px-v2.png",
+    "id": "T1Y9RBKpD6fBYXLZQ2HP"
   },
   {
     "price": 2599,
     "name": "Samsung 990 EVO SSD 1TB, PCIe Gen 4x4, Gen 5x2 M.2 2280 NVMe Internal Solid State Drive, Speeds Up to 5,000MB/s",
-    "ImageURL": "https://images.evetech.co.za/repository/components/samsung-990-evo-1tb-nvme-ssd-600px-v1.webp",
-    "id": "UnqPsdcepfk25RCHmYPV",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/samsung-990-evo-1tb-nvme-ssd-600px-v1.webp",
+    "id": "UnqPsdcepfk25RCHmYPV"
   },
   {
     "price": 1599,
     "name": "Kingston KC3000 PCIe 4.0 NVMe M.2 512GB SSD - High-Performance Storage for Desktop and Laptop PCs",
-    "ImageURL": "https://images.evetech.co.za/repository/components/kingston-kc3000-pcie-512gb-nvme-ssd-600px-v1.png",
-    "id": "l57b9lrwJGyF8VP5MpGC",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/kingston-kc3000-pcie-512gb-nvme-ssd-600px-v1.png",
+    "id": "l57b9lrwJGyF8VP5MpGC"
   },
   {
     "price": 2599,
     "name": "Samsung 980 Pro 1TB Heatsink M.2 2280 PCI-e 4.0 NVMe Solid State Drive (SSD) / Maximum Read Speed 7,000 MB/s",
-    "ImageURL": "https://images.evetech.co.za/repository/components/samsung-980-pro-1tb-heatsink-nvme-ssd-600px-v001.webp",
-    "id": "oclbXAN3uoZn8PpuFmn7",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/samsung-980-pro-1tb-heatsink-nvme-ssd-600px-v001.webp",
+    "id": "oclbXAN3uoZn8PpuFmn7"
   },
   {
     "price": 1699,
     "name": "KLEVV CRAS C910 1TB M.2 NVMe PCIe Gen4x4 Internal SSD with Heatsink, up to 5000MB/s",
-    "ImageURL": "https://images.evetech.co.za/repository/components/KLEVV%20CRAS%20C910%201TB%20M%202%20NVMe%20SSD-ssd-600px-v1%20.png",
-    "id": "pnworp8X9sRqQLGCCoJO",
-    "collection": "SSD"
+    "ImageURL": "https://img.evetech.co.za/repository/components/KLEVV%20CRAS%20C910%201TB%20M%202%20NVMe%20SSD-ssd-600px-v1%20.png",
+    "id": "pnworp8X9sRqQLGCCoJO"
   },
   {
     "price": 35999,
     "name": "Dell Inspiron G15 15 5535 AMD Ryzen 7-7840HS up to 5.10GHz Processor, 24MB Cache, 8x Cores, 16x Threads",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5535-ryzen-7-rtx-4060-gaming-laptop-with-16gb-ram-512gb-ssd-600px-v1.png",
-    "id": "WbEt6sBkhcgKIvaWw5BK",
-    "collection": "dell-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5535-ryzen-7-rtx-4060-gaming-laptop-with-16gb-ram-512gb-ssd-600px-v1.png",
+    "id": "WbEt6sBkhcgKIvaWw5BK"
   },
   {
     "price": 28999,
     "name": "Dell Inspiron G15 15 5530 13th Gen Intel Core i7-13650HX up to 4.90GHz Processor, 24MB Cache, 14x Cores",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5530-core-i7-rtx-3050-gaming-laptop-16gb-ram-512gb-ssd-600px-v1.png",
-    "id": "WfbaowqIFWJA3pRyBqTB",
-    "collection": "dell-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5530-core-i7-rtx-3050-gaming-laptop-16gb-ram-512gb-ssd-600px-v1.png",
+    "id": "WfbaowqIFWJA3pRyBqTB"
   },
   {
     "price": 34999,
     "name": "Dell Inspiron G15 15 5535 AMD Ryzen 7-7840HS up to 5.10GHz Processor, 24MB Cache, 8x Cores, 16x Threads",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5535-ryzen-5-rtx-3050-gaming-laptop-with-16gb-ram-512gb-ssd-600px-v1.png",
-    "id": "t7ZMXA1Ip4ZlcKb9oqJk",
-    "collection": "dell-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5535-ryzen-5-rtx-3050-gaming-laptop-with-16gb-ram-512gb-ssd-600px-v1.png",
+    "id": "t7ZMXA1Ip4ZlcKb9oqJk"
   },
   {
     "price": 30499,
     "name": "Dell Inspiron G15 15 5530 13th Gen Intel Core i7-13650HX up to 4.90GHz Processor, 24MB Cache, 14x Cores",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5530-core-i7-rtx-3050-gaming-laptop-16gb-ram-1tb-ssd-600px-v1.png",
-    "id": "y7XZ1c0qTJNkiW23XvYc",
-    "collection": "dell-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5530-core-i7-rtx-3050-gaming-laptop-16gb-ram-1tb-ssd-600px-v1.png",
+    "id": "y7XZ1c0qTJNkiW23XvYc"
   },
   {
     "price": 39499,
     "name": "Dell Inspiron G15 15 5530 13th Gen Intel Core i7-13650HX up to 4.90GHz Processor, 24MB Cache, 14x Cores",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5530-core-i7-rtx-4060-gaming-laptop-32gb-ram-2tb-ssd-600px-v1.png",
-    "id": "yv2Jct69KUfSCcgDILWb",
-    "collection": "dell-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/dell-inspiron-g15-5530-core-i7-rtx-4060-gaming-laptop-32gb-ram-2tb-ssd-600px-v1.png",
+    "id": "yv2Jct69KUfSCcgDILWb"
   },
   {
     "price": 22999,
     "name": "Acer Nitro 16 AN16-51-78P1 13th Gen Intel Core i7-13700H up to 5.00GHz Processor, 24MB Cache, 14x Cores",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/acer-aspire-v17-nitro-core-i7-gaming-laptop-deal-16gb-ram-512gb-ssd-600px-v1.png",
-    "id": "80HfMtKSfyxhejooETMm",
-    "collection": "acer-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/acer-aspire-v17-nitro-core-i7-gaming-laptop-deal-16gb-ram-512gb-ssd-600px-v1.png",
+    "id": "80HfMtKSfyxhejooETMm"
   },
   {
     "price": 12999,
     "name": "ASUS TUF Gaming A15 AMD Ryzen 5 7535HS up to 4.55GHz Processor, 19MB Cache, 6x Cores, 12x Threads",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/asus-tuf-gaming-a15-ryzen-5-rtx-2050-gaming-laptops-8gb-ram-512gb-ssd-600px-v01.png",
-    "id": "EZ8bMNyAnZSjGMfX69Fb",
-    "collection": "asus-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/asus-tuf-gaming-a15-ryzen-5-rtx-2050-gaming-laptops-8gb-ram-512gb-ssd-600px-v01.png",
+    "id": "EZ8bMNyAnZSjGMfX69Fb"
   },
   {
     "price": 15999,
     "name": "ASUS TUF Gaming F15 FX507 Intel Core i5-12500H up to 4.50GHz Processor, 18MB Cache, 12x Cores, 16x Threads",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/sus-tuf-gaming-f15-core-i5-rtx-3050-gaming-laptop-16gb-ram-512gb-ssd-600px-v1.webp",
-    "id": "XePw3MERBh15x4db5YMI",
-    "collection": "asus-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/sus-tuf-gaming-f15-core-i5-rtx-3050-gaming-laptop-16gb-ram-512gb-ssd-600px-v1.webp",
+    "id": "XePw3MERBh15x4db5YMI"
   },
   {
     "price": 54999,
     "name": "ASUS ROG Strix G16 14th Gen Intel Core i9-14900HX up to 5.80GHz Processor, 36MB Cache, 24x Cores, 32x Threads",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/asus-rog-strix-scar-16-core-i9-rtx-4080-gaming-laptop-16gb-ram-1tb-ssd-600px-v002.png",
-    "id": "aQH3aIiYfFHtnFMb6QzX",
-    "collection": "asus-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/asus-rog-strix-scar-16-core-i9-rtx-4080-gaming-laptop-16gb-ram-1tb-ssd-600px-v002.png",
+    "id": "aQH3aIiYfFHtnFMb6QzX"
   },
   {
     "price": 78999,
     "name": "ASUS ROG Strix SCAR 18 14th Gen Intel Core i9-14900HX up to 5.80GHz Processor, 36MB Cache, 24x Cores",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/asus-rog-strix-scar-18-rtx-4090-gaming-laptop-with-32gb-ram-2tb-ssd-600px-v2.png",
-    "id": "rE53Aa6OeafTFpiwESkB",
-    "collection": "asus-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/asus-rog-strix-scar-18-rtx-4090-gaming-laptop-with-32gb-ram-2tb-ssd-600px-v2.png",
+    "id": "rE53Aa6OeafTFpiwESkB"
   },
   {
     "price": 11499,
     "name": "Victus by HP Laptop 15-fb0017ni AMD Ryzen 5 5600H up to 4.20GHz Processor, 16MB Cache, 6x Cores",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/hp-victus-laptop-15-fb0017ni-15-6-windows-11-home-ryzen-5-5600h-12gb-ram-256gb-ssd-600px-v2.png",
-    "id": "REPYDhSmJg5uvElJCSB8",
-    "collection": "hp-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/hp-victus-laptop-15-fb0017ni-15-6-windows-11-home-ryzen-5-5600h-12gb-ram-256gb-ssd-600px-v2.png",
+    "id": "REPYDhSmJg5uvElJCSB8"
   },
   {
     "price": 11999,
     "name": "Lenovo IdeaPad Gaming 3 15ACH6 82K2029BSA AMD Ryzen 5 5500H up to 4.20GHz Processor, 8MB Cache",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/lenovo-ideapad-gaming-3-15ach6-ryzen-5-rtx-2050-laptop-8gb-ram-512gb-ssd-600px-v001.webp",
-    "id": "0M6RQh2UetDtqWiEZxiD",
-    "collection": "lenovo-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/lenovo-ideapad-gaming-3-15ach6-ryzen-5-rtx-2050-laptop-8gb-ram-512gb-ssd-600px-v001.webp",
+    "id": "0M6RQh2UetDtqWiEZxiD"
   },
   {
     "price": 13499,
     "name": "MSI THIN 15 B12UCX-1407ZA 12th Gen Intel Core i5-12450H up to 4.4GHz Processor, 12MB Cache, 8x Cores",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/msi-thin-15-b12ucx-core-i5-rtx-2050-laptop-8gb-ram-512gb-ssd-600px-v1.webp",
-    "id": "MGmloocfRgP43IyZ5axt",
-    "collection": "msi-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/msi-thin-15-b12ucx-core-i5-rtx-2050-laptop-8gb-ram-512gb-ssd-600px-v1.webp",
+    "id": "MGmloocfRgP43IyZ5axt"
   },
   {
     "price": 114999,
     "name": "MSI TITAN 18 HX A14V 14th Gen Intel Core i9-14900HX up to 5.80GHz Processor, 36MB Cache, 24x Cores",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/msi-titan-18-hx-a14v-core-i9-rtx-4090-gaming-laptop-128gb-ram-4tb-ssd-600px-v2.png",
-    "id": "MjTTTf73vvJLx3Yqud6y",
-    "collection": "msi-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/msi-titan-18-hx-a14v-core-i9-rtx-4090-gaming-laptop-128gb-ram-4tb-ssd-600px-v2.png",
+    "id": "MjTTTf73vvJLx3Yqud6y"
   },
   {
     "price": 21499,
     "name": "MSI Cyborg 15 A12VF 12th Gen Intel Core i7-12650H up to 4.7GHz Processor, 24MB Cache, 10x Cores, 16x Threads",
-    "ImageURL": "https://images.evetech.co.za/repository/ProductImages/msi-cyborg-15-a12vf-core-i7-rtx-4060-gaming-laptop-16gb-ram-512gb-ssd-600px-v2.png",
-    "id": "UqVIdAqifIv74Yf5oNGg",
-    "collection": "msi-gaming-laptops"
+    "ImageURL": "https://img.evetech.co.za/repository/ProductImages/msi-cyborg-15-a12vf-core-i7-rtx-4060-gaming-laptop-16gb-ram-512gb-ssd-600px-v2.png",
+    "id": "UqVIdAqifIv74Yf5oNGg"
   },
   {
     "price": 3599,
     "name": "iewSonic VX2479-HD-PRO 24\" FHD IPS Frameless Gaming Flat Monitor with 1ms MPRT and 180Hz, 2 HDMI, DisplayPort",
-    "ImageURL": "https://images.evetech.co.za/repository/components/viewsonic-24-vx2479-hd-proGaming-Monitor-600px-v1.webp",
-    "id": "1UTLVxXsmknqwa7LA1Hf",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/viewsonic-24-vx2479-hd-proGaming-Monitor-600px-v1.webp",
+    "id": "1UTLVxXsmknqwa7LA1Hf"
   },
   {
     "price": 2299,
     "name": "Dell 24 Monitor - SE2422H 24 5ms (gtg), VA (Vertical Alignment), Full HD (1920 x 1080), 60 Hz (VGA) / 75 Hz (HDMI)",
-    "ImageURL": "https://images.evetech.co.za/repository/components/dell-se2422h-24-monitor-600px-v11.png",
-    "id": "4b6VEOJ9B5zxAl5jGE6U",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/dell-se2422h-24-monitor-600px-v11.png",
+    "id": "4b6VEOJ9B5zxAl5jGE6U"
   },
   {
     "price": 36499,
     "name": "LG 45'' Ultragear™ OLED Curved Gaming Monitor WQHD with 240Hz Refresh Rate 0.03ms Response Time",
-    "ImageURL": "https://images.evetech.co.za/repository/components/lg-45-inch-ultragear-oled-curved-gaming-monitor-600px-v001.png",
-    "id": "AQzNhXHF4XwgSknCfn7L",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/lg-45-inch-ultragear-oled-curved-gaming-monitor-600px-v001.png",
+    "id": "AQzNhXHF4XwgSknCfn7L"
   },
   {
     "price": 28999,
     "name": "LG UltraGear 49\" DQHD (5120x1440) Curved Gaming Monitor, 240Hz, 1ms, VESA DisplayHDR 1000, HDMI 2.1, DisplayPort",
-    "ImageURL": "https://images.evetech.co.za/repository/components/lg-ultragear-49-dqhd-gaming-monitor-600px-v1.png",
-    "id": "EGVgoakkTgxKA60AGsUB",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/lg-ultragear-49-dqhd-gaming-monitor-600px-v1.png",
+    "id": "EGVgoakkTgxKA60AGsUB"
   },
   {
     "price": 4999,
     "name": "Dell S2721HGFA 27 Inch Full HD (1920x1080) 1500R Curved Gaming Monitor, 144Hz, VA, 1ms MPRT, AMD FreeSync Premium",
-    "ImageURL": "https://images.evetech.co.za/repository/components/dell-s2721hgf-144hz-gaming-monitor-600px-v001.png",
-    "id": "FUH7dsjHEjIjddtdf1Jk",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/dell-s2721hgf-144hz-gaming-monitor-600px-v001.png",
+    "id": "FUH7dsjHEjIjddtdf1Jk"
   },
   {
     "price": 4999,
     "name": "Dell Curved Gaming Monitor 27 Inch Curved Monitor with 165Hz Refresh Rate, QHD (2560 x 1440) Display, Black",
-    "ImageURL": "https://images.evetech.co.za/repository/components/dell-s2722dgm-165hz-gaming-monitor-600px-v1.png",
-    "id": "O21TOsv1JCpHoQslXXTQ",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/dell-s2722dgm-165hz-gaming-monitor-600px-v1.png",
+    "id": "O21TOsv1JCpHoQslXXTQ"
   },
   {
     "price": 10499,
     "name": "AOC CU34G3S 34\" Curved Gaming Monitor / HDMI DP / FREESYNC PREMIUM / 165HZ Refresh Rate / Resolution (3440x1440)",
-    "ImageURL": "https://images.evetech.co.za/repository/components/AOC%20CU34G3S%20-Gaming-Monitor-600px-v1%20.png",
-    "id": "OqiQj5u8dOpJoPi9mMzV",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/AOC%20CU34G3S%20-Gaming-Monitor-600px-v1%20.png",
+    "id": "OqiQj5u8dOpJoPi9mMzV"
   },
   {
     "price": 7999,
     "name": "Samsung 32 inch Odyssey G55C QHD 165 Hz 1 ms Curved Gaming Monitor",
-    "ImageURL": "https://images.evetech.co.za/repository/components/samsung-32-odyssey-g55c-curved-gaming-monitor-600px-v1.png",
-    "id": "UaYUmq1soWk6inLpfd5a",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/samsung-32-odyssey-g55c-curved-gaming-monitor-600px-v1.png",
+    "id": "UaYUmq1soWk6inLpfd5a"
   },
   {
     "price": 8399,
     "name": "OC AGON AG275QXR 27\" QHD 2K 170Hz Gaming Monitor - Pink - 2022 Edition ,IPS, Flicker-free technology",
-    "ImageURL": "https://images.evetech.co.za/repository/components/aoc-agon-ag275qxr-qhd-gaming-monitor-pink-600px-v001.png",
-    "id": "WWUw9wWSJXmCHfzYbNPS",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/aoc-agon-ag275qxr-qhd-gaming-monitor-pink-600px-v001.png",
+    "id": "WWUw9wWSJXmCHfzYbNPS"
   },
   {
     "price": 9999,
     "name": "AOC Agon PRO AG275QXL 27\" League of Legends Official Tournament Gaming Monitor, QHD 2K 170Hz 1ms, G-SYNC Compatible",
-    "ImageURL": "https://images.evetech.co.za/repository/components/aoc-agon-pro-ag275qxl-qhd-2k-gaming-monitor-600px-v001.png",
-    "id": "Y9a1yxNu9YQppIzvB9Fq",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/aoc-agon-pro-ag275qxl-qhd-2k-gaming-monitor-600px-v001.png",
+    "id": "Y9a1yxNu9YQppIzvB9Fq"
   },
   {
     "price": 3899,
     "name": "Dell S2421HS Full HD 1920 x 1080, 24-Inch 1080p LED, 75Hz, Desktop Monitor with Adjustable Stand",
-    "ImageURL": "https://images.evetech.co.za/repository/components/dell-s2421hs-fhd-ips-monitor-600px-v001.png",
-    "id": "YRz9PLZJX7yykttXXVQN",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/dell-s2421hs-fhd-ips-monitor-600px-v001.png",
+    "id": "YRz9PLZJX7yykttXXVQN"
   },
   {
     "price": 56499,
     "name": "SAMSUNG 49\" Odyssey OLED G9 G95SC Series Curved Smart Gaming Monitor, 240Hz, 0.03ms, Dual QHD",
-    "ImageURL": "https://images.evetech.co.za/repository/components/samsung-odyssey-oled-g9-49-240hz-gaming-monitor-600px-v001.png",
-    "id": "b4lCzTlgoKw7lA4KTnUL",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/samsung-odyssey-oled-g9-49-240hz-gaming-monitor-600px-v001.png",
+    "id": "b4lCzTlgoKw7lA4KTnUL"
   },
   {
     "price": 9799,
     "name": "ALIENWARE 27 inch Gaming Monitor AW2724DM - QHD (2560 x 1440) at 180Hz (with Overclock) / 165Hz (Native) - 1 ms",
-    "ImageURL": "https://images.evetech.co.za/repository/components/alienware-aw2724dm-27-180hz-gaming-monitor-600px-v01.png",
-    "id": "bDCvhqRmtmUCpIpaN6lA",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/alienware-aw2724dm-27-180hz-gaming-monitor-600px-v01.png",
+    "id": "bDCvhqRmtmUCpIpaN6lA"
   },
   {
     "price": 1999,
     "name": "DAHUA LM24-B200S 24\" FHD Monitor / Ultra-narrow Bezel / 178°H/178°V Extra-wide Viewing Angle",
-    "ImageURL": "https://images.evetech.co.za/repository/components/dahua-lm24-b200s-fhd-monitor-600px-v001.png",
-    "id": "cvXdihVQ655Oqd6gfTrK",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/dahua-lm24-b200s-fhd-monitor-600px-v001.png",
+    "id": "cvXdihVQ655Oqd6gfTrK"
   },
   {
     "price": 26999,
     "name": "AOC AGON AG493UCX2 49\" UltraWide Dual QHD (5120 x 1440) Curved Immersive Gaming Monitor / 165Hz Refresh Rate",
-    "ImageURL": "https://images.evetech.co.za/repository/components/aoc-agon-ag493ucx2-165hz-gaming-monitor-600px-v001.png",
-    "id": "pqlhMSvA6sVuarby7kiq",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/aoc-agon-ag493ucx2-165hz-gaming-monitor-600px-v001.png",
+    "id": "pqlhMSvA6sVuarby7kiq"
   },
   {
     "price": 6999,
     "name": "LG 27GP750-B 27” Ultragear FHD (1920 x 1080) IPS Gaming Monitor w/ 1ms Response Time & 240Hz Refresh Rate",
-    "ImageURL": "https://images.evetech.co.za/repository/components/lg-ultragear-27-fhd-gaming-monitor-600px-v001.png",
-    "id": "uFB7Utk7VomMmscE0ils",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/lg-ultragear-27-fhd-gaming-monitor-600px-v001.png",
+    "id": "uFB7Utk7VomMmscE0ils"
   },
   {
     "price": 15999,
     "name": "LG UltraGear QHD 32-Inch Gaming Monitor 32GQ850, Nano IPS 1ms (GtG) with ATW, VESA DisplayHDR 600, NVIDIA G-SYNC",
-    "ImageURL": "https://images.evetech.co.za/repository/components/lg-ultragear-qhd-32-gaming-monitor-600px-v1.webp",
-    "id": "yNt8DJUtAVqmIGlKEIn3",
-    "collection": "monitors"
+    "ImageURL": "https://img.evetech.co.za/repository/components/lg-ultragear-qhd-32-gaming-monitor-600px-v1.webp",
+    "id": "yNt8DJUtAVqmIGlKEIn3"
   },
   {
     "price": 2799,
     "name": "Gamdias Zelus E3 Weave Gaming Chair - Black/Grey / Fully Adjustable Headrest / Resilient Foam Filling / Adaptive Jointed Armrest",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-zelus-e3-weave-gaming-chair-black-grey-600px-v1.png",
-    "id": "2btsb8jEqr58fOjZYHHo",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-zelus-e3-weave-gaming-chair-black-grey-600px-v1.png",
+    "id": "2btsb8jEqr58fOjZYHHo"
   },
   {
     "price": 3999,
     "name": "HHGears XL-500 PU Leather Gaming Chair - Black/Green / Comfortable Headrest and Lumber Pillow",
-    "ImageURL": "https://images.evetech.co.za/repository/components/hhgears-xl-500-gaming-chair-black-green-600px-v001.png",
-    "id": "4MaCFaSMHuJJcybBbTsY",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/hhgears-xl-500-gaming-chair-black-green-600px-v001.png",
+    "id": "4MaCFaSMHuJJcybBbTsY"
   },
   {
     "price": 6499,
     "name": "Nitro Concepts X1000 Gaming Stuhl - Transformers Decepticons Edition, Gaming or Office, Ergonomic Design",
-    "ImageURL": "https://images.evetech.co.za/repository/components/nitro-concepts-x1000-transformers-decepticons-edition-black-purple-600px-v001.png",
-    "id": "9K1sVvGn0fvO8MLoxgBy",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/nitro-concepts-x1000-transformers-decepticons-edition-black-purple-600px-v001.png",
+    "id": "9K1sVvGn0fvO8MLoxgBy"
   },
   {
     "price": 3699,
     "name": "Cougar Armor Elite Gaming Chair - Orange / Unparalleled Comfort / Premium PVC Leather / Head and Lumbar Pillow",
-    "ImageURL": "https://images.evetech.co.za/repository/components/cougar-armor-elite-gaming-chair-orange-600px-v001.png",
-    "id": "JkFJCeRbVE1gAif0Qat4",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/cougar-armor-elite-gaming-chair-orange-600px-v001.png",
+    "id": "JkFJCeRbVE1gAif0Qat4"
   },
   {
     "price": 6499,
     "name": "Nitro Concepts X1000 Gaming Stuhl - Transformers Optimus Prime Edition, Gaming or Office, Ergonomic Design",
-    "ImageURL": "https://images.evetech.co.za/repository/components/nitro-concepts-x1000-transformers-optimus-prime-edition-600px-v001.png",
-    "id": "T7zfe6SOpkptdBVioArF",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/nitro-concepts-x1000-transformers-optimus-prime-edition-600px-v001.png",
+    "id": "T7zfe6SOpkptdBVioArF"
   },
   {
     "price": "4499",
     "name": "Vertagear Racing Series P-Line PL1000 Gaming Chairs - White/Pink / High Quality PUC Leather / Adjustable Seat Height",
-    "ImageURL": "https://images.evetech.co.za/repository/components/vertagear-pl1000-gaming-chair-white-pink-600px-v1.png",
-    "id": "VXK8cNloEq6rlglPghSl",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/vertagear-pl1000-gaming-chair-white-pink-600px-v1.png",
+    "id": "VXK8cNloEq6rlglPghSl"
   },
   {
     "price": 4299,
     "name": "WARP Gr Series Ergonomic Gaming Chair - Orange/Black / Super Soft Head And Lumber Cushions / Class 3 Gas Lift",
-    "ImageURL": "https://images.evetech.co.za/repository/components/warp-gr-series-ergonomic-gaming-chair-orange-black-600px-v001.png",
-    "id": "WuQRckePw6Z4OLFXtDxK",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/warp-gr-series-ergonomic-gaming-chair-orange-black-600px-v001.png",
+    "id": "WuQRckePw6Z4OLFXtDxK"
   },
   {
     "price": 4999,
     "name": "NITRO CONCEPTS S300 Gaming Chair - Astral Yellow - Office Chair - Ergonomic - Cloth Cover - Up to 300 lbs Users",
-    "ImageURL": "https://images.evetech.co.za/repository/components/nitro-concepts-s300-gaming-chair-astral-yellow-600px-v001.png",
-    "id": "bUaQO9dUnD7XzxZ9cP85",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/nitro-concepts-s300-gaming-chair-astral-yellow-600px-v001.png",
+    "id": "bUaQO9dUnD7XzxZ9cP85"
   },
   {
     "price": 3199,
     "name": "Gamdias Zelus M2 Gaming Chair - Black / Leather Style Vinyl Material / Adjustable Back to 150 Degree / 2D Adjustable Armrests",
-    "ImageURL": "https://images.evetech.co.za/repository/components/gamdias-zelus-m2-gaming-chair-black-600px-v001.png",
-    "id": "hKlyuVabSxoQEMONBTWv",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/gamdias-zelus-m2-gaming-chair-black-600px-v001.png",
+    "id": "hKlyuVabSxoQEMONBTWv"
   },
   {
     "price": 5999,
     "name": "Vertagear Alienware S3800 Comfort Gaming Chair - Black",
-    "ImageURL": "https://images.evetech.co.za/repository/components/alienware-s3800-comfort-gaming-chair-black-600px-v1.png",
-    "id": "rkTSpQdNtTcjyAfAO7XI",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/alienware-s3800-comfort-gaming-chair-black-600px-v1.png",
+    "id": "rkTSpQdNtTcjyAfAO7XI"
   },
   {
     "price": 5499,
     "name": "Vertagear Racing Series S-Line SL3800 Gaming Chairs / 100KG Weight Limit / Easy Assembly / Adjustable Seat Height",
-    "ImageURL": "https://images.evetech.co.za/repository/components/vertagear-sl3800-gaming-chair-black-blue-600px-v001.png",
-    "id": "zbEH6BcmEuH5ue4rgO0G",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/vertagear-sl3800-gaming-chair-black-blue-600px-v001.png",
+    "id": "zbEH6BcmEuH5ue4rgO0G"
   },
   {
     "price": 2499,
     "name": "HHGears SM-115 PU Leather Gaming Chair - Black/Red / High Quality PU Leather / Height Adjustability / High Quality Stitching",
-    "ImageURL": "https://images.evetech.co.za/repository/components/hhgears-sm-115-gaming-chair-chair-red-600px-v001.png",
-    "id": "zcQQ1KzEqb6fP0mkBR4u",
-    "collection": "gaming-chairs"
+    "ImageURL": "https://img.evetech.co.za/repository/components/hhgears-sm-115-gaming-chair-chair-red-600px-v001.png",
+    "id": "zcQQ1KzEqb6fP0mkBR4u"
   }
 ]

@@ -5,6 +5,7 @@ import img2 from '../../../assets/gaming-pcs/amd-ryzen-7-pcs-banner-400px-v11.pn
 import img3 from '../../../assets/gaming-pcs/intel-14th-gen-banner.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import { useQuery } from 'react-query'
+import ProductsSkeleton from '../../../components/ProductsSkeleton'
 
 export type ProductType = {
 	ImageURL: string
@@ -93,17 +94,6 @@ export default function GamingLaptops() {
 	} = useQuery<ProductType[]>(['gaming-laptops', 'msi'], fetchMSIProducts)
 
 	if (
-		isLoadingDell ||
-		isLoadingAcer ||
-		isLoadingAsus ||
-		isLoadingHP ||
-		isLoadingLenovo ||
-		isLoadingMSI
-	) {
-		return <div>Loading...</div>
-	}
-
-	if (
 		isErrorDell ||
 		isErrorAcer ||
 		isErrorAsus ||
@@ -152,7 +142,16 @@ export default function GamingLaptops() {
 					className="w-48 h-auto rounded-lg m-2 transition-transform duration-150 hover:scale-105"
 				/>
 			</div>
-			<ProductLayout products={products} />
+			{isLoadingDell ||
+			isLoadingAcer ||
+			isLoadingAsus ||
+			isLoadingHP ||
+			isLoadingLenovo ||
+			isLoadingMSI ? (
+				<ProductsSkeleton />
+			) : (
+				<ProductLayout products={products} />
+			)}
 			<div className="padding-bottom-30">
 				<img
 					src={img1}

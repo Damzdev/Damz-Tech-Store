@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Signup() {
 	const [name, setName] = useState('')
@@ -7,6 +7,8 @@ export default function Signup() {
 	const [password, setPassword] = useState('')
 	const [confirmPassword, setConfirmPassword] = useState('')
 	const [error, setError] = useState('')
+
+	const navigate = useNavigate()
 
 	const handleSubmit = async (e: { preventDefault: () => void }) => {
 		e.preventDefault()
@@ -31,10 +33,18 @@ export default function Signup() {
 
 		const data = await response.json()
 		console.log(data)
+
+		// If signup is successful, navigate to the login page
+		if (response.ok) {
+			navigate('/login')
+		} else {
+			// Handle errors (e.g., display error message)
+			setError(data.message || 'Signup failed')
+		}
 	}
 
 	return (
-		<div className="bg-f4f4f9 min-h-screen flex justify-center items-center">
+		<div className="bg-gray-300 min-h-screen flex justify-center items-center">
 			<div className="signup-container bg-white p-8 rounded-lg shadow-md max-w-md w-full">
 				<h1 className="text-2xl font-bold mb-6 text-gray-800">Sign Up</h1>
 				<form className="text-left" onSubmit={handleSubmit}>

@@ -1,3 +1,13 @@
+// Cart.tsx
+import Loader from '../components/Loader'
+
 export default function Cart() {
-	return <h1>Cart Page Goes here</h1>
+	return (
+		<>
+			<Loader />
+			<div className="flex justify-center items-center w-full h-full">
+				<h1>Test</h1>
+			</div>
+		</>
+	)
 }

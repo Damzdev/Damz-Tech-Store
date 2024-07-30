@@ -5,10 +5,12 @@ import MonitorCard from './product-cards/Monitor-card'
 import NewLaptopCard from './product-cards/NewLaptop-card'
 import NvidiaCard from './product-cards/Nvidia-card'
 import Intelproducts from './Productbannerlinks'
+import Loader from '../../components/Loader'
 
 export default function Home() {
 	return (
 		<main>
+			<Loader />
 			<Carousel />
 			<ul className="flex flex-wrap bg-white ">
 				<AmdCard />

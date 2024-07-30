@@ -4,6 +4,9 @@ import {
 	createRoutesFromElements,
 	Route,
 } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
+import { loginSuccess } from './features/user/userSlice'
 import Layout from './components/Layout'
 import Cart from './pages/Cart'
 import Gamingcomputers from './pages/product-pages/navbar-products/GamingComputers'
@@ -33,6 +36,7 @@ import { QueryClient, QueryClientProvider } from 'react-query'
 import Checkout from './pages/Checkout'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import Orders from './pages/Orders'
 
 const queryClient = new QueryClient()
 
@@ -90,12 +94,23 @@ const router = createBrowserRouter(
 				<Route path="gaming-laptops/dell" element={<DellLaptops />} />
 				<Route path="gaming-laptops/msi" element={<MSILaptops />} />
 				<Route path="checkout" element={<Checkout />} />
+				<Route path="orders" element={<Orders />} />
 			</Route>
 		</>
 	)
 )
 
 function App() {
+	const dispatch = useDispatch()
+
+	useEffect(() => {
+		const accessToken = localStorage.getItem('accessToken')
+		const refreshToken = localStorage.getItem('refreshToken')
+		if (accessToken && refreshToken) {
+			dispatch(loginSuccess({ accessToken, refreshToken }))
+		}
+	}, [dispatch])
+
 	return (
 		<QueryClientProvider client={queryClient}>
 			<ShoppingCartProvider>
