@@ -30,46 +30,6 @@ export default function AMDProcessor() {
 		return response.data
 	})
 
-	if (isLoading)
-		return (
-			<div className="bg-white py-8 px-4 md:px-8 lg:px-12">
-				<div className="padding-bottom-30">
-					<img
-						src={img1}
-						alt="custom-gamingpc-banner"
-						className="block mx-auto w-full max-w-1150 max-h-96 overflow-hidden rounded-lg"
-					/>
-				</div>
-				<h1 className="text-3xl font-bold text-center my-8 text-transparent bg-gradient-to-r from-orange-500 via-orange-600 to-red-600 bg-clip-text ">
-					Powerful Intel Processors
-				</h1>
-				<div className="flex flex-wrap justify-center mb-8">
-					<img
-						src={img2}
-						alt="AMD Banner"
-						className="w-48 h-auto rounded-lg m-2 transition-transform duration-150 hover:scale-105"
-					/>
-					<img
-						src={img4}
-						alt="NVIDIA Banner"
-						className="w-48 h-auto rounded-lg m-2 transition-transform duration-150 hover:scale-105"
-					/>
-					<img
-						src={img3}
-						alt="Intel Banner"
-						className="w-48 h-auto rounded-lg m-2 transition-transform duration-150 hover:scale-105"
-					/>
-				</div>
-				<ProductsSkeleton />
-				<div className="padding-bottom-30">
-					<img
-						src={img1}
-						alt="intel-banner"
-						className="block mx-auto w-full max-w-1150 max-h-96 overflow-hidden rounded-lg"
-					/>
-				</div>
-			</div>
-		)
 	if (isError) return <div>Error fetching products.</div>
 
 	const productsToDisplay: Product[] = products
@@ -110,7 +70,11 @@ export default function AMDProcessor() {
 					className="w-48 h-auto rounded-lg m-2 transition-transform duration-150 hover:scale-105"
 				/>
 			</div>
-			<ProductLayout products={productsToDisplay} />
+			{isLoading ? (
+				<ProductsSkeleton />
+			) : (
+				<ProductLayout products={productsToDisplay} />
+			)}
 			<div className="padding-bottom-30">
 				<img
 					src={img1}

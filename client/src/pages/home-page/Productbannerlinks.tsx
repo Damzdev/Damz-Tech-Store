@@ -5,7 +5,7 @@ import scrollToTop from '../../utils/scrollToTop'
 
 export default function Productbannerlinks() {
 	return (
-		<div className="px-4 sm:px-6 lg:px-8">
+		<div className="px-4 sm:px-6 lg:px-8 pb-6">
 			<h1 className="text-sm font-bold text-center sm:text-3xl p-10 text-transparent bg-gradient-to-r from-orange-500 via-orange-600 to-red-600 bg-clip-text">
 				Custom Built High-End Gaming Computers, GPU'S, CPU'S & Much More!
 			</h1>
@@ -22,7 +22,7 @@ export default function Productbannerlinks() {
 					/>
 				</Link>
 			</div>
-			<div className="mb-4 flex justify-center">
+			<div className="flex justify-center">
 				<Link
 					to="/components/nvidia-cards"
 					onClick={scrollToTop}

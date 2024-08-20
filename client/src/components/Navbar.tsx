@@ -1,16 +1,43 @@
 import { Link } from 'react-router-dom'
-import sidebarbtn from '../assets/navbar/burger-bar.png'
 import Components from './Components'
+import nvidia from '../assets/navbar/nvidia-logo-png-transparent.png'
+import amd from '../assets/navbar/amd-ryzen-logo.png'
+import intel from '../assets/navbar/intel-logo.png'
 
 export default function Navbar() {
 	return (
-		<nav className="w-auto bg-gray-300 text-black h-8 items-center hidden sm:flex">
-			<img
-				className="w-5 h-auto cursor-pointer ml-12"
-				src={sidebarbtn}
-				alt="Sidebar Button"
-			/>
-			<ul className="flex list-none cursor-pointer pl-2">
+		<nav className="bg-gray-300 text-black h-[33px] items-center lg:flex hidden lg:w-auto">
+			<ul className="flex list-none cursor-pointer pl-6">
+				<Link
+					className="mr-5 text-black no-underline self-center"
+					to="/components/nvidia-cards"
+				>
+					<img
+						src={nvidia}
+						alt="nvidia-logo"
+						className="w-12 h-6 self-center mr-3"
+					/>
+				</Link>
+				<Link
+					className="mr-5 text-black no-underline self-center"
+					to="/components/radeon-cards"
+				>
+					<img
+						src={amd}
+						alt="nvidia-logo"
+						className="w-12 h-6 self-center mr-3"
+					/>
+				</Link>
+				<Link
+					className="mr-5 text-black no-underline self-center"
+					to="/components/intel-processors"
+				>
+					<img
+						src={intel}
+						alt="nvidia-logo"
+						className="w-12 self-center mr-3"
+					/>
+				</Link>
 				<Components />
 				<Link
 					className="mr-5 text-black no-underline self-center"

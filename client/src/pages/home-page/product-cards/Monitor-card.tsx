@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import cardimg from '../../../assets/Product-cards/monitorgaming.png'
 
 const MonitorCard = () => {
@@ -17,9 +18,12 @@ const MonitorCard = () => {
 					resolutions, enhancing gaming experiences with advanced technologies
 					and sleek designs
 				</p>
-				<button className="learn-more-btn bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300">
-					Learn More!
-				</button>
+				<Link
+					to="/monitors"
+					className="bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300 text-center"
+				>
+					<button className=" ">Buy Now!</button>
+				</Link>
 			</div>
 		</div>
 	)

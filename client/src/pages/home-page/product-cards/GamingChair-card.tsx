@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import cardimg from '../../../assets/Product-cards/shop-secretlab-ergonomic-chairs-mobile.png'
 
 const GamingChairCard = () => {
@@ -17,9 +18,12 @@ const GamingChairCard = () => {
 					for long hours of gaming or work with adjustable features for optimal
 					support.
 				</p>
-				<button className="bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300">
-					Learn More!
-				</button>
+				<Link
+					to="/gaming-chairs"
+					className="bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300 text-center"
+				>
+					<button className=" ">Buy Now!</button>
+				</Link>
 			</div>
 		</div>
 	)

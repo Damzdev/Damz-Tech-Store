@@ -11,36 +11,6 @@ require('dotenv').config()
 const app = express()
 const port = 3005
 
-const collections = [
-	'AMD-Gaming-Pcs',
-	'Intel-Gaming-Pcs',
-	'intel-processors',
-	'amd-processors',
-	'cpu-coolers',
-	'nvidia-GPU',
-	'radeon-GPU',
-	'hard-drives',
-	'keyboards',
-	'ram-memory',
-	'intel-motherboards',
-	'amd-motherboards',
-	'mouses',
-	'power-supplys',
-	'pc-cases',
-	'operating-system',
-	'SSD',
-	'dell-gaming-laptops',
-	'acer-gaming-laptops',
-	'asus-gaming-laptops',
-	'hp-gaming-laptops',
-	'lenovo-gaming-laptops',
-	'msi-gaming-laptops',
-	'monitors',
-	'gaming-chairs',
-]
-
-const orders = []
-
 app.use(
 	cors({
 		origin: 'http://localhost:5174',
@@ -623,6 +593,44 @@ app.get('/api/all-products', async (req, res) => {
 		const products = JSON.parse(data)
 
 		res.json(products)
+	} catch (error) {
+		console.error('Error fetching data: ', error)
+		res.status(500).send('Error fetching data')
+	}
+})
+
+app.get('/api/component-deals', async (req, res) => {
+	try {
+		const collections = [
+			'intel-processors',
+			'amd-processors',
+			'cpu-coolers',
+			'nvidia-GPU',
+			'radeon-GPU',
+			'hard-drives',
+			'keyboards',
+			'ram-memory',
+			'intel-motherboards',
+			'amd-motherboards',
+			'mouses',
+			'power-supplys',
+			'pc-cases',
+			'SSD',
+		]
+
+		const allData = []
+
+		for (const collection of collections) {
+			const querySnapshot = await db.collection(collection).get()
+			const docs = querySnapshot.docs.map((doc) => ({
+				...doc.data(),
+				id: doc.id,
+				collectionName: collection, // Optional: include the collection name
+			}))
+			allData.push(...docs)
+		}
+
+		res.json(allData)
 	} catch (error) {
 		console.error('Error fetching data: ', error)
 		res.status(500).send('Error fetching data')

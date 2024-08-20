@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import cardimg from '../../../assets/Product-cards/dell.png'
 
 const NewLaptopCard = () => {
@@ -17,9 +18,12 @@ const NewLaptopCard = () => {
 					hardware, enabling seamless gaming on-the-go with cutting-edge
 					graphics and processing capabilities.
 				</p>
-				<button className="learn-more-btn bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300">
-					Learn More!
-				</button>
+				<Link
+					to="/gaming-laptops"
+					className="bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300 text-center"
+				>
+					<button className=" ">Buy Now!</button>
+				</Link>
 			</div>
 		</div>
 	)

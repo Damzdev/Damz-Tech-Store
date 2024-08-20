@@ -4,15 +4,28 @@ import AddedItem from '../components/ItemAddedNotification'
 import axios from 'axios'
 import { formatPrice } from '../utils/formatCurrency'
 
+interface Order {
+	id: number
+	name: string
+	address: string
+	createdAt: string
+	total: number
+}
+
+interface LocationState {
+	showToast?: boolean
+	message?: string
+}
+
 export default function Orders() {
-	const location = useLocation()
+	const location = useLocation() as { state: LocationState }
 	const [showToast, setShowToast] = useState(false)
 	const [toastMessage, setToastMessage] = useState('')
-	const [orders, setOrders] = useState([])
+	const [orders, setOrders] = useState<Order[]>([])
 
 	useEffect(() => {
 		if (location.state?.showToast) {
-			setToastMessage(location.state.message)
+			setToastMessage(location.state.message || '')
 			setShowToast(true)
 		}
 	}, [location.state])
@@ -27,7 +40,7 @@ export default function Orders() {
 					return
 				}
 
-				const response = await axios.get(
+				const response = await axios.get<Order[]>(
 					'http://localhost:3005/api/users-orders',
 					{
 						headers: {
@@ -35,7 +48,13 @@ export default function Orders() {
 						},
 					}
 				)
-				setOrders(response.data)
+
+				const sortedOrders = response.data.sort(
+					(a, b) =>
+						new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+				)
+
+				setOrders(sortedOrders)
 			} catch (error) {
 				console.error('Error fetching orders: ', error)
 				setToastMessage('Error fetching orders')
@@ -80,10 +99,10 @@ export default function Orders() {
 									{order.address}
 								</td>
 								<td className="py-2 px-4 border-b border-gray-200">
-									{order.createdAt}
+									{new Date(order.createdAt).toLocaleString()}
 								</td>
 								<td className="py-2 px-4 border-b border-gray-200 text-right">
-									{`R${order.total}`}
+									{formatPrice(order.total)}
 								</td>
 							</tr>
 						))}

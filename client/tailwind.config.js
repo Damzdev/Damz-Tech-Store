@@ -6,8 +6,8 @@ export default {
 		extend: {
 			screens: {
 				mobile: '391px',
-
 				sm: '640px',
+				'max-500': { max: '700px' },
 
 				md: '768px',
 

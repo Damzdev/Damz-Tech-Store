@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import cardimg from '../../../assets/Product-cards/nvidia-rtx-graphics-card.png'
 
 const NvidiaCard = () => {
@@ -17,9 +18,12 @@ const NvidiaCard = () => {
 					and real-time ray tracing, setting new standards in gaming and
 					rendering with unparalleled visual fidelity and speed.
 				</p>
-				<button className="learn-more-btn bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300">
-					Learn More!
-				</button>
+				<Link
+					to="/components/nvidia-cards"
+					className="bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300 text-center"
+				>
+					<button className=" ">Buy Now!</button>
+				</Link>
 			</div>
 		</div>
 	)

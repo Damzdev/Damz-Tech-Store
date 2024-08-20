@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import cardimg from '../../../assets/Product-cards/Radeon RX 7900 XTX Phantom Gaming 24GB OC.png'
 
 const AmdCard = () => {
@@ -17,9 +18,12 @@ const AmdCard = () => {
 					its cutting-edge GPU architecture, delivering exceptional gaming and
 					rendering capabilities with advanced features for enthusiasts.
 				</p>
-				<button className="learn-more-btn bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300">
-					Learn More!
-				</button>
+				<Link
+					to="/components/radeon-cards"
+					className="bg-black text-white font-bold py-2 px-4 rounded-md hover:bg-lime-400 hover:text-black transition duration-300 text-center"
+				>
+					<button className=" ">Buy Now!</button>
+				</Link>
 			</div>
 		</div>
 	)

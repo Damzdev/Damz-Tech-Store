@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Target the default arrow classes */
+.slick-prev,
+.slick-next {
+	position: absolute;
+	color: black; /* Change the color */
+	z-index: 1; /* Ensure it's on top */
+}
+
+@media (min-width: 1024px) {
+	.slick-prev {
+		top: -77px;
+		left: 800px;
+	}
+
+	.slick-next {
+		top: -77px;
+		right: 15px;
+	}
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black; /* Change the color of the arrow icon */
+	font-size: 40px; /* Adjust the size */
+}
+
+/* Mobile-friendly arrow positioning */
+@media (max-width: 800px) {
+	.slick-prev {
+		left: 350px;
+		top: -74px;
+	}
+
+	.slick-next {
+		right: 16px;
+		top: -74px;
+	}
+}
+
+/* Ensure slides don't stick together on mobile */
+.slick-slide > div {
+	margin: 0 5px;
+}
+
+/* Adjust card height for mobile */
+@media (max-width: 640px) {
+	.bg-black.rounded-lg.flex.flex-col.h-80 {
+		height: auto;
+		min-height: 300px;
+	}
+}
+
+.offcanvas .btn-close {
+	filter: invert(1) grayscale(100%) brightness(200%);
+}

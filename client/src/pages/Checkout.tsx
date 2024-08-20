@@ -150,7 +150,7 @@ export default function Checkout() {
 							</h3>
 						</div>
 					</div>
-					<div className="max-w-1000 bg-gray-300 p-4 rounded-md md:max-h-[320px]">
+					<div className="max-w-1000 bg-gray-300 p-4 rounded-md md:max-h-[355px]">
 						<h1 className="font-bold text-4xl flex-1">Shipping & Address</h1>
 						<div className="flex flex-col mt-8">
 							<p className="font-bold">First Name</p>
