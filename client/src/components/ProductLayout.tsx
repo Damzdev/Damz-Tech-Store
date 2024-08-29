@@ -8,6 +8,7 @@ export type Product = {
 	name: string
 	price: number
 	ImageURL: string
+	category?: string
 }
 
 type ProductLayoutProps = {
@@ -18,8 +19,8 @@ type ProductLayoutProps = {
 const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 	const { increaseCartQuantity } = useShoppingCart()
 
-	const [showToast, setShowToast] = useState(false)
-	const [toastMessage, setToastMessage] = useState('')
+	const [showToast, setShowToast] = useState<boolean>(false)
+	const [toastMessage, setToastMessage] = useState<string>('')
 
 	const sortProductsByPrice = () => {
 		return products.sort((a, b) => a.price - b.price)
@@ -28,9 +29,15 @@ const ProductLayout: React.FC<ProductLayoutProps> = ({ products }) => {
 	const sortedProducts = products ? sortProductsByPrice() : []
 
 	const handleAddToCart = (product: Product) => {
-		increaseCartQuantity(product.id)
-		setToastMessage('item added to cart!')
-		setShowToast(true)
+		try {
+			increaseCartQuantity(product.id)
+			setToastMessage('Item added to cart!')
+			setShowToast(true)
+		} catch (error) {
+			console.error('Error adding item to cart:', error)
+			setToastMessage('Failed to add item to cart. Please try again.')
+			setShowToast(true)
+		}
 	}
 
 	return (

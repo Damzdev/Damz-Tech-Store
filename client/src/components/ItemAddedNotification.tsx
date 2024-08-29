@@ -9,9 +9,7 @@ type NotificationProps = {
 
 const AddedItem: React.FC<NotificationProps> = ({ show, onClose, message }) => {
 	return (
-		<ToastContainer
-			className="fixed bottom-4 right-4 p-3 z-50" // Tailwind CSS classes for fixed positioning
-		>
+		<ToastContainer className="fixed bottom-4 right-4 p-3 z-50">
 			<Toast show={show} onClose={onClose} delay={3000} autohide bg={'dark'}>
 				<Toast.Header>
 					<strong className="me-auto">Notification</strong>

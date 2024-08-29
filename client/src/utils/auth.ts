@@ -1,5 +1,5 @@
 export const refreshToken = async () => {
-	const refreshToken = localStorage.getItem('refreshToken')
+	const refreshToken: string | null = localStorage.getItem('refreshToken')
 	const response = await fetch('http://localhost:3005/api/token', {
 		method: 'POST',
 		headers: {

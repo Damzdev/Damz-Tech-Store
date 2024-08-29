@@ -7,6 +7,7 @@ import { useShoppingCart } from '../context/ShoppingCartContext'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import AddedItem from './ItemAddedNotification'
+import { queryConfig } from '../utils/queryConfig'
 
 interface CardData {
 	id: string | number
@@ -35,13 +36,7 @@ export default function Cards(): JSX.Element {
 	const { data, isLoading, isError } = useQuery<CardData[], Error>(
 		'componentDeals',
 		fetchComponentDeals,
-		{
-			staleTime: 1000 * 60 * 15, // 15 minutes
-			cacheTime: 1000 * 60 * 60, // 1 hour
-			refetchOnWindowFocus: false,
-			refetchOnMount: false,
-			refetchOnReconnect: false,
-		}
+		queryConfig
 	)
 
 	// Set randomSubset only when data is initially fetched

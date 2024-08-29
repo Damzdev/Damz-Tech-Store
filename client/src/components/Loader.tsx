@@ -1,4 +1,3 @@
-// Loader.tsx
 import { useEffect, useState } from 'react'
 import { Spinner } from 'react-bootstrap'
 
@@ -11,8 +10,8 @@ export default function Loader({
 	delay = 1000,
 	fadeOutDuration = 200,
 }: LoaderProps) {
-	const [fadeOut, setFadeOut] = useState(false)
-	const [hidden, setHidden] = useState(false)
+	const [fadeOut, setFadeOut] = useState<boolean>(false)
+	const [hidden, setHidden] = useState<boolean>(false)
 
 	useEffect(() => {
 		const timer = setTimeout(() => {

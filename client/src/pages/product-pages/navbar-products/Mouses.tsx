@@ -6,6 +6,7 @@ import img3 from '../../../assets/amd-banner/amd-logo.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import { useQuery } from 'react-query'
 import ProductsSkeleton from '../../../components/ProductsSkeleton'
+import { queryConfig } from '../../../utils/queryConfig'
 
 export type ProductType = {
 	price: number
@@ -19,12 +20,16 @@ export default function Mouses() {
 		data: products,
 		isLoading,
 		isError,
-	} = useQuery<ProductType[]>('mouses', async () => {
-		const response = await axios.get<ProductType[]>(
-			'http://localhost:3005/api/components/mouses'
-		)
-		return response.data
-	})
+	} = useQuery<ProductType[]>(
+		'mouses',
+		async () => {
+			const response = await axios.get<ProductType[]>(
+				'http://localhost:3005/api/components/mouses'
+			)
+			return response.data
+		},
+		queryConfig
+	)
 
 	if (isError) return <div>Error fetching products.</div>
 
@@ -46,7 +51,7 @@ export default function Mouses() {
 					className="block mx-auto w-full max-w-1150 max-h-96 overflow-hidden rounded-lg"
 				/>
 			</div>
-			<h1 className="text-3xl font-bold text-center my-8 text-transparent bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text ">
+			<h1 className="text-3xl font-bold text-center py-8 text-transparent bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text ">
 				Best Gaming Mouses out there!
 			</h1>
 			<div className="flex flex-wrap justify-center mb-8">

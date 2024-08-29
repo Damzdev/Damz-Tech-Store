@@ -6,6 +6,7 @@ import img3 from '../../../assets/amd-banner/amd-logo.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import { useQuery } from 'react-query'
 import ProductsSkeleton from '../../../components/ProductsSkeleton'
+import { queryConfig } from '../../../utils/queryConfig'
 
 export type ProductType = {
 	TDP: string
@@ -23,12 +24,16 @@ export default function NvidiaGPU() {
 		data: products,
 		isLoading,
 		isError,
-	} = useQuery<ProductType[]>(['nvidia', 'nvidia-graphics-card'], async () => {
-		const response = await axios.get<ProductType[]>(
-			'http://localhost:3005/api/components/nvidia-gpu/'
-		)
-		return response.data
-	})
+	} = useQuery<ProductType[]>(
+		['nvidia', 'nvidia-graphics-card'],
+		async () => {
+			const response = await axios.get<ProductType[]>(
+				'http://localhost:3005/api/components/nvidia-gpu/'
+			)
+			return response.data
+		},
+		queryConfig
+	)
 
 	if (isError) return <div>Error fetching products.</div>
 

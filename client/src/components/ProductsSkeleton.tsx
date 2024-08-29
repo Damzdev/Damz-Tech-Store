@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProductsSkeleton: React.FC = () => {
 	return (
-		<div className="grid grid-cols-1 mobile:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 md:px-8 lg:px-12 mb-8">
+		<div className="grid grid-cols-1 max-500:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 md:px-8 lg:px-12 mb-8">
 			{Array.from({ length: 5 }).map((_, index) => (
 				<div
 					key={index}

@@ -1,6 +1,14 @@
-import { createContext, ReactNode, useContext, useState } from 'react'
+import {
+	createContext,
+	ReactNode,
+	useContext,
+	useState,
+	useEffect,
+} from 'react'
 import { ShoppingCart } from '../components/ShoppingCart'
-import { useLocalStorage } from '../hooks/useLocalStorage'
+import { cartApi } from '../utils/api'
+import { useSelector } from 'react-redux'
+import { RootState } from '../components/Header'
 
 type ShoppingCartProviderProps = {
 	children: ReactNode
@@ -15,10 +23,10 @@ type ShoppingCartContext = {
 	openCart: () => void
 	closeCart: () => void
 	getItemQuantity: (id: string) => number
-	increaseCartQuantity: (id: string) => void
-	decreaseCartQuantity: (id: string) => void
-	removeFromCart: (id: string) => void
-	clearCart: () => void
+	increaseCartQuantity: (id: string) => Promise<void>
+	decreaseCartQuantity: (id: string) => Promise<void>
+	removeFromCart: (id: string) => Promise<void>
+	clearCart: () => Promise<void>
 	cartQuantity: number
 	cartItems: CartItem[]
 }
@@ -31,10 +39,24 @@ export function useShoppingCart() {
 
 export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 	const [isOpen, setIsOpen] = useState(false)
-	const [cartItems, setCartItems] = useLocalStorage<CartItem[]>(
-		'shopping-cart',
-		[]
-	)
+	const [cartItems, setCartItems] = useState<CartItem[]>([])
+	const isLoggedIn = useSelector((state: RootState) => state.auth.isLoggedIn)
+
+	useEffect(() => {
+		const syncCart = async () => {
+			if (isLoggedIn) {
+				const serverCart = await cartApi.getCart()
+				const localCart = JSON.parse(localStorage.getItem('cart') || '[]')
+				const mergedCart = mergeCartItems(serverCart, localCart)
+				await updateCartItems(mergedCart)
+				localStorage.removeItem('cart')
+			} else {
+				const localCart = JSON.parse(localStorage.getItem('cart') || '[]')
+				setCartItems(localCart)
+			}
+		}
+		syncCart()
+	}, [isLoggedIn])
 
 	const cartQuantity = cartItems.reduce(
 		(quantity, item) => item.quantity + quantity,
@@ -48,46 +70,85 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 		return cartItems.find((item) => item.id === id)?.quantity || 0
 	}
 
-	function increaseCartQuantity(id: string) {
-		setCartItems((currItems) => {
-			if (currItems.find((item) => item.id === id) == null) {
-				return [...currItems, { id, quantity: 1 }]
+	async function updateCartItems(newItems: CartItem[]) {
+		if (isLoggedIn) {
+			const updatedCart = await cartApi.updateCart(newItems)
+			setCartItems(updatedCart)
+		} else {
+			setCartItems(newItems)
+			localStorage.setItem('cart', JSON.stringify(newItems))
+		}
+	}
+
+	async function increaseCartQuantity(id: string) {
+		const currentQuantity = getItemQuantity(id)
+		if (isLoggedIn) {
+			const updatedCart = await cartApi.addOrUpdateItem(id, currentQuantity + 1)
+			setCartItems(updatedCart)
+		} else {
+			const newItems = [
+				...cartItems.filter((item) => item.id !== id),
+				{ id, quantity: currentQuantity + 1 },
+			]
+			updateCartItems(newItems)
+		}
+	}
+
+	async function decreaseCartQuantity(id: string) {
+		const currentQuantity = getItemQuantity(id)
+		if (currentQuantity === 1) {
+			await removeFromCart(id)
+		} else {
+			if (isLoggedIn) {
+				const updatedCart = await cartApi.addOrUpdateItem(
+					id,
+					currentQuantity - 1
+				)
+				setCartItems(updatedCart)
 			} else {
-				return currItems.map((item) => {
-					if (item.id === id) {
-						return { ...item, quantity: item.quantity + 1 }
-					} else {
-						return item
-					}
-				})
+				const newItems = [
+					...cartItems.filter((item) => item.id !== id),
+					{ id, quantity: currentQuantity - 1 },
+				]
+				updateCartItems(newItems)
+			}
+		}
+	}
+
+	async function removeFromCart(id: string) {
+		if (isLoggedIn) {
+			await cartApi.removeItem(id)
+			const updatedCart = await cartApi.getCart()
+			setCartItems(updatedCart)
+		} else {
+			updateCartItems(cartItems.filter((item) => item.id !== id))
+		}
+	}
+
+	async function clearCart() {
+		if (isLoggedIn) {
+			await cartApi.clearCart()
+			setCartItems([])
+		} else {
+			setCartItems([])
+			localStorage.removeItem('cart')
+		}
+	}
+
+	function mergeCartItems(
+		serverCart: CartItem[],
+		localCart: CartItem[]
+	): CartItem[] {
+		const mergedCart = [...serverCart]
+		localCart.forEach((localItem) => {
+			const existingItem = mergedCart.find((item) => item.id === localItem.id)
+			if (existingItem) {
+				existingItem.quantity += localItem.quantity
+			} else {
+				mergedCart.push(localItem)
 			}
 		})
-	}
-
-	function decreaseCartQuantity(id: string) {
-		setCartItems((currItems) => {
-			if (currItems.find((item) => item.id === id)?.quantity === 1) {
-				return currItems.filter((item) => item.id !== id)
-			} else {
-				return currItems.map((item) => {
-					if (item.id === id) {
-						return { ...item, quantity: item.quantity - 1 }
-					} else {
-						return item
-					}
-				})
-			}
-		})
-	}
-
-	function removeFromCart(id: string) {
-		setCartItems((currItems) => {
-			return currItems.filter((item) => item.id !== id)
-		})
-	}
-
-	function clearCart() {
-		setCartItems([])
+		return mergedCart
 	}
 
 	return (

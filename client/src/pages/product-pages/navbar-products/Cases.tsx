@@ -6,6 +6,7 @@ import img3 from '../../../assets/amd-banner/amd-logo.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import axios from 'axios'
 import ProductsSkeleton from '../../../components/ProductsSkeleton'
+import { queryConfig } from '../../../utils/queryConfig'
 
 export type ProductType = {
 	price: number
@@ -19,12 +20,16 @@ export default function Cases() {
 		data: products,
 		isLoading,
 		isError,
-	} = useQuery<ProductType[]>('pcCases', async () => {
-		const response = await axios.get<ProductType[]>(
-			'http://localhost:3005/api/components/pc-cases'
-		)
-		return response.data
-	})
+	} = useQuery<ProductType[]>(
+		'pcCases',
+		async () => {
+			const response = await axios.get<ProductType[]>(
+				'http://localhost:3005/api/components/pc-cases'
+			)
+			return response.data
+		},
+		queryConfig
+	)
 
 	if (isError) return <div>Error fetching products.</div>
 
@@ -46,7 +51,7 @@ export default function Cases() {
 					className="block mx-auto w-full max-w-1150 max-h-96 overflow-hidden rounded-lg"
 				/>
 			</div>
-			<h1 className="text-3xl font-bold text-center my-8 text-transparent bg-gradient-to-r from-purple-700 via-pink-500 to-blue-500 bg-clip-text">
+			<h1 className="text-3xl font-bold text-center py-8 text-transparent bg-gradient-to-r from-purple-700 via-pink-500 to-blue-500 bg-clip-text">
 				Huge Variety of Computer Cases Available
 			</h1>
 			<div className="flex flex-wrap justify-center mb-8">

@@ -10,10 +10,17 @@ import { useDispatch, useSelector } from 'react-redux'
 import scrollToTop from '../utils/scrollToTop'
 import { logout } from '../features/user/userSlice'
 
+export interface RootState {
+	auth: {
+		isLoggedIn: boolean
+		accessToken: string | null
+	}
+}
+
 export default function Header() {
 	const { cartQuantity, openCart } = useShoppingCart()
-	const isLoggedIn = useSelector((state) => state.auth.isLoggedIn)
-	const accessToken = useSelector((state) => state.auth.accessToken)
+	const isLoggedIn = useSelector((state: RootState) => state.auth.isLoggedIn)
+	const accessToken = useSelector((state: RootState) => state.auth.accessToken)
 	const [name, setName] = useState('')
 	const [showOffcanvas, setShowOffcanvas] = useState(false)
 	const [showComponents, setShowComponents] = useState(false)
@@ -27,8 +34,11 @@ export default function Header() {
 	}, [isLoggedIn, accessToken])
 
 	useEffect(() => {
-		const handleClickOutside = (event) => {
-			if (showComponents && !event.target.closest('.relative')) {
+		const handleClickOutside = (event: MouseEvent) => {
+			if (
+				showComponents &&
+				!(event.target as HTMLElement).closest('.relative')
+			) {
 				setShowComponents(false)
 			}
 		}
@@ -39,7 +49,7 @@ export default function Header() {
 		}
 	}, [showComponents])
 
-	const fetchUserData = async (token) => {
+	const fetchUserData = async (token: string) => {
 		try {
 			const response = await fetch('http://localhost:3005/api/users', {
 				method: 'GET',

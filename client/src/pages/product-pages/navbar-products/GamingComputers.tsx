@@ -6,6 +6,7 @@ import img3 from '../../../assets/gaming-pcs/intel-14th-gen-banner.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import { useQuery } from 'react-query'
 import ProductsSkeleton from '../../../components/ProductsSkeleton'
+import { queryConfig } from '../../../utils/queryConfig'
 
 export type ProductType = {
 	CPU: string
@@ -36,13 +37,21 @@ export default function GamingComputers() {
 		data: intelProducts,
 		isLoading: isLoadingIntel,
 		isError: isErrorIntel,
-	} = useQuery<ProductType[]>(['gaming-pcs', 'intel'], fetchIntelProducts)
+	} = useQuery<ProductType[]>(
+		['gaming-pcs', 'intel'],
+		fetchIntelProducts,
+		queryConfig
+	)
 
 	const {
 		data: amdProducts,
 		isLoading: isLoadingAMD,
 		isError: isErrorAMD,
-	} = useQuery<ProductType[]>(['gaming-pcs', 'amd'], fetchAMDProducts)
+	} = useQuery<ProductType[]>(
+		['gaming-pcs', 'amd'],
+		fetchAMDProducts,
+		queryConfig
+	)
 
 	if (isErrorIntel || isErrorAMD) return <div>Error fetching products.</div>
 

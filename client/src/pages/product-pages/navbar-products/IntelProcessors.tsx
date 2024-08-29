@@ -6,6 +6,7 @@ import img3 from '../../../assets/gaming-pcs/intel-14th-gen-banner.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import { useQuery } from 'react-query'
 import ProductsSkeleton from '../../../components/ProductsSkeleton'
+import { queryConfig } from '../../../utils/queryConfig'
 
 export type ProductType = {
 	TDP: string
@@ -23,12 +24,16 @@ export default function IntelProcessor() {
 		data: products,
 		isLoading,
 		isError,
-	} = useQuery<ProductType[]>(['Intel', 'Intel-processors'], async () => {
-		const response = await axios.get<ProductType[]>(
-			'http://localhost:3005/api/components/intel-processors'
-		)
-		return response.data
-	})
+	} = useQuery<ProductType[]>(
+		['Intel', 'Intel-processors'],
+		async () => {
+			const response = await axios.get<ProductType[]>(
+				'http://localhost:3005/api/components/intel-processors'
+			)
+			return response.data
+		},
+		queryConfig
+	)
 
 	if (isError) return <div>Error fetching products.</div>
 

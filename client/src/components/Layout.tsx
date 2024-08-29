@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 export default function Layout() {
 	const location = useLocation()
-	const hideNavbarPaths = ['/login', '/signup', '/cart', '/checkout']
+	const hideNavbarPaths: string[] = ['/login', '/signup', '/cart', '/checkout']
 
 	return (
 		<div>

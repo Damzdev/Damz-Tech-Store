@@ -9,6 +9,7 @@ import sadFace from '../assets/cart/sad-face.png'
 import { logout } from '../features/user/userSlice'
 import { useDispatch } from 'react-redux'
 import AddedItem from '../components/ItemAddedNotification'
+import { queryConfig } from '../utils/queryConfig'
 
 type Product = {
 	id: string
@@ -16,6 +17,8 @@ type Product = {
 	price: number
 	ImageURL: string
 }
+
+const API_URL = 'http://localhost:3005/api'
 
 export default function Checkout() {
 	const { cartItems, removeFromCart, clearCart } = useShoppingCart()
@@ -30,12 +33,19 @@ export default function Checkout() {
 		data: products,
 		isLoading,
 		isError,
-	} = useQuery<Product[]>('all-products', async () => {
-		const response = await axios.get<Product[]>(
-			'http://localhost:3005/api/all-products'
-		)
-		return response.data
-	})
+	} = useQuery<Product[]>(
+		['products', cartItems],
+		async () => {
+			const response = await axios.post<Product[]>(`${API_URL}/cartItems`, {
+				cartItems: cartItems.map((item) => item.id),
+			})
+			return response.data
+		},
+		{
+			...queryConfig,
+			enabled: cartItems.length > 0,
+		}
+	)
 
 	if (isLoading) return <div>Loading...</div>
 	if (isError) return <div>Error fetching products.</div>
@@ -49,7 +59,7 @@ export default function Checkout() {
 
 	const handlePlaceOrder = async () => {
 		try {
-			const accessToken = localStorage.getItem('accessToken') // Retrieve the access token from localStorage
+			const accessToken = localStorage.getItem('accessToken')
 			if (!accessToken) {
 				setToastMessage('Login required session expired!')
 				setShowToast(true)
@@ -59,7 +69,7 @@ export default function Checkout() {
 			const productIds = cartItems.map((item) => item.id)
 
 			const response = await axios.post(
-				'http://localhost:3005/api/orders',
+				`${API_URL}/orders`,
 				{ name, address, productIds, totalPrice },
 				{
 					headers: {

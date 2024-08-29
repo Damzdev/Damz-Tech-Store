@@ -6,6 +6,7 @@ import img3 from '../../../assets/gaming-pcs/intel-14th-gen-banner.png'
 import img4 from '../../../assets/gaming-pcs/futuristic-machinery-working-inside-electronics-industry-factory-generated-by-ai-free-photo.png'
 import { useQuery } from 'react-query'
 import ProductsSkeleton from '../../../components/ProductsSkeleton'
+import { queryConfig } from '../../../utils/queryConfig'
 
 export type ProductType = {
 	ImageURL: string
@@ -61,37 +62,61 @@ export default function GamingLaptops() {
 		data: dellProducts,
 		isLoading: isLoadingDell,
 		isError: isErrorDell,
-	} = useQuery<ProductType[]>(['gaming-laptops', 'dell'], fetchDellProducts)
+	} = useQuery<ProductType[]>(
+		['gaming-laptops', 'dell'],
+		fetchDellProducts,
+		queryConfig
+	)
 
 	const {
 		data: acerProducts,
 		isLoading: isLoadingAcer,
 		isError: isErrorAcer,
-	} = useQuery<ProductType[]>(['gaming-laptops', 'acer'], fetchAcerProducts)
+	} = useQuery<ProductType[]>(
+		['gaming-laptops', 'acer'],
+		fetchAcerProducts,
+		queryConfig
+	)
 
 	const {
 		data: asusProducts,
 		isLoading: isLoadingAsus,
 		isError: isErrorAsus,
-	} = useQuery<ProductType[]>(['gaming-laptops', 'asus'], fetchAsusProducts)
+	} = useQuery<ProductType[]>(
+		['gaming-laptops', 'asus'],
+		fetchAsusProducts,
+		queryConfig
+	)
 
 	const {
 		data: hpProducts,
 		isLoading: isLoadingHP,
 		isError: isErrorHP,
-	} = useQuery<ProductType[]>(['gaming-laptops', 'hp'], fetchHPProducts)
+	} = useQuery<ProductType[]>(
+		['gaming-laptops', 'hp'],
+		fetchHPProducts,
+		queryConfig
+	)
 
 	const {
 		data: lenovoProducts,
 		isLoading: isLoadingLenovo,
 		isError: isErrorLenovo,
-	} = useQuery<ProductType[]>(['gaming-laptops', 'lenovo'], fetchLenovoProducts)
+	} = useQuery<ProductType[]>(
+		['gaming-laptops', 'lenovo'],
+		fetchLenovoProducts,
+		queryConfig
+	)
 
 	const {
 		data: msiProducts,
 		isLoading: isLoadingMSI,
 		isError: isErrorMSI,
-	} = useQuery<ProductType[]>(['gaming-laptops', 'msi'], fetchMSIProducts)
+	} = useQuery<ProductType[]>(
+		['gaming-laptops', 'msi'],
+		fetchMSIProducts,
+		queryConfig
+	)
 
 	if (
 		isErrorDell ||
