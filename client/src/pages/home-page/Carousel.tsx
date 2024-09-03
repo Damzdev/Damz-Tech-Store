@@ -35,7 +35,7 @@ const Carousel: React.FC = () => {
 	}, [items.length])
 
 	return (
-		<div className="relative w-full max-w-screen-2xl mx-auto overflow-hidden">
+		<div className="relative w-full max-w-screen-3xl mx-auto overflow-hidden">
 			<div
 				className="flex transition-transform duration-500"
 				style={{ transform: `translateX(-${activeIndex * 100}%)` }}
