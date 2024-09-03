@@ -14,7 +14,18 @@ const port = process.env.PORT || 3005
 
 app.use(
 	cors({
-		origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+		origin: function (origin, callback) {
+			const allowedOrigins = [
+				process.env.FRONTEND_URL || 'http://localhost:5173',
+				'https://damz-tech-store.vercel.app', // Your production domain
+				'https://damz-tech-store-ej0z5ul2r-damiens-projects-5f064c52.vercel.app', // Vercel preview domain
+			]
+			if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+				callback(null, true)
+			} else {
+				callback(new Error('Not allowed by CORS'))
+			}
+		},
 		methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 		allowedHeaders: ['Content-Type', 'Authorization'],
 	})
