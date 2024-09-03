@@ -10,15 +10,16 @@ const { log } = require('console')
 require('dotenv').config()
 
 const app = express()
-const port = 3005
+const port = process.env.PORT || 3005
 
 app.use(
 	cors({
-		origin: 'http://localhost:5174',
+		origin: process.env.FRONTEND_URL || 'http://localhost:5174',
 		methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 		allowedHeaders: ['Content-Type', 'Authorization'],
 	})
 )
+
 app.use(express.json())
 
 const SECRET_KEY = process.env.SECRET_KEY
@@ -814,6 +815,10 @@ app.get('/api/component-deals', async (req, res) => {
 	}
 })
 
-app.listen(port, () => {
-	console.log(`Server running at http://localhost:${port}`)
-})
+if (process.env.NODE_ENV !== 'production') {
+	app.listen(port, () => {
+		console.log(`Server running at http://localhost:${port}`)
+	})
+}
+
+module.exports = app
