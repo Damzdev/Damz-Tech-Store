@@ -17,8 +17,8 @@ app.use(
 		origin: function (origin, callback) {
 			const allowedOrigins = [
 				process.env.FRONTEND_URL || 'http://localhost:5173',
-				'https://damz-tech-store.vercel.app', // Your production domain
-				'https://damz-tech-store-ej0z5ul2r-damiens-projects-5f064c52.vercel.app', // Vercel preview domain
+				'https://damz-tech-store.vercel.app',
+				'https://damz-tech-store-ej0z5ul2r-damiens-projects-5f064c52.vercel.app',
 			]
 			if (!origin || allowedOrigins.indexOf(origin) !== -1) {
 				callback(null, true)
@@ -518,6 +518,7 @@ app.get('/api/components/amd-motherboards', async (req, res) => {
 })
 
 app.get('/api/components/mouses', async (req, res) => {
+	console.log('test') // Logs "test" to the console
 	try {
 		const querySnapshot = await db
 			.collection('products')
