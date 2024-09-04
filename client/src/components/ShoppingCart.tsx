@@ -4,6 +4,7 @@ import { useShoppingCart } from '../context/ShoppingCartContext'
 import { CartItem } from './CartItem'
 import cart from '../assets/cart/shopping-cart.png'
 import sadFace from '../assets/cart/sad-face.png'
+import { NavLink } from 'react-router-dom'
 
 type ShoppingCartProps = {
 	isOpen: boolean
@@ -43,11 +44,11 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
 					)}
 				</Stack>
 				{cartItems.length > 0 ? (
-					<a href="/checkout">
+					<NavLink to="/checkout">
 						<button className="mt-10 bg-yellow-500 hover:bg-yellow-400 rounded-full p-2 px-6 font-bold">
 							Checkout
 						</button>
-					</a>
+					</NavLink>
 				) : (
 					''
 				)}
