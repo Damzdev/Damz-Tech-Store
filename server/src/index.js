@@ -10,13 +10,13 @@ const { log } = require('console')
 require('dotenv').config()
 
 const app = express()
-const port = process.env.PORT || 3005
+const port = 3005
 
 app.use(
 	cors({
 		origin: function (origin, callback) {
 			const allowedOrigins = [
-				process.env.FRONTEND_URL || 'http://localhost:5173',
+				'http://localhost:5174',
 				'https://damz-tech-store.vercel.app',
 				'https://damz-tech-store-ej0z5ul2r-damiens-projects-5f064c52.vercel.app',
 			]
