@@ -13,6 +13,10 @@ type ShoppingCartProps = {
 export function ShoppingCart({ isOpen }: ShoppingCartProps) {
 	const { closeCart, cartItems } = useShoppingCart()
 
+	const handleCheckoutClick = () => {
+		closeCart()
+	}
+
 	return (
 		<Offcanvas
 			show={isOpen}
@@ -46,7 +50,10 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
 				</Stack>
 				{cartItems.length > 0 && (
 					<Link to="/checkout">
-						<button className="mt-10 bg-yellow-500 hover:bg-yellow-400 rounded-full p-2 px-6 font-bold">
+						<button
+							onClick={handleCheckoutClick}
+							className="mt-10 bg-yellow-500 hover:bg-yellow-400 rounded-full p-2 px-6 font-bold"
+						>
 							Checkout
 						</button>
 					</Link>
