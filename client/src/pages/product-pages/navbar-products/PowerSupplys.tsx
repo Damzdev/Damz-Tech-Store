@@ -24,7 +24,7 @@ export default function PowerSupplys() {
 		'power-supply',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/power-supplys'
+				'https://damz-tech-store-api.onrender.com/api/components/power-supplys'
 			)
 			return response.data
 		},

@@ -17,7 +17,7 @@ type Product = {
 	ImageURL: string
 }
 
-const API_URL = 'http://localhost:3005/api'
+const API_URL = 'https://damz-tech-store-api.onrender.com/api'
 
 export function CartItem({ id, quantity }: CartItemProps) {
 	const { removeFromCart } = useShoppingCart()

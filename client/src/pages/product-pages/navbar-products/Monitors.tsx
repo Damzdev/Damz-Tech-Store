@@ -24,7 +24,7 @@ export default function Monitors() {
 		'monitors',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/monitors'
+				'https://damz-tech-store-api.onrender.com/api/monitors'
 			)
 			return response.data
 		},

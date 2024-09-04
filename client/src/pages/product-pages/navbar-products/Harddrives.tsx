@@ -25,7 +25,7 @@ export default function Harddrives() {
 		'hard-drives',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/hard-drives/'
+				'https://damz-tech-store-api.onrender.com/api/components/hard-drives/'
 			)
 			return response.data
 		},

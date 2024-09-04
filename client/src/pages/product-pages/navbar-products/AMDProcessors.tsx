@@ -28,7 +28,7 @@ export default function AMDProcessor() {
 		'AMD-processors',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/amd-processors'
+				'https://damz-tech-store-api.onrender.com/api/components/amd-processors'
 			)
 			return response.data
 		},

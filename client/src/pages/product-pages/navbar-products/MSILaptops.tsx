@@ -24,7 +24,7 @@ export default function MSILaptops() {
 		'MSI-laptops',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/msi-gaming-laptops'
+				'https://damz-tech-store-api.onrender.com/api/msi-gaming-laptops'
 			)
 			return response.data
 		},

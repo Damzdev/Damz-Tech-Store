@@ -17,42 +17,42 @@ export type ProductType = {
 
 const fetchDellProducts = async (): Promise<ProductType[]> => {
 	const response = await axios.get(
-		'http://localhost:3005/api/dell-gaming-laptops'
+		'https://damz-tech-store-api.onrender.com/api/dell-gaming-laptops'
 	)
 	return response.data
 }
 
 const fetchAcerProducts = async (): Promise<ProductType[]> => {
 	const response = await axios.get(
-		'http://localhost:3005/api/acer-gaming-laptops'
+		'https://damz-tech-store-api.onrender.com/api/acer-gaming-laptops'
 	)
 	return response.data
 }
 
 const fetchAsusProducts = async (): Promise<ProductType[]> => {
 	const response = await axios.get(
-		'http://localhost:3005/api/asus-gaming-laptops'
+		'https://damz-tech-store-api.onrender.com/api/asus-gaming-laptops'
 	)
 	return response.data
 }
 
 const fetchHPProducts = async (): Promise<ProductType[]> => {
 	const response = await axios.get(
-		'http://localhost:3005/api/hp-gaming-laptops'
+		'https://damz-tech-store-api.onrender.com/api/hp-gaming-laptops'
 	)
 	return response.data
 }
 
 const fetchLenovoProducts = async (): Promise<ProductType[]> => {
 	const response = await axios.get(
-		'http://localhost:3005/api/lenovo-gaming-laptops'
+		'https://damz-tech-store-api.onrender.com/api/lenovo-gaming-laptops'
 	)
 	return response.data
 }
 
 const fetchMSIProducts = async (): Promise<ProductType[]> => {
 	const response = await axios.get(
-		'http://localhost:3005/api/msi-gaming-laptops'
+		'https://damz-tech-store-api.onrender.com/api/msi-gaming-laptops'
 	)
 	return response.data
 }

@@ -29,13 +29,16 @@ export default authSlice.reducer
 
 export const refreshToken = async () => {
 	const refreshToken = localStorage.getItem('refreshToken')
-	const response = await fetch('http://localhost:3005/api/token', {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json',
-		},
-		body: JSON.stringify({ token: refreshToken }),
-	})
+	const response = await fetch(
+		'https://damz-tech-store-api.onrender.com/api/token',
+		{
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({ token: refreshToken }),
+		}
+	)
 
 	const data = await response.json()
 	if (data.accessToken) {

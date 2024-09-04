@@ -24,7 +24,7 @@ export default function RAM() {
 		'RAM',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/ram-memory'
+				'https://damz-tech-store-api.onrender.com/api/components/ram-memory'
 			)
 			return response.data
 		},

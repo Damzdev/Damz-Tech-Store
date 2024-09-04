@@ -18,7 +18,7 @@ interface CardData {
 
 const fetchComponentDeals = async (): Promise<CardData[]> => {
 	const response = await axios.get<CardData[]>(
-		'http://localhost:3005/api/component-deals'
+		'https://damz-tech-store-api.onrender.com/api/component-deals'
 	)
 	return response.data
 }

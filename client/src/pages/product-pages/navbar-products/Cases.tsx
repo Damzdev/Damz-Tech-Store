@@ -24,7 +24,7 @@ export default function Cases() {
 		'pcCases',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/pc-cases'
+				'https://damz-tech-store-api.onrender.com/api/components/pc-cases'
 			)
 			return response.data
 		},

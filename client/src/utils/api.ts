@@ -1,7 +1,7 @@
 // api.ts
 import axios from 'axios'
 
-const API_URL = 'http://localhost:3005/api'
+const API_URL = 'https://damz-tech-store-api.onrender.com/api'
 
 type CartItem = {
 	id: string

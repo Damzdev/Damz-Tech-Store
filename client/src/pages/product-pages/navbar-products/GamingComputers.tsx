@@ -23,12 +23,16 @@ export type ProductType = {
 }
 
 const fetchIntelProducts = async (): Promise<ProductType[]> => {
-	const response = await axios.get('http://localhost:3005/api/gaming-pcs/intel')
+	const response = await axios.get(
+		'https://damz-tech-store-api.onrender.com/api/gaming-pcs/intel'
+	)
 	return response.data
 }
 
 const fetchAMDProducts = async (): Promise<ProductType[]> => {
-	const response = await axios.get('http://localhost:3005/api/gaming-pcs/amd')
+	const response = await axios.get(
+		'https://damz-tech-store-api.onrender.com/api/gaming-pcs/amd'
+	)
 	return response.data
 }
 

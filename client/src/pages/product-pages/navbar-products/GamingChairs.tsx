@@ -25,7 +25,7 @@ export default function GamingChairs() {
 		'gamingChairs',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/gaming-chairs'
+				'https://damz-tech-store-api.onrender.com/api/gaming-chairs'
 			)
 			return response.data
 		},

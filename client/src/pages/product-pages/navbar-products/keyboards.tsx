@@ -24,7 +24,7 @@ export default function Keyboards() {
 		'keyboards',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/keyboards'
+				'https://damz-tech-store-api.onrender.com/api/components/keyboards'
 			)
 			return response.data
 		},

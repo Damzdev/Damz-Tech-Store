@@ -24,7 +24,7 @@ export default function IntelMotherboards() {
 		['intel', 'intel-motherboards'],
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/intel-motherboards'
+				'https://damz-tech-store-api.onrender.com/api/components/intel-motherboards'
 			)
 			return response.data
 		},

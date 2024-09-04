@@ -23,13 +23,16 @@ export default function Signup() {
 		setError('')
 
 		// Proceed with form submission
-		const response = await fetch('http://localhost:3005/api/signup', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({ name, email, password }),
-		})
+		const response = await fetch(
+			'https://damz-tech-store-api.onrender.com/api/signup',
+			{
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({ name, email, password }),
+			}
+		)
 
 		const data = await response.json()
 		console.log(data)

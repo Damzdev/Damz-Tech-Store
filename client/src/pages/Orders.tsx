@@ -41,7 +41,7 @@ export default function Orders() {
 				}
 
 				const response = await axios.get<Order[]>(
-					'http://localhost:3005/api/users-orders',
+					'https://damz-tech-store-api.onrender.com/api/users-orders',
 					{
 						headers: {
 							Authorization: `Bearer ${accessToken}`,

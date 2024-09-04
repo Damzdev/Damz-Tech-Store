@@ -24,7 +24,7 @@ export default function OperatingSystem() {
 		'OS',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/operating-system'
+				'https://damz-tech-store-api.onrender.com/api/components/operating-system'
 			)
 			return response.data
 		},

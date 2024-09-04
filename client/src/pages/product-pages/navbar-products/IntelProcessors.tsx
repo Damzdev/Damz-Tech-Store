@@ -28,7 +28,7 @@ export default function IntelProcessor() {
 		['Intel', 'Intel-processors'],
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/intel-processors'
+				'https://damz-tech-store-api.onrender.com/api/components/intel-processors'
 			)
 			return response.data
 		},

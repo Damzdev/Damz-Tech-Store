@@ -24,7 +24,7 @@ export default function SSD() {
 		'SSD',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/SSD'
+				'https://damz-tech-store-api.onrender.com/api/components/SSD'
 			)
 			return response.data
 		},

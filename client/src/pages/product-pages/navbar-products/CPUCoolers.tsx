@@ -28,7 +28,7 @@ export default function CPUCoolers() {
 		'cpuCoolers',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/cpu-coolers'
+				'https://damz-tech-store-api.onrender.com/api/components/cpu-coolers'
 			)
 			return response.data
 		},

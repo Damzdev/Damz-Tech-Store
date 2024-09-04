@@ -19,13 +19,16 @@ export default function Login() {
 	}
 
 	const loginUser = async (email: string, password: string) => {
-		const response = await fetch('http://localhost:3005/api/login', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({ email, password }),
-		})
+		const response = await fetch(
+			'https://damz-tech-store-api.onrender.com/api/login',
+			{
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({ email, password }),
+			}
+		)
 
 		const data = await response.json()
 		if (data.accessToken && data.refreshToken) {

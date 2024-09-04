@@ -24,7 +24,7 @@ export default function Mouses() {
 		'mouses',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/mouses'
+				'https://damz-tech-store-api.onrender.com/api/components/mouses'
 			)
 			return response.data
 		},

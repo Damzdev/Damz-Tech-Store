@@ -24,7 +24,7 @@ export default function AMDMotherboards() {
 		'AMD-motherboards',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/amd-motherboards'
+				'https://damz-tech-store-api.onrender.com/api/components/amd-motherboards'
 			)
 
 			return response.data

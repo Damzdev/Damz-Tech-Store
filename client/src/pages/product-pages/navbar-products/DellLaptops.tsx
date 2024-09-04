@@ -24,7 +24,7 @@ export default function DellLaptops() {
 		'dell-laptops',
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/dell-gaming-laptops'
+				'https://damz-tech-store-api.onrender.com/api/dell-gaming-laptops'
 			)
 			return response.data
 		},

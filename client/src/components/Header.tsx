@@ -51,13 +51,16 @@ export default function Header() {
 
 	const fetchUserData = async (token: string) => {
 		try {
-			const response = await fetch('http://localhost:3005/api/users', {
-				method: 'GET',
-				headers: {
-					Authorization: `Bearer ${token}`,
-					'Content-Type': 'application/json',
-				},
-			})
+			const response = await fetch(
+				'https://damz-tech-store-api.onrender.com/api/users',
+				{
+					method: 'GET',
+					headers: {
+						Authorization: `Bearer ${token}`,
+						'Content-Type': 'application/json',
+					},
+				}
+			)
 			const data = await response.json()
 			setName(data.name)
 		} catch (error) {

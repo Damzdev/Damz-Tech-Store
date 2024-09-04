@@ -27,7 +27,7 @@ export default function RadeonGPU() {
 		['radeon', 'radeon-graphics-card'],
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/radeon-gpu/'
+				'https://damz-tech-store-api.onrender.com/api/components/radeon-gpu/'
 			)
 			return response.data
 		},

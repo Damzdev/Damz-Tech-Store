@@ -28,7 +28,7 @@ export default function NvidiaGPU() {
 		['nvidia', 'nvidia-graphics-card'],
 		async () => {
 			const response = await axios.get<ProductType[]>(
-				'http://localhost:3005/api/components/nvidia-gpu/'
+				'https://damz-tech-store-api.onrender.com/api/components/nvidia-gpu/'
 			)
 			return response.data
 		},
