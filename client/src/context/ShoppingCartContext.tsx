@@ -5,7 +5,6 @@ import {
 	useState,
 	useEffect,
 } from 'react'
-import { ShoppingCart } from '../components/ShoppingCart'
 import { cartApi } from '../utils/api'
 import { useSelector } from 'react-redux'
 import { RootState } from '../components/Header'
@@ -29,6 +28,7 @@ type ShoppingCartContext = {
 	clearCart: () => Promise<void>
 	cartQuantity: number
 	cartItems: CartItem[]
+	isOpen: boolean
 }
 
 const ShoppingCartContext = createContext({} as ShoppingCartContext)
@@ -163,10 +163,10 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 				closeCart,
 				cartItems,
 				cartQuantity,
+				isOpen,
 			}}
 		>
 			{children}
-			<ShoppingCart isOpen={isOpen} />
 		</ShoppingCartContext.Provider>
 	)
 }

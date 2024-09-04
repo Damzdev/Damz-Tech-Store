@@ -3,6 +3,7 @@ import {
 	createBrowserRouter,
 	createRoutesFromElements,
 	Route,
+	Outlet,
 } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
@@ -40,9 +41,19 @@ import Orders from './pages/Orders'
 
 const queryClient = new QueryClient()
 
+function Root() {
+	return (
+		<QueryClientProvider client={queryClient}>
+			<ShoppingCartProvider>
+				<Outlet />
+			</ShoppingCartProvider>
+		</QueryClientProvider>
+	)
+}
+
 const router = createBrowserRouter(
 	createRoutesFromElements(
-		<>
+		<Route element={<Root />}>
 			<Route path="/" element={<Layout />}>
 				<Route index element={<Home />} />
 				<Route path="cart" element={<Cart />} />
@@ -96,7 +107,7 @@ const router = createBrowserRouter(
 				<Route path="checkout" element={<Checkout />} />
 				<Route path="orders" element={<Orders />} />
 			</Route>
-		</>
+		</Route>
 	)
 )
 
@@ -111,13 +122,7 @@ function App() {
 		}
 	}, [dispatch])
 
-	return (
-		<QueryClientProvider client={queryClient}>
-			<ShoppingCartProvider>
-				<RouterProvider router={router} />
-			</ShoppingCartProvider>
-		</QueryClientProvider>
-	)
+	return <RouterProvider router={router} />
 }
 
 export default App
